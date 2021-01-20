@@ -30,7 +30,11 @@ Fix the ESC to the Chassis with a cable tie so that the ESC cannot get in confli
 
 ## Power Connection
 
-In the FMU kit is a power module. This can be fixed to the lower side of the upper plate with a cable tie. The male connector will be plugged to the battery later. So is might be good to fix the power connection in a position that you can easily reach the male connector later. The female connector must be plugged to the ESC connector. In the case that you use a Power Distribution board \(PDB\), the power module should be connected to the Power connector of the PDB.
+In the FMU kit is a power module. This can be fixed to the lower side of the upper plate with a cable tie. The male connector will be plugged to the battery later. So is might be good to fix the power connection in a position that you can easily reach the male connector later. The female connector must be plugged to the ESC connector. In the case that you use a Power Distribution board \(PDB\), the power module should be connected to the Power connector of the PDB. 
+
+{% hint style="danger" %}
+This will be mentioned elsewhere in the guide, but the UBEC seen below \(the small blue component in the middle of the image below\) is required to power the steering servo. Keep this in mind before you solder the ESCs to the XT60 connector.
+{% endhint %}
 
 ![](../../../.gitbook/assets/powermodule_fmu.jpg)
 
