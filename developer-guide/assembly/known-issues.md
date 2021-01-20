@@ -60,6 +60,8 @@ Be aware! The whole chassis is made of metal and the PDB must be connected in su
 
 As example you can buy these:
 
+{% embed url="https://www.amazon.com/dp/B07Q8V1MV6/ref=cm\_sw\_r\_cp\_awdb\_imm\_t1\_L92bGbYQCZ1A9?\_encoding=UTF8&psc=1" %}
+
 {% embed url="https://www.banggood.com/Hobbywing-3A-UBEC-5V-6V-Switch-Mode-BEC-For-RC-Models-p-915037.html?cur\_warehouse=USA" %}
 
 {% embed url="https://www.conrad.de/de/p/hobbywing-bec-3a-ubec-bec-spannungsregler-5-5-26-v-2108347.html" %}
