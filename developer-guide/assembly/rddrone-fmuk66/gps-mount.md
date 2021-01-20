@@ -55,5 +55,9 @@ Now you can mount the base of the rod to the top plate of the rover. The best pl
 
 The telemetry can be mounted in the front of the chassis. You can put the telemetry antenna into the middle round notch. This should be sufficiently firm. Otherwise, the telemetry module can still be fixed with a cable tie. Pass the telemetry cable through the top plate to connect it to the FMU.
 
+{% hint style="warning" %}
+Some users have stated that the telemetry radio will not fit in this space. If yours doesn't, then you can place it on the top of the rover and route the wires underneath the top plate.
+{% endhint %}
+
 ![](../../../.gitbook/assets/20200127_143846.jpg)
 
