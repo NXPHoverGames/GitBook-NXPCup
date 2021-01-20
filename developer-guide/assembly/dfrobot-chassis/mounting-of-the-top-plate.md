@@ -28,14 +28,21 @@ Put the flanges through the wholes of the gears and fix them with four M3x6 scre
 
 ![](../../../.gitbook/assets/20191217_160627.jpg)
 
-Put the gears onto the axles as shown in the picture below. Means the black flange has directly contact to the lower plate. Fix the hub screws of the flanges and the retaining rings. Make sure that the retaining ring and flange fix the axle to the lower plate so that the axle cannot slip.   
-Now put brass colored coupling onto the axis and fir them with hub screws. In the best case fix each coupling with two hub screws, but in the kit are only one hub screw per coupling.
+Put the gears onto the axles as shown in the picture below. Means the black flange has directly contact to the lower plate. Fix the hub screws of the flanges and the retaining rings. Make sure that the retaining ring and flange fix the axle to the lower plate so that the axle cannot slip. 
 
-![](../../../.gitbook/assets/20191218_173202.jpg)
+![](../../../.gitbook/assets/rear_wheels_axis_mount%20%281%29.jpg)
 
 It may be necessary to adjust the motor so that the big and the small gear fit. Make sure that a very small gap is between the both gears, but the motor can drives the gear.
 
-![](../../../.gitbook/assets/rear_wheels_axis_mount%20%281%29.jpg)
+## Affixing the brass wheel couplers
+
+{% hint style="warning" %}
+The brass couplers do not come with two retention screws. Your wheels will be off balance without two retention screws. We suggest using the retention screws from the PixyCam mount to fill in the two open retention screw slots on the brass couplers. You can use super glue to affix the rod to the base for the PixyCam mount.
+{% endhint %}
+
+Now put brass colored coupling onto the axis and add the retention screws. In the best case fix each coupling with two hub screws, but in the kit are only one hub screw per coupling.
+
+![](../../../.gitbook/assets/20191218_173202.jpg)
 
 ## Mounting the rear wheels
 
