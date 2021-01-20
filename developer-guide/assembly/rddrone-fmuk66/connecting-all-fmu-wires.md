@@ -16,6 +16,8 @@ For the Rover setup the connections shown in the picture below are needed.
 One part in this image is missing. In order to control the steering servo you will need an UBEC/BEC to power the +5V rail on the FMU. The FMU does not provide this power by default.
 
 If you do not have an UBEC, the servo will not move. The second image below shows where the UBEC needs to be connected.
+
+An UBEC that you can order for a low price is here: [https://www.amazon.com/dp/B07Q8V1MV6/ref=cm\_sw\_r\_cp\_awdb\_imm\_t1\_L92bGbYQCZ1A9?\_encoding=UTF8&psc=1](https://www.amazon.com/dp/B07Q8V1MV6/ref=cm_sw_r_cp_awdb_imm_t1_L92bGbYQCZ1A9?_encoding=UTF8&psc=1)
 {% endhint %}
 
 ![](../../../.gitbook/assets/block_diagram_fmu.jpg)
