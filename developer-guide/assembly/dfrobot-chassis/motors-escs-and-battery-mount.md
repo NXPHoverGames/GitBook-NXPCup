@@ -46,7 +46,7 @@ Also, the M3 screw heads are a little small for the slots to mount the motors. Y
 
 ![](../../../.gitbook/assets/20191205_104838.jpg)
 
-## Power Connection
+## Power Connection w/ distribution board
 
 In the FMU kit is a power module. This can be fixed to the lower side of the upper plate with a cable tie. The male connector will be plugged to the battery later. So is might be good to fix the power connection in a position that you can easily reach the male connector later. The female connector must be plugged to the ESC connector. In the case that you use a Power Distribution board \(PDB\), the power module should be connected to the Power connector of the PDB. 
 
