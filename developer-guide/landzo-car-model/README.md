@@ -4,7 +4,7 @@ description: >-
   with the FRDM-KL46Z.
 ---
 
-# Landzo car model
+# Landzo car model \(OLD\)
 
 The next pages introduces the hardware and show a step-by-step description for the setup. Afterwards software tools will be presented and Known Issues are described. 
 

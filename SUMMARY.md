@@ -45,7 +45,7 @@
         * [Power](developer-guide/development-tools/rddrone-fmuk66-development/commissioning-the-rddrone-fmuk66/px4-configuration-using-qgroundcontrol/power.md)
     * [Working with the Example-Application](developer-guide/development-tools/rddrone-fmuk66-development/the-example-application.md)
     * [Adding distance sensors to the FMUK66](developer-guide/development-tools/rddrone-fmuk66-development/adding-distance-sensors-to-the-fmuk66.md)
-* [Landzo car model](developer-guide/landzo-car-model/README.md)
+* [Landzo car model \(OLD\)](developer-guide/landzo-car-model/README.md)
   * [Hardware](developer-guide/landzo-car-model/kit-contents/README.md)
     * [NXP FRDM-KL25Z](developer-guide/landzo-car-model/kit-contents/electronics.md)
     * [Model Alamak -&gt;out of order](developer-guide/landzo-car-model/kit-contents/model-alamak/README.md)
