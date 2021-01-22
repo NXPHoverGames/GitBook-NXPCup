@@ -32,6 +32,10 @@ Now you need additional the front wheel cover and two M3x6 screws.
 
 Mount the front wheel cover in top of the Servo. The screws can be fixed in the silver holes of the front wheel cover.
 
+{% hint style="danger" %}
+The servo is mounted upside down in the next three images. The heads of the M4 screws need to be facing towards the second plate, not away. The last image shows how to mount the servo correctly to the second plate.
+{% endhint %}
+
 ![](../../../.gitbook/assets/20191217_140838.jpg)
 
 In the next step mount the Servo-arm with a screw from the servo kit to the Servo connector. The Servo-arm should look like the one in the picture below. 
