@@ -8,6 +8,10 @@ description: >-
 
 First tighten the hub screws to the silver flange but do not tighten the screws completely.
 
+{% hint style="info" %}
+NOTE: If you used the extra set screws from the camera mount for your brass wheel mounts, we suggest using super glue or some other type of expoxy to secure the camera mount rod to the base.
+{% endhint %}
+
 ![](../../../.gitbook/assets/20191218_175736.jpg)
 
 ![](../../../.gitbook/assets/20191218_175804.jpg)
