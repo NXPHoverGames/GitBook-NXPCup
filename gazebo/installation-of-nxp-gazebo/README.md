@@ -31,6 +31,10 @@ and run:
 
 \(This may take a few minutes\)
 
+{% hint style="warning" %}
+Before you run ./nxp\_cmd build, you should reboot your VM. This allows any environment variables to be sourced correctly.
+{% endhint %}
+
 `./nxp_cmd config config/nxp_cupcar.rosinstall  
 ./nxp_cmd update  
 ./nxp_cmd build`
