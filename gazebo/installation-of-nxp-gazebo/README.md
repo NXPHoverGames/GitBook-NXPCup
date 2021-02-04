@@ -2,6 +2,8 @@
 
 {% hint style="warning" %}
 These are draft instructions and may change or be updated. Please check back here regularly.
+
+If you run into issues with this guide, please use the `Contact` section in the sidebar on the left to get help.
 {% endhint %}
 
 ## Preface
