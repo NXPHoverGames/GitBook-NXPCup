@@ -1,4 +1,4 @@
-# Installation of NXP-Gazebo
+# Installation of NXP Gazebo
 
 {% hint style="warning" %}
 These are draft instructions and may change or be updated. Please check back here regularly.

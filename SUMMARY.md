@@ -82,8 +82,8 @@
 
 ## NXP Gazebo Simulation <a id="gazebo"></a>
 
-* [Introduction - Why Gazebo](gazebo/introduction-why-gazebo.md)
-* [Installation of NXP-Gazebo](gazebo/installation-of-nxp-gazebo/README.md)
+* [Introduction to Gazebo](gazebo/introduction-why-gazebo.md)
+* [Installation of NXP Gazebo](gazebo/installation-of-nxp-gazebo/README.md)
   * [Gazebo System Software block diagram](gazebo/installation-of-nxp-gazebo/system-block-diagram.md)
 * [Where to start writing my code?](gazebo/where-to-start-writing-my-code.md)
 * [Manish](gazebo/manish.md)
