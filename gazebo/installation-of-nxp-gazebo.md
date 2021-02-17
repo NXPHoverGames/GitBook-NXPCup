@@ -1,3 +1,7 @@
+---
+description: '[WORK IN PROGRESS]'
+---
+
 # Installation of NXP Gazebo
 
 {% hint style="warning" %}

@@ -1,3 +1,7 @@
+---
+description: '[WORK IN PROGRESS]'
+---
+
 # Introduction to Gazebo
 
 ## Why Gazebo?
