@@ -1,4 +1,4 @@
-# Overview of the NXP Gazebo simulation stack
+# Overview of the NXP Gazebo stack
 
 ## Outline of the stack
 
@@ -25,7 +25,7 @@ To write code for the stack, you must be familiar with how PX4 runs modules. A b
 
 In the source directory, you will see the following folders:
 
-![~/git/nxp\_ws/src](../.gitbook/assets/image%20%2814%29.png)
+![~/git/nxp\_ws/src](../.gitbook/assets/image%20%2815%29.png)
 
 To develop your self-driving code, you'll want to navigate to the Firmware directory. This directory contains the PX4 firmware. A look inside the Firmware directory is below:
 
