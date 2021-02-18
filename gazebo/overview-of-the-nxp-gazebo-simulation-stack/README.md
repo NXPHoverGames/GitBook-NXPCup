@@ -4,6 +4,10 @@ description: '[WORK IN PROGRESS]'
 
 # Overview of the NXP Gazebo stack
 
+## Summary
+
+This page is designed to help contestants understand the inner-workings of the NXP Gazebo simulation stack. As a contestant, you will only need to focus on a small set of files within this massive workspace. In order to reduce confusion, we have created a detailed outline of all of the files and folders in the stack, and have documented the specific files and folders that contestants will be working with in order to write self-driving algorithms for their simulated NXP Cup car.
+
 ## Outline of the stack
 
 The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is set up as follows:
@@ -58,6 +62,12 @@ At the moment, only up to two vectors are published to the uORB topic the exampl
 {% endhint %}
 
 The source code uses a simple algorithm to extract speed and steer values from the supplied vector data to drive the car. We expect contestants to improve upon this algorithm and show us how fast their simulated NXP Cup car can go! 
+
+## Feedback
+
+If you run into any discrepancies with this page, please contact us using the Contact page. A link to it is below.
+
+{% page-ref page="../../welcome-to-nxp-cup.md" %}
 
 ## Next steps
 
