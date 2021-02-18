@@ -8,7 +8,7 @@ description: '[WORK IN PROGRESS]'
 
 The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is set up as follows:
 
-![~/git/nxp\_ws](../.gitbook/assets/screen-shot-2021-02-17-at-12.06.56-pm.png)
+![~/git/nxp\_ws](../../.gitbook/assets/screen-shot-2021-02-17-at-12.06.56-pm.png)
 
 An outline of the stack is found in the table below:
 
@@ -29,15 +29,15 @@ To write code for the stack, you must be familiar with how PX4 runs modules. A b
 
 In the source directory, you will see the following folders:
 
-![~/git/nxp\_ws/src](../.gitbook/assets/image%20%2815%29.png)
+![~/git/nxp\_ws/src](../../.gitbook/assets/image%20%2815%29.png)
 
 To develop your self-driving code, you'll want to navigate to the Firmware directory. This directory contains the PX4 firmware. A look inside the Firmware directory is below:
 
-![~/git/nxp\_ws/src/Firmware](../.gitbook/assets/image%20%2813%29.png)
+![~/git/nxp\_ws/src/Firmware](../../.gitbook/assets/image%20%2813%29.png)
 
 While there is a large amount of files and folders inside the `Firmware` directory, there is only a single location that you need to use. The location is in the `~/git/nxp_ws/src/Firmware/src/examples` directory. This directory contains user-written and example modules for PX4. By placing your self-driving source code in this directory, you can easily add it to the PX4 SITL \(Software In The Loop\) build target. Thankfully, we have already included a simple example module that drives the simulated cup car around an oval track. The module is located at `~/git/nxp_ws/src/Firmware/src/examples/nxpcup/`. An overview of the directory is located below:
 
-![~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](../.gitbook/assets/image%20%2812%29.png)
+![~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](../../.gitbook/assets/image%20%2812%29.png)
 
 Inside of the `nxpcup` directory, you will see a few files that may look familiar if you have previously used a brushless NXP Cup car kit. The files here are provided for contestants to get a quick start with simulation. A description of each file is in the table below:
 
