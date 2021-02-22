@@ -1,5 +1,5 @@
 ---
-description: '[WORK IN PROGRESS]'
+description: '[WORK IN PROGRESS] NOTE: Add more info about scripts being run - Landon'
 ---
 
 # Installation of NXP Gazebo
