@@ -10,11 +10,9 @@ This page is designed to help contestants understand the inner-workings of the N
 
 ## Outline of the stack
 
-The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is set up as follows:
+The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/git/` folder and is set up as follows:
 
 ![](../../.gitbook/assets/image%20%2824%29.png)
-
-An outline of the stack is found in the table below:
 
 | Folder | Purpose |
 | :--- | :--- |
@@ -22,9 +20,9 @@ An outline of the stack is found in the table below:
 | nxp\_ros2_\__ws | Contains ROS2 and RTPS specific files, as well as code for the simulated Pixy camera. |
 | PX4-Autopilot | Full source code of PX4. |
 
-### Writing code for the stack
+### Writing self-driving code
 
-To write code for the stack, you must be familiar with how PX4 runs modules. A brief overview will be be outlined in this section. 
+To write self-driving code for the simulated NXP Cup car, you must be familiar with how PX4 runs modules. A brief overview will be be outlined in this section. 
 
 To develop your self-driving code, you'll want to navigate to the PX4-Autopilot directory. This directory contains the PX4 firmware. A look inside the PX4-Autopilot directory is below:
 

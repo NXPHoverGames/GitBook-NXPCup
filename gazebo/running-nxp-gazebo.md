@@ -9,12 +9,12 @@ description: '[WORK IN PROGRESS]'
 Once you've installed the NXP Gazebo stack, you can move on to running the example code provided in PX4 to self-drive the car around a simple track. At the end of the "Installation of NXP Gazebo" guide, we ran a command in our terminal that booted up the stack. As a reminder, here's the command:
 
 ```text
-$ roslaunch nxp_gazebo nxp_cuprace.launch
+$ ros2 launch nxp_cup_bringup nxp_cup_race.launch.py
 ```
 
 When you run this command, you should see that the Gazebo simulation is booted up, and a PX4 shell is opened. Here's what it looks like:
 
-![NXP Gazebo simulation booted up](../.gitbook/assets/image%20%2816%29.png)
+![NXP Cup Simulation](../.gitbook/assets/image%20%2828%29.png)
 
 The black terminal window is your PX4 shell, and the purple terminal window is the ROS console. The PX4 shell works just like a real PX4 shell - meaning that you can run your example programs and watch uORB topics just like you would on the real brushless NXP Cup car.
 
@@ -29,7 +29,7 @@ In order to provide a true-to-life simulated environment for NXP Cup contestants
 To view the output of the simulated Pixy camera, you can open a separate tab in your Ubuntu terminal window and run the following command:
 
 ```text
-$ rqt_image_view
+ $ ros2 run rqt_image_view rqt_image_view
 ```
 
 This will open a new window that shows the debug output of the simulated Pixy camera. Here's what it looks like:
@@ -54,6 +54,7 @@ To run the example self-driving algorithm, run the following command in the PX4 
 
 ```text
 pxh> nxpcup start
+pxh> commander arm -f
 ```
 
 When you run this command, a thread will be activated that should successfully drive the simulated NXP Cup car around the track.
