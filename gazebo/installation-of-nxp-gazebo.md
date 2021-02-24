@@ -114,7 +114,7 @@ $ mkdir build && cd build
 
 You should get the expected output from these commands shown below:
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 Next, we will run some commands to build and install Fast-DDS. Run the following commands:
 
@@ -139,7 +139,7 @@ $ git clone --recursive https://github.com/eProsima/Fast-DDS-Gen.git -b v1.0.4 ~
     && sudo ./gradlew install
 ```
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 If you got the expected output, great! We will move on to building our ROS2 workspace.
 
@@ -154,11 +154,11 @@ $ colcon build --packages-select nxp_cup_vision --symlink-install
 $ colcon build --packages-select nxp_cup_bringup --symlink-install
 ```
 
-![Expected output for building px4\_msgs](../.gitbook/assets/image%20%2829%29.png)
+![Expected output for building px4\_msgs](../.gitbook/assets/image%20%2830%29.png)
 
-![Expected output for building px4\_ros\_com \(stderr is okay!\)](../.gitbook/assets/image%20%2831%29.png)
+![Expected output for building px4\_ros\_com \(stderr is okay!\)](../.gitbook/assets/image%20%2832%29.png)
 
-![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](../.gitbook/assets/image%20%2826%29.png)
+![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](../.gitbook/assets/image%20%2827%29.png)
 
 Once we have built all of our ROS2 workspace, we will want to source the setup.bash for the workspace. We also want to make sure that all of our library paths are properly sourced. To do so, we will add some lines to the end of our `~/.bashrc`. Add the following lines to the end of your `~/.bashrc`:
 
@@ -196,7 +196,7 @@ $ cd ~/git/PX4-Autopilot
 $ DONT_RUN=1 make px4_sitl_rtps gazebo
 ```
 
-![Expected output for building PX4 binary](../.gitbook/assets/image%20%2825%29.png)
+![Expected output for building PX4 binary](../.gitbook/assets/image%20%2826%29.png)
 
 If you get the expected output, stay vigilant! We only have one more command to run. We need to install `xterm` for the PX4 shell that runs when we boot up the simulation. To do so, run the following command:
 
@@ -218,7 +218,7 @@ To run the Gazebo simulation, we suggest you first restart your VM or PC and/or 
 $ ros2 launch nxp_cup_bringup nxp_cup_race.launch.py
 ```
 
-![NXP Cup Simulation](../.gitbook/assets/image%20%2827%29.png)
+![NXP Cup Simulation](../.gitbook/assets/image%20%2828%29.png)
 
 Hooray! You have successfully setup your NXP Cup Gazebo Simulation. For more documentation on how to use the Gazebo simulation, move on to the next section using the buttons below or navigate by using the sidebar on the left.
 
