@@ -59,5 +59,7 @@ pxh> commander arm -f
 
 When you run this command, a thread will be activated that should successfully drive the simulated NXP Cup car around the track.
 
-
+{% hint style="danger" %}
+NOTE: The code supplied does not currently drive around the track successfully. We hope to fix this soon, but in the meantime you can implement your own self-driving code!
+{% endhint %}
 
