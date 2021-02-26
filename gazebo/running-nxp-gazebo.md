@@ -52,6 +52,10 @@ The source code for this simulated Pixy camera is located at `~/git/nxp_ws/src/n
 
 To run the example self-driving algorithm, run the following command in the PX4 shell that is opened when you boot up the NXP Gazebo simulation:
 
+{% hint style="warning" %}
+When you run the example code \(`nxpcup start`\) it will start printing data very quickly in the PX4 shell. This is debug information. When you go to run `commander arm -f`, you will not see the text in the shell becuase the prints are pushing it off the screen too fast. You can still type in the `commander arm -f` command and press enter to run it.
+{% endhint %}
+
 ```text
 pxh> nxpcup start
 pxh> commander arm -f
