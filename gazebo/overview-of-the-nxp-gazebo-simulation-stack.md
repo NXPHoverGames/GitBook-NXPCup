@@ -12,7 +12,7 @@ This page is designed to help contestants understand the inner-workings of the N
 
 The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/git/` folder and is set up as follows:
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 | Folder | Purpose |
 | :--- | :--- |
@@ -26,11 +26,11 @@ To write self-driving code for the simulated NXP Cup car, you must be familiar w
 
 To develop your self-driving code, you'll want to navigate to the PX4-Autopilot directory. This directory contains the PX4 firmware. A look inside the PX4-Autopilot directory is below:
 
-![~/git/PX4-Autopilot](../../.gitbook/assets/image%20%2813%29.png)
+![~/git/PX4-Autopilot](../.gitbook/assets/image%20%2813%29.png)
 
 While there is a large amount of files and folders inside the PX4-Autopilot directory, there is only a single location that you need to use. The location is in the `~/git/PX4-Autopilot/src/examples` directory. This directory contains user-written and example modules for PX4. By placing your self-driving source code in this directory, you can easily add it to the PX4 SITL \(Software In The Loop\) build target. Thankfully, we have already included a simple example module that drives the simulated cup car around an oval track. The module is located at `~/git/PX4-Autopilot/src/examples/nxpcup/`. An overview of the directory is located below:
 
-![~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](../../.gitbook/assets/image%20%2812%29.png)
+![~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](../.gitbook/assets/image%20%2812%29.png)
 
 Inside of the `nxpcup` directory, you will see a few files that may look familiar if you have previously used a brushless NXP Cup car kit. The files here are provided for contestants to get a quick start with simulation. A description of each file is in the table below:
 
@@ -56,7 +56,7 @@ The source code uses a simple algorithm to extract speed and steer values from t
 
 If you run into any discrepancies with this page, please contact us using the Contact page. A link to it is below.
 
-{% page-ref page="../../welcome-to-nxp-cup.md" %}
+{% page-ref page="../welcome-to-nxp-cup.md" %}
 
 ## Next steps
 
