@@ -84,8 +84,10 @@
 
 * [Introduction to Gazebo](gazebo/introduction-why-gazebo.md)
 * [Installation of NXP Gazebo](gazebo/installation-of-nxp-gazebo.md)
+* [Known Issues](gazebo/known-issues.md)
 * [Overview of the NXP Gazebo stack](gazebo/overview-of-the-nxp-gazebo-simulation-stack.md)
 * [Running NXP Gazebo](gazebo/running-nxp-gazebo.md)
+* [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 * [Changing the NXP Gazebo track](gazebo/changing-the-nxp-gazebo-track.md)
 
 ## HARDWARE REFERENCE
