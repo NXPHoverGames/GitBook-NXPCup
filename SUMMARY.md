@@ -111,3 +111,7 @@
 * [Battery Charger US/EU Plug](archive/battery-charger-us-eu-plug.md)
 * [Setting up Visual Studio Code](archive/setting-up-visual-studio-code.md)
 
+## NavQ on NXP Cup Car
+
+* [Setting up NavQ for use on the NXP Cup Car](navq-on-nxp-cup-car/setting-up-navq-for-use-on-the-nxp-cup-car.md)
+

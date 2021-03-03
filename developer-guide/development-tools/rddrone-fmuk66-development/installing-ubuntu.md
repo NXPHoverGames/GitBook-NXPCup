@@ -119,7 +119,7 @@ sudo usermod -aG vboxsf nxpcup
 
 This will give you access to the shared folders. You might get asked for your password. You possibly have to reboot before it becomes active. If after a reboot the shared folder is still not visible from the file manager, you should check the virtual machine settings if the shared folder has auto-mount enabled.
 
-![](../../../.gitbook/assets/26_vm_ubunuto_usermod%20%281%29.png)
+![](../../../.gitbook/assets/26_vm_ubunuto_usermod%20%281%29%20%281%29.png)
 
 ## Some useful settings <a id="some-useful-settings"></a>
 

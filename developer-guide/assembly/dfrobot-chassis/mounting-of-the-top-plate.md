@@ -30,7 +30,7 @@ Put the flanges through the wholes of the gears and fix them with four M3x6 scre
 
 Put the gears onto the axles as shown in the picture below. Means the black flange has directly contact to the lower plate. Fix the hub screws of the flanges and the retaining rings. Make sure that the retaining ring and flange fix the axle to the lower plate so that the axle cannot slip. 
 
-![](../../../.gitbook/assets/rear_wheels_axis_mount%20%281%29.jpg)
+![](../../../.gitbook/assets/rear_wheels_axis_mount%20%281%29%20%281%29.jpg)
 
 It may be necessary to adjust the motor so that the big and the small gear fit. Make sure that a very small gap is between the both gears, but the motor can drives the gear.
 

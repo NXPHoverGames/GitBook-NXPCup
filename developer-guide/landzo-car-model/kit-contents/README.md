@@ -12,7 +12,7 @@ In addition to the FRDM-KL25Z board from NXP the following Landzo parts should b
 
 System Structure
 
-![](../../../.gitbook/assets/grafik%20%281%29.png)
+![](../../../.gitbook/assets/grafik%20%2811%29.png)
 
 ss
 

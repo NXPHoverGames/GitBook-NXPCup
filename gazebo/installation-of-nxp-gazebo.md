@@ -156,7 +156,7 @@ $ colcon build --packages-select nxp_cup_bringup --symlink-install
 
 ![Expected output for building px4\_msgs](../.gitbook/assets/image%20%2830%29.png)
 
-![Expected output for building px4\_ros\_com \(stderr is okay!\)](../.gitbook/assets/image%20%2832%29.png)
+![Expected output for building px4\_ros\_com \(stderr is okay!\)](../.gitbook/assets/image%20%2833%29.png)
 
 ![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](../.gitbook/assets/image%20%2827%29.png)
 
