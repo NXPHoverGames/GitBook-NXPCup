@@ -1,5 +1,5 @@
 ---
-description: 2019/2020 season
+description: 2019/2020 season. Founds at: https://nxp.gitbook.io/nxp-cup/
 ---
 
 # Welcome to NXP Cup
