@@ -4,6 +4,46 @@
 This section is not meant for NXP Cup contestants as of now. This is for future developments with NXP Cup.
 {% endhint %}
 
+## Setting up the FMU
+
+{% hint style="info" %}
+Run this on an Ubuntu 20.04 machine.
+{% endhint %}
+
+### Install Fast-DDS
+
+```text
+$ cd ~
+$ mkdir src && cd src
+$ git clone --recursive https://github.com/eProsima/Fast-DDS.git -b v2.0.0 FastRTPS-2.0.0
+$ cd FastRTPS-2.0.0
+$ mkdir build && cd build
+$ cmake -DTHIRDPARTY=ON -DSECURITY=ON ..
+$ make
+$ sudo make install
+```
+
+### Install Fast-DDS-Gen
+
+```text
+$ cd ~/src
+$ git clone --recursive https://github.com/eProsima/Fast-DDS-Gen.git -b v1.0.4 Fast-RTPS-Gen
+$ cd Fast-RTPS-Gen
+$ ./gradlew assemble
+$ sudo ./gradlew install
+```
+
+### Clone & build PX4-Autopilot from rudislabs repo
+
+```text
+$ cd ~/src
+$ git clone --recursive https://github.com/rudislabs/PX4-Autopilot.git -b pr-cupcar
+$ cd PX4-Autopilot
+# Add nxpcup to PX4-Autopilot/boards/nxp/fmuk66-v3/rtps.cmake under EXAMPLES #
+$ make nxp_fmuk66-v3_rtps
+# Flash your FMU using rtps binary #
+```
+
 ## Setting up NavQ
 
 ### Flash NavQ with fresh image
