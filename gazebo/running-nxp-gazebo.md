@@ -57,7 +57,7 @@ When you run the example code \(`nxpcup start`\) it will start printing data ver
 {% endhint %}
 
 ```text
-pxh> nxpcup start
+pxh> nxpcup_work start
 pxh> commander arm -f
 ```
 
