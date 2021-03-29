@@ -24,7 +24,7 @@ Connect the battery cable and the motor cables to the connectors at the board as
 
 ![Servo and camera connectors](../../.gitbook/assets/arc_board_front-connectors_small.jpg)
 
-## Finished ARC Setup
+## Finished RDDRONE-CUPK64 \(ARC Board\) Setup
 
 ![](../../.gitbook/assets/dfr_arc_front.jpg)
 

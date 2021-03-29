@@ -93,7 +93,7 @@
 
 ## HARDWARE REFERENCE
 
-* [ARC Board schematics](hardware-reference/arc-board-schematics.md)
+* [RDDRONE-CUPK64 \(AKA ARC Board\) schematics](hardware-reference/arc-board-schematics.md)
 * [RDDRONE-FMUK66 Schematics](hardware-reference/rddrone-fmuk66-schematics.md)
 * [FMU Connectors and pinout](hardware-reference/connectors-and-pinout.md)
 

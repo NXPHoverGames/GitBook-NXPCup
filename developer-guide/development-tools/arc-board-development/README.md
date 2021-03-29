@@ -1,5 +1,7 @@
 ---
-description: This section presents possible tools for the development on the ARC Mainboard.
+description: >-
+  This section presents possible tools for the development on the RDDRONE-CUPK64
+  AKA Micro E or ARC Mainboard.
 ---
 
 # RDDRONE-CUPK64 AKA Micro E Board Development
