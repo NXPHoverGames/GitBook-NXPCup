@@ -2,7 +2,7 @@
 description: This section presents possible tools for the development on the ARC Mainboard.
 ---
 
-# Micro E Board Development
+# RDDRONE-CUPK64 AKA Micro E Board Development
 
 On the next page MCUXpresso is presented. Is includes a step-by-step way to configure **MCUXpresso** for using the **NXP MK64FN** processor, which is included in the Mainboard.
 

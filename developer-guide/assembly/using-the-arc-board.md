@@ -1,8 +1,8 @@
 ---
-description: How to install the Micro E board on the DFRobot chassis.
+description: How to install the RDDRONE-CUPK64 (Micro E) board on the DFRobot chassis.
 ---
 
-# Micro E board \(ARC board\)
+# RDDRONE-CUPK64 \(AKA Micro E board or ARC board\)
 
 {% hint style="info" %}
 The top plate needs two more holes to fix the Micro E board. The additional holes are shown in the picture below \(red marked\). For the exact position of these holes, please measure it by yourself before you drill the holes.
