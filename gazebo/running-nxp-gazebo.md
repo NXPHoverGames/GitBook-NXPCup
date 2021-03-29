@@ -46,7 +46,7 @@ The simulated Pixy camera detects the black lines in the environment and fits li
 
 As you can see in the simulated pixy camera output, the vector data returned is identical to the vector data that the real Pixy camera sends over I2C \(vector head and tail coordinates for each vector\). This allows contestants to use the same algorithms that are on their real NXP Cup cars.
 
-The source code for this simulated Pixy camera is located at `~/git/nxp_ws/src/nxp_gazebo/scripts/track_vision.py`. You are free to edit this code if you see any potential areas of improvement!
+The source code for this simulated Pixy camera is located at `~/git/nxp_ros2_ws/src/nxp_cup_vision/nxp_cup_vision/nxp_track_vision.py` ​. You are free to edit this code if you see any potential areas of improvement!
 
 ## Running the example self-driving algorithm
 
