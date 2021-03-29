@@ -40,6 +40,28 @@ The servo is mounted upside down in the next three images. The heads of the M4 s
 
 In the next step mount the Servo-arm with a screw from the servo kit to the Servo connector. The Servo-arm should look like the one in the picture below. 
 
+### 2021 and newer version
+
+The 2021 DFRobot Cup Car has a new steering linkage setup. If you have a 2020 or older version, skip to the next section.
+
+There are two parts that you need to mount the control arms to the servo. The two parts are pictured below:
+
+![](../../../.gitbook/assets/img_1686.jpg)
+
+The part on the left is what the control arms will attach to, and the part on the right attaches to the servo itself. These two parts will be connected together later. First, you'll want to attach the part on the right to the servo, and fasten it using the two screws that came in the bag with it. These screws go into the sides of the part to give it clamping force on the servo.
+
+![](../../../.gitbook/assets/img_1687.jpg)
+
+Once you have attached that part, you'll want to fasten the next part on top using two M3x6mm screws. 
+
+![](../../../.gitbook/assets/img_1688.jpg)
+
+The two M3x6mm screws will fasten into the servo itself as well as one of the holes at the bottom of the two parts. Next, fasten the two control arms to the side holes on the mounting plate using M3x16mm screws and M3 locknuts like so:
+
+![](../../../.gitbook/assets/img_1695.jpg)
+
+### 2020 and older version
+
 {% hint style="warning" %}
 **Do not rotate the Servo connector before the arm is fixed to it!** When you put the arm to the connector be sure that the arm is absolutely parallel to the longer side of the Servo. This ensures that the wheels have the full steering range.
 {% endhint %}
