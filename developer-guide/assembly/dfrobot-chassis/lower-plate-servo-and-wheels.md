@@ -60,6 +60,18 @@ The two M3x6mm screws will fasten into the servo itself as well as one of the ho
 
 ![](../../../.gitbook/assets/img_1695.jpg)
 
+{% hint style="warning" %}
+NOTE: The servo needs to mounted in the opposite direction compared to the previous NXP Cup Car. If the servo is mounted the same way, the steering geometry will be wrong which will result in the wheels turning away from each other.
+{% endhint %}
+
+Here are some images of the steering setup in CAD which gives some more detail:
+
+![This image is from the back of the cup car.](../../../.gitbook/assets/1066ef29af613d5c63203db1cfdd3ae.png)
+
+![](../../../.gitbook/assets/83fd5bb07718f7857a5cf237c1700ef.png)
+
+![This image is from the front of the cup car.](../../../.gitbook/assets/13b050a2242c9f6c130a7c657f805e2.png)
+
 ### 2020 and older version
 
 {% hint style="warning" %}
