@@ -2,7 +2,7 @@
 description: '[WORK IN PROGRESS] NOTE: Add more info about scripts being run - Landon'
 ---
 
-# Installation of NXP Gazebo
+# Installation of NXP Gazebo \[OLD\]
 
 {% hint style="warning" %}
 These are draft instructions and may change or be updated. Please check back here regularly.
