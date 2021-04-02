@@ -40,22 +40,22 @@ Once you've done this, you're ready to begin installation.
 
 ## Installing ROS2
 
-To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just run the following commands:
+To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just run the following script:
+
+{% file src="../.gitbook/assets/foxy\_install.sh" caption="foxy\_install.sh" %}
+
+{% hint style="info" %}
+You may need to run `chmod a+x foxy_install.sh` to make the script executable.
+{% endhint %}
+
+And then source ros2 by running the following commands:
 
 ```text
-$ sudo apt update && sudo apt install curl gnupg2 lsb-release
-$ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
-$ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
-$ sudo apt update
-$ sudo apt install ros-foxy-desktop
-$ sudo apt install ros-foxy-gazebo*
-$ sudo apt install python3-colcon-common-extensions
-$ sudo apt install -y python3-argcomplete
 $ echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-### Installing RTPS
+## Installing RTPS
 
 In order to transfer simulated Pixy camera data from ROS2 to simulated PX4, we need to install some software. We are following the guide at the link below, but we will go over the commands in detail here.
 
@@ -92,7 +92,6 @@ You should get a message stating `[100%] Built target fastrtps` once `make -j$(n
 Next, we will install Fast-RTPS-Gen. To do so, run the following commands and make sure you get the expected output:
 
 ```text
-$ sudo apt install openjdk-11-jre-headless
 $ git clone --recursive https://github.com/eProsima/Fast-DDS-Gen.git -b v1.0.4 ~/Fast-RTPS-Gen \
     && cd ~/Fast-RTPS-Gen \
     && ./gradlew assemble \
@@ -105,15 +104,6 @@ If you got the expected output, great! We will move on to building our ROS2 work
 
 ## Installing NXP Gazebo
 
-### Install prerequisites
-
-```text
-$ sudo apt install python3-pip
-$ sudo apt install python3-opencv
-$ pip3 install --user jinja2
-$ pip3 install pyros-genmsg
-```
-
 ### Cloning and running sim\_gazebo\_bringup
 
 Installing NXP Gazebo has become much easier over time. With this new install process, you'll be up and running with NXP Gazebo in record time!
@@ -122,15 +112,13 @@ First, we need to create a ROS2 workspace directory to store the installation fi
 
 ```text
 $ cd ~
-$ mkdir ros2ws && cd ros2ws
-$ mkdir src && cd src
+$ mkdir -p ros2ws/src && cd ros2ws/src
 ```
 
 Once you are in the directory `~/ros2ws/src`, it's time to clone the bringup repo. The bringup repo contains code that sets up the workspace for you automatically. To clone it, run the following command:
 
 ```text
 $ git clone git@github.com:rudislabs/sim_gazebo_bringup.git -b nxp
-$ cd sim_gazebo_bringup
 ```
 
 When git prompts you to continue connecting with your RSA fingerprint, type yes:
@@ -140,10 +128,9 @@ When git prompts you to continue connecting with your RSA fingerprint, type yes:
 Next, we are going to run `sim_gazebo_bringup`. To do this, run the following commands:
 
 ```text
-$ source /opt/ros/foxy/setup.bash
-$ cd ~/ros2ws/src
+$ cd ~/ros2ws
 $ colcon build --packages-select sim_gazebo_bringup --symlink-install
-$ echo "source /home/$USER/ros2ws/src/install/setup.bash" >> ~/.bashrc
+$ echo "source /home/$USER/ros2ws/install/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
