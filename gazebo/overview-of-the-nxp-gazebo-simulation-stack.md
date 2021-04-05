@@ -12,7 +12,7 @@ This page is designed to help contestants understand the inner-workings of the N
 
 The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/git/` folder and is set up as follows:
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 | Folder | Purpose |
 | :--- | :--- |
@@ -29,7 +29,7 @@ The NXP Gazebo simulation stack uses a diverse set of software to enable the sim
 
 The src folder within the ROS2 workspace contains some PX4 specific ROS packages as well as the `sim_gazebo_bringup` package.
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 | Folder | Purpose |
 | :--- | :--- |
