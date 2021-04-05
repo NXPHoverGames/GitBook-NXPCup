@@ -137,7 +137,7 @@ $ source ~/.bashrc
 Now that we have the bringup package set up, we can start installing all of the NXP Gazebo packages. Run the following command:
 
 ```text
-$ ros2 launch sim_gazebo_bringup sim_gazebo_launch.py
+$ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
 ```
 
 
