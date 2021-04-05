@@ -7,7 +7,7 @@ Most of the folders in NXP Gazebo are stored in git repositories. This makes it 
 ```text
 $ cd ~/ros2ws/nxp_gazebo/ && git pull 
 $ cd ~/ros2ws/nxp_gazebo_plugins/ && git pull
-$ cd ~/osrf/models/ && git pull
+$ cd ~/ros2ws/osrf/models/ && git pull
 $ cd ~/ros2ws/NXP-Autopilot/ && git pull 
 $ cd ~/ros2ws/src/px4_msgs/ && git pull 
 $ cd ~/ros2ws/src/px4_ros_com/ && git pull 
