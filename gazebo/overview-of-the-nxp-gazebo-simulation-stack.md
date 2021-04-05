@@ -12,23 +12,41 @@ This page is designed to help contestants understand the inner-workings of the N
 
 The NXP Gazebo simulation stack uses a diverse set of software to enable the simulation of the Cup car. Thankfully, as NXP Cup contestants, you will only need to use specific portions of the stack to develop your self-driving software. The stack is located in the `~/git/` folder and is set up as follows:
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 | Folder | Purpose |
 | :--- | :--- |
-| nxp\_gazebo | Contains all of the Gazebo specific files such as world models, startup scripts, and more. |
-| nxp\_ros2_\__ws | Contains ROS2 and RTPS specific files, as well as code for the simulated Pixy camera. |
-| PX4-Autopilot | Full source code of PX4. |
+| build | ROS2 specific build folder. |
+| install | ROS2 specific install folder. |
+| log | ROS2 specific log folder. |
+| NXP-Autopilot | Full source code of PX4. This is where self-driving code will live. |
+| nxp\_gazebo | Scripts and model files for simulation. |
+| nxp\_gazebo\_plugins | Necessary plugins for Gazebo |
+| osrf | OSRF 3D model library for creating custom worlds |
+| src | See the next section for an overview |
+
+### src folder contents
+
+The src folder within the ROS2 workspace contains some PX4 specific ROS packages as well as the `sim_gazebo_bringup` package.
+
+![](../.gitbook/assets/image%20%2838%29.png)
+
+| Folder | Purpose |
+| :--- | :--- |
+| nxp\_cup_\__vision | Contains the OpenCV vision code for simulating Pixy camera to detect lines |
+| px4\_msgs | Contains PX4 uORB message definitions for RTPS |
+| px4\_ros_\__com | Contains the code necessary for transporting PX4 messages over RTPS |
+| sim\_gazebo_\__bringup | Contains scripts for booting up the Gazebo simulation as well as setting up the simulation stack. |
 
 ### Writing self-driving code
 
 To write self-driving code for the simulated NXP Cup car, you must be familiar with how PX4 runs modules. A brief overview will be be outlined in this section. 
 
-To develop your self-driving code, you'll want to navigate to the PX4-Autopilot directory. This directory contains the PX4 firmware. A look inside the PX4-Autopilot directory is below:
+To develop your self-driving code, you'll want to navigate to the NXP-Autopilot directory. This directory contains the PX4 firmware. A look inside the NXP-Autopilot directory is below:
 
 ![~/git/PX4-Autopilot](../.gitbook/assets/image%20%2813%29.png)
 
-While there is a large amount of files and folders inside the PX4-Autopilot directory, there is only a single location that you need to use. The location is in the `~/git/PX4-Autopilot/src/examples` directory. This directory contains user-written and example modules for PX4. By placing your self-driving source code in this directory, you can easily add it to the PX4 SITL \(Software In The Loop\) build target. Thankfully, we have already included a simple example module that drives the simulated cup car around an oval track. The module is located at `~/git/PX4-Autopilot/src/examples/nxpcup/`. An overview of the directory is located below:
+While there is a large amount of files and folders inside the PX4-Autopilot directory, there is only a single location that you need to use. The location is in the `~/ros2ws/NXP-Autopilot/src/examples` directory. This directory contains user-written and example modules for PX4. By placing your self-driving source code in this directory, you can easily add it to the PX4 SITL \(Software In The Loop\) build target. Thankfully, we have already included a simple example module that drives the simulated cup car around an oval track. The module is located at `~/ros2ws/NXP-Autopilot/src/examples/nxpcup/`. An overview of the directory is located below:
 
 ![~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](../.gitbook/assets/image%20%2832%29.png)
 
