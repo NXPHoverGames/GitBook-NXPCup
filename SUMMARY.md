@@ -83,7 +83,6 @@
 ## NXP Gazebo Simulation <a id="gazebo"></a>
 
 * [Introduction to Gazebo](gazebo/introduction-why-gazebo.md)
-* [Installation of NXP Gazebo \[OLD\]](gazebo/installation-of-nxp-gazebo.md)
 * [Installation of NXP Gazebo](gazebo/installation-of-nxp-gazebo-1.md)
 * [Known Issues](gazebo/known-issues.md)
 * [Overview of the NXP Gazebo stack](gazebo/overview-of-the-nxp-gazebo-simulation-stack.md)
@@ -112,6 +111,7 @@
 
 * [Battery Charger US/EU Plug](archive/battery-charger-us-eu-plug.md)
 * [Setting up Visual Studio Code](archive/setting-up-visual-studio-code.md)
+* [Installation of NXP Gazebo \[OLD\]](archive/installation-of-nxp-gazebo.md)
 
 ## NavQ on NXP Cup Car
 

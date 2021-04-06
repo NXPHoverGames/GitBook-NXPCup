@@ -26,5 +26,5 @@ Continue to the next section to start installing the required software for the G
 
 ![NXP Cup Car in Gazebo Simulation](../.gitbook/assets/image%20%2811%29.png)
 
-{% page-ref page="installation-of-nxp-gazebo.md" %}
+{% page-ref page="../archive/installation-of-nxp-gazebo.md" %}
 
