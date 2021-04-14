@@ -118,7 +118,7 @@ $ mkdir -p ros2ws/src && cd ros2ws/src
 Once you are in the directory `~/ros2ws/src`, it's time to clone the bringup repo. The bringup repo contains code that sets up the workspace for you automatically. To clone it, run the following command:
 
 ```text
-$ git clone git@github.com:rudislabs/sim_gazebo_bringup.git -b nxp
+$ git clone git@github.com:rudislabs/sim_gazebo_bringup.git -b fire_turtle
 ```
 
 When git prompts you to continue connecting with your RSA fingerprint, type yes:
