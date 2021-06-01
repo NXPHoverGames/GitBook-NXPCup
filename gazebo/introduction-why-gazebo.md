@@ -4,7 +4,7 @@ description: '[WORK IN PROGRESS]'
 
 # Introduction to NXP Gazebo Summer Camp
 
-## Introduction
+## Summer Camp
 
 Hello and welcome to the NXP Gazebo Summer Camp! This event is designed to familiarize NXP Cup participants with the NXP Gazebo simulation environment for NXP Cup. The simulation environment will allow NXP Cup contestants to design, prototype, and test their NXP Cup software in a rapid fashion without the risk of damaging their NXP Cup cars. 
 
@@ -12,7 +12,7 @@ This Gitbook contains all of the necessary documentation for installing, running
 
 For information on System Requirements, Milestones, and more, read below!
 
-## Why Gazebo?
+## What's Gazebo?
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 

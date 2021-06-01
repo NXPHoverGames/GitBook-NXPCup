@@ -140,5 +140,11 @@ Now that we have the bringup package set up, we can start installing all of the 
 $ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
 ```
 
+## You're finished!
+
+![](https://thumbs.gfycat.com/CheerySizzlingGuillemot-mobile.mp4)
+
+Now that you have successfully installed NXP Gazebo, you can move on to the next sections. Use the navigation at the bottom of the page to continue.
+
 
 
