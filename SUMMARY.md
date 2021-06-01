@@ -82,6 +82,7 @@
 
 ## NXP Gazebo Simulation <a id="gazebo"></a>
 
+* [NXP Gazebo Summer Camp](gazebo/nxp-gazebo-summer-camp.md)
 * [Introduction to Gazebo](gazebo/introduction-why-gazebo.md)
 * [Installation of NXP Gazebo](gazebo/installation-of-nxp-gazebo-1.md)
 * [Known Issues](gazebo/known-issues.md)
