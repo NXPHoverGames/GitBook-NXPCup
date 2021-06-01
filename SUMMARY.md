@@ -80,10 +80,9 @@
     * [LCD Module](developer-guide/landzo-car-model/known-issues/lcd-module.md)
     * [FRDM Board Socket Headers](developer-guide/landzo-car-model/known-issues/frdm-board-socket-headers.md)
 
-## NXP Gazebo Simulation <a id="gazebo"></a>
+## NXP Gazebo Summer Camp <a id="gazebo"></a>
 
-* [NXP Gazebo Summer Camp](gazebo/nxp-gazebo-summer-camp.md)
-* [Introduction to Gazebo](gazebo/introduction-why-gazebo.md)
+* [Introduction to NXP Gazebo Summer Camp](gazebo/introduction-why-gazebo.md)
 * [Installation of NXP Gazebo](gazebo/installation-of-nxp-gazebo-1.md)
 * [Known Issues](gazebo/known-issues.md)
 * [Overview of the NXP Gazebo stack](gazebo/overview-of-the-nxp-gazebo-simulation-stack.md)
