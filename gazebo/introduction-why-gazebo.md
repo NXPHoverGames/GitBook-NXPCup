@@ -51,7 +51,7 @@ Throughout the NXP Gazebo Summer Camp, contestants will be required to meet four
 
 ### Milestone 2
 
-1. Learn about Gazebo, ROS, PX4, and the NXP Gazebo environment
+1. Learn about Gazebo, ROS, and the NXP Gazebo environment
 
 ### Milestone 3
 
