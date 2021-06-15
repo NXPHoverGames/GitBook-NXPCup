@@ -2,7 +2,7 @@
 description: '[WORK IN PROGRESS]'
 ---
 
-# Overview of the NXP Gazebo stack
+# Overview of the NXP Gazebo stack \[OLD\]
 
 ## Summary
 
