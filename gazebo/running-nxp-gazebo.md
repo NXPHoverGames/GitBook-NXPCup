@@ -1,16 +1,6 @@
 # Running NXP Gazebo
 
-## Getting started
-
-### Enabling PX4 mode
-
-NXP Gazebo now supports both PX4 simulation as well as normal Gazebo simulation. To ensure 1:1 code from simulation to the real NXP Cup car, we suggest contestants use the PX4 simulation.
-
-To enable PX4 simulation, you'll need to navigate to `~/ros2ws/src/sim_gazebo_bringup/config/` and open `gen_params.json`. Inside of that file navigate to the end of the file. Change the `controller` field from `ros2` to `px4` as seen in the image below:
-
-![](../.gitbook/assets/image%20%2837%29.png)
-
-### Booting up Gazebo
+## Booting up Gazebo
 
 Once you've installed the NXP Gazebo stack, you can move on to running the example code provided in PX4 to self-drive the car around a simple track. At the end of the "Installation of NXP Gazebo" guide, we ran a command in our terminal that booted up the stack. As a reminder, here's the command:
 

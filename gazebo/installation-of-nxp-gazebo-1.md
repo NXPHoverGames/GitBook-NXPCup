@@ -55,53 +55,6 @@ $ echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-## Installing RTPS
-
-In order to transfer simulated Pixy camera data from ROS2 to simulated PX4, we need to install some software. We are following the guide at the link below, but we will go over the commands in detail here.
-
-{% embed url="https://docs.px4.io/master/en/dev\_setup/fast-dds-installation.html" %}
-
-#### Installing Fast-RTPS \(DDS\)
-
-Clone the project from Github:
-
-```text
-$ git clone --recursive https://github.com/eProsima/Fast-DDS.git -b v2.0.0 ~/FastDDS-2.0.0
-$ cd ~/FastDDS-2.0.0
-$ mkdir build && cd build
-```
-
-You should get the expected output from these commands shown below:
-
-![](../.gitbook/assets/image%20%2831%29.png)
-
-Next, we will run some commands to build and install Fast-DDS. Run the following commands:
-
-```text
-$ cmake -DTHIRDPARTY=ON -DSECURITY=ON ..
-$ make -j$(nproc --all)
-$ sudo make install
-```
-
-You should get a message stating `[100%] Built target fastrtps` once `make -j$(nproc --all)` is finished, and you should get the expected output shown below after you run `sudo make install`:
-
-![](../.gitbook/assets/image%20%2819%29.png)
-
-#### Installing Fast-RTPS-Gen
-
-Next, we will install Fast-RTPS-Gen. To do so, run the following commands and make sure you get the expected output:
-
-```text
-$ git clone --recursive https://github.com/eProsima/Fast-DDS-Gen.git -b v1.0.4 ~/Fast-RTPS-Gen \
-    && cd ~/Fast-RTPS-Gen \
-    && ./gradlew assemble \
-    && sudo ./gradlew install
-```
-
-![](../.gitbook/assets/image%20%2829%29.png)
-
-If you got the expected output, great! We will move on to building our ROS2 workspace.
-
 ## Installing NXP Gazebo
 
 ### Cloning and running sim\_gazebo\_bringup
@@ -118,7 +71,7 @@ $ mkdir -p ros2ws/src && cd ros2ws/src
 Once you are in the directory `~/ros2ws/src`, it's time to clone the bringup repo. The bringup repo contains code that sets up the workspace for you automatically. To clone it, run the following command:
 
 ```text
-$ git clone git@github.com:NXPHovergames/sim_gazebo_bringup.git -b fire_turtle
+$ git clone git@github.com:NXPHovergames/sim_gazebo_bringup.git -b nxp_summer
 ```
 
 When git prompts you to continue connecting with your RSA fingerprint, type yes:
