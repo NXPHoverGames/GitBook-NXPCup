@@ -8,11 +8,11 @@ Once you've installed the NXP Gazebo stack, you can move on to running the examp
 $ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
 ```
 
-When you run this command, you should see that the Gazebo simulation is booted up, and a PX4 shell is opened. Here's what it looks like:
+When you run this command, you should see that the Gazebo simulation is booted up, and the example self-driving node starts automatically. 
 
-![NXP Cup Simulation](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
-The black terminal window is your PX4 shell, and the purple terminal window is the ROS console. The PX4 shell works just like a real PX4 shell - meaning that you can run your example programs and watch uORB topics just like you would on the real brushless NXP Cup car.
+The simulation will start a program that allows you to view the simulated Pixy camera output. This is for debug use to make sure the vision node is working correctly. This is explained in the next section.
 
 ## Viewing the simulated Pixy camera
 
@@ -30,7 +30,7 @@ The simulation stack will open a new window that shows the debug output of the s
 If you do not see the simulated Pixy camera output, use the drop down at the top left of the window and select /debugImage0.
 {% endhint %}
 
-The simulated Pixy camera detects the blak lines in the environment and fits lines to to them. Then, it will use those lines to create a simulated Pixy camera vector output in the Pixy camera frame space as seen below:
+The simulated Pixy camera detects the red lines in the environment and fits lines to to them. Then, it will use those lines to create a simulated Pixy camera vector output in the Pixy camera frame space as seen below:
 
 ![Pixy camera frame \(from https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:line\_api\)](../.gitbook/assets/image%20%2817%29.png)
 
@@ -38,16 +38,9 @@ As you can see in the simulated pixy camera output, the vector data returned is 
 
 The source code for this simulated Pixy camera is located at `~/ros2ws/src/nxp_cup_vision/nxp_cup_vision/nxp_track_vision.py` ​. You are free to edit this code if you see any potential areas of improvement!
 
-## Running the example self-driving algorithm
 
-To run the example self-driving algorithm, run the following command in the PX4 shell that is opened when you boot up the NXP Gazebo simulation:
 
-```text
-pxh> nxpcup_work start
-pxh> commander arm -f
-```
 
-When you run this command, a thread will be activated that should successfully drive the simulated NXP Cup car around the track.
 
 
 

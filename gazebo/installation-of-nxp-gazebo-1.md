@@ -42,16 +42,19 @@ Once you've done this, you're ready to begin installation.
 
 To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just run the following script:
 
-{% file src="../.gitbook/assets/foxy\_install.sh" caption="foxy\_install.sh" %}
+{% file src="../.gitbook/assets/foxy\_install\_nxp\_summer.sh" caption="ROS2 Install Script" %}
 
-{% hint style="info" %}
-You may need to run `chmod a+x foxy_install.sh` to make the script executable.
-{% endhint %}
-
-And then source ros2 by running the following commands:
+You can run it by using the following commands:
 
 ```text
-$ echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+$ cd ~/Downloads
+$ chmod a+x foxy_install_nxp_summer.sh
+$ ./foxy_install_nxp_summer.sh
+```
+
+And then source ROS2 by running the following command:
+
+```text
 $ source ~/.bashrc
 ```
 
@@ -93,7 +96,7 @@ Now that we have the bringup package set up, we can start installing all of the 
 $ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
 ```
 
-## You're finished!
+## You're finished installing NXP Gazebo!
 
 ![](https://thumbs.gfycat.com/CheerySizzlingGuillemot-mobile.mp4)
 
