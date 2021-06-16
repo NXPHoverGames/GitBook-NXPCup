@@ -83,8 +83,9 @@
 ## NXP Gazebo Summer Camp <a id="gazebo"></a>
 
 * [Introduction to NXP Gazebo Summer Camp](gazebo/introduction-why-gazebo.md)
-* [Installation of NXP Gazebo](gazebo/installation-of-nxp-gazebo-1.md)
-* [Running NXP Gazebo](gazebo/running-nxp-gazebo.md)
+* [Milestone 1 - Intro to NXP Gazebo and ROS](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/README.md)
+  * [Installation of NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/installation-of-nxp-gazebo-1.md)
+  * [Running NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/running-nxp-gazebo.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 
 ## HARDWARE REFERENCE

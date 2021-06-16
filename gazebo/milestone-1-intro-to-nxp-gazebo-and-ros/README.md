@@ -1,0 +1,36 @@
+# Milestone 1 - Intro to NXP Gazebo and ROS
+
+## Getting Started
+
+Hello NXP Summer Camp participants! We are excited for you all to participate this summer and become familiar with the NXP Gazebo environment, ROS, and more. This page will explain the details of NXP Gazebo, how to install the software environment, and how to run the simulation for the first time. Let's get started!
+
+## The NXP Gazebo environment
+
+NXP Gazebo is built on top of the Robot Operating System, commonly referred to as ROS. ROS allows us to create a true-to-life model of the entire NXP Cup environemnt - including the car, tracks, and obstacles. 
+
+![Image of the simulated NXP Cup Car](../../.gitbook/assets/image%20%2843%29.png)
+
+We also have been able to create a simulated Pixy Camera for use in simulation so your existing algorithms will work similarly to how they work on your real NXP Cup Car. 
+
+![Simulated Pixy Camera](../../.gitbook/assets/image%20%2842%29.png)
+
+The underlying platform for self-driving code is a ROS node. This node can be programmed in either C++ or Python. C++ will be more familiar to NXP Cup participants, but Python can be faster to prototype and test with due to the vast number of libraries available. Two ROS packages will be provided - one in Python and one in C++.
+
+## Installing the NXP Gazebo environment
+
+The NXP Gazebo environment is simple to install - you just need to run a script and a few commands. We have prepared a full guide for doing so on your machine. You can follow the link below to go to the guide and get started!
+
+{% hint style="warning" %}
+NOTE: You MUST be running Ubuntu 20.04 in either a Virtual Machine or in a native install. This simulation does not run on any other operating system.
+{% endhint %}
+
+{% page-ref page="installation-of-nxp-gazebo-1.md" %}
+
+## Running the NXP Gazebo environment
+
+Once you have installed NXP Gazebo, you can now run it on your machine! Please go to the link below to get started.
+
+{% page-ref page="running-nxp-gazebo.md" %}
+
+
+
