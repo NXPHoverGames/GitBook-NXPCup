@@ -47,16 +47,17 @@ Throughout the NXP Gazebo Summer Camp, contestants will be required to meet four
 ### Milestone 1 - Kick-off
 
 1. Obtain learning materials, documentation, videos, and more!
+2. Learn about Gazebo, ROS, and the NXP Gazebo environment
+3. Install and run the NXP Gazebo simulation
 
 ### Milestone 2 - Familiarizing yourself with NXP Gazebo
 
-1. Learn about Gazebo, ROS, and the NXP Gazebo environment
-2. Drive around the octagon track autonomously
+1. Write your own self-driving algorithm and improve upon the example!
+2. Stop at a stop sign for 3 seconds and then continue
 
 ### Milestone 3 - Simple reaction
 
-1. Stop for a stop sign for 3 seconds and then continue
-2. Avoid a stationary object obstructing the track
+1. Avoid a stationary object obstructing the track
 
 ### Milestone 4 - Advanced reaction
 

@@ -1,6 +1,6 @@
 # Running NXP Gazebo
 
-## Booting up Gazebo
+## Starting the NXP Gazebo environment
 
 Once you've installed NXP Gazebo, you can move on to running the example code provided to self-drive the car around a simple track. At the end of the "Installation of NXP Gazebo" guide, we ran a command in our terminal that booted up the stack. As a reminder, here's the command:
 
