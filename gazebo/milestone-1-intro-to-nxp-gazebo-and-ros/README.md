@@ -32,5 +32,10 @@ Once you have installed NXP Gazebo, you can now run it on your machine! Please g
 
 {% page-ref page="running-nxp-gazebo.md" %}
 
+## Deliverables
 
+For the 2nd Milestone call, participants will create a 5-10 minute video of their progress. We would like to see the following checklist items in your video:
+
+* [ ] Documentation of participants installing NXP Gazebo with feedback - was it easy to install? Hard? Let us know!
+* [ ] Running the NXP Gazebo environment - How does it run on your machine? Is your real-time factor 1.0? What's your fps? Did the vehicle spawn correctly and begin driving using the example line follower node?
 
