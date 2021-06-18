@@ -16,15 +16,11 @@ The simulation will start a program that allows you to view the simulated Pixy c
 
 ## Viewing the simulated Pixy camera
 
-### Preface
-
 In order to provide a true-to-life simulated environment for NXP Cup contestants, we have written a simulated Pixy camera module that detects lines and outputs vector data just like the real Pixy camera. The source code for the simulated Pixy camera uses OpenCV to fit vectors to detected lines in simulation.
 
 {% hint style="warning" %}
 The simulated Pixy Camera does not detect intersections. In a future milestone, you may have to handle intersections. These intersections will be handled by a method that does not involve Pixy camera intersections.
 {% endhint %}
-
-### Guide
 
 The simulation stack will open a new window that shows the debug output of the simulated Pixy camera. Here's what it looks like:
 
