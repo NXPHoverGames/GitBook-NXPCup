@@ -16,7 +16,7 @@ For information on System Requirements, Milestones, and more, read below!
 
 ![](../.gitbook/assets/image%20%2810%29.png)
 
-Gazebo is a full-fledged simulation environment that is compatible with PX4. In 2021, NXP Cup contestants may use the Gazebo simulation for an extra challenge at home. The benefit to using the Gazebo simulation environment is that you can test your code without crashing or damaging your actual NXP Cup car. The code modules that you run on your actual NXP Cup car can be ported to the Gazebo simulation environment \(and vice versa\) with ease.
+Gazebo is a full-fledged simulation environment built on top of ROS. In 2021, NXP Cup contestants may use the Gazebo simulation for an extra challenge at home. The benefit to using the Gazebo simulation environment is that you can test your code without crashing or damaging your actual NXP Cup car. The code modules that you run on your actual NXP Cup car can be ported to the Gazebo simulation environment \(and vice versa\) with ease.
 
 ## Can I run NXP Gazebo?
 
