@@ -57,8 +57,8 @@ Throughout the NXP Gazebo Summer Camp, contestants will be required to meet four
 
 ### Milestone 3 - Simple reaction
 
-1. Avoid a stationary object obstructing the track
-2. Stop at a stop sign for 3 seconds and then continue
+1. Stop at a stop sign for 3 seconds and then continue
+2. Avoid a stationary object obstructing the track
 
 ### Milestone 4 - Advanced reaction
 
