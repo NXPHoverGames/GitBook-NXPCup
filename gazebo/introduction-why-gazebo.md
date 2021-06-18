@@ -52,12 +52,13 @@ Throughout the NXP Gazebo Summer Camp, contestants will be required to meet four
 
 ### Milestone 2 - Familiarizing yourself with NXP Gazebo
 
-1. Write your own self-driving algorithm and improve upon the example!
-2. Stop at a stop sign for 3 seconds and then continue
+1. Drive around the track successfully using the example code
+2. Write your own self-driving algorithm and improve upon the example! See how fast you can go!
 
 ### Milestone 3 - Simple reaction
 
 1. Avoid a stationary object obstructing the track
+2. Stop at a stop sign for 3 seconds and then continue
 
 ### Milestone 4 - Advanced reaction
 
