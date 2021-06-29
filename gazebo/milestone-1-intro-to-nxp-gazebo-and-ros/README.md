@@ -21,7 +21,7 @@ The underlying platform for self-driving code is a ROS node. This node can be pr
 The NXP Gazebo environment is simple to install - you just need to run a script and a few commands. We have prepared a full guide for doing so on your machine. You can follow the link below to go to the guide and get started!
 
 {% hint style="warning" %}
-NOTE: You MUST be running Ubuntu 20.04 in either a Virtual Machine or in a native install. This simulation does not run on any other operating system.
+NOTE: You MUST be running Ubuntu 20.04 in either a Virtual Machine or in a native install. This simulation is not supported on any other operating system.
 {% endhint %}
 
 {% page-ref page="installation-of-nxp-gazebo-1.md" %}
