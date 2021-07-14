@@ -87,6 +87,7 @@
   * [Installation of NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/installation-of-nxp-gazebo-1.md)
   * [Running NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/running-nxp-gazebo.md)
   * [Basics of ROS and how to write your algorithms in NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/basics-of-ros-and-how-to-write-your-algorithms-in-nxp-gazebo.md)
+  * [Change between C++ and Python](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/change-between-c++-and-python.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 
 ## HARDWARE REFERENCE
