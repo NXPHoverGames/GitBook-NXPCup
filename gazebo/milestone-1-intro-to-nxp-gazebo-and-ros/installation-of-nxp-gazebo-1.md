@@ -47,6 +47,7 @@ To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just 
 You can run it by using the following commands:
 
 ```text
+$ sudo apt install curl
 $ cd ~/Downloads
 $ chmod a+x foxy_install_nxp_summer.sh
 $ ./foxy_install_nxp_summer.sh
