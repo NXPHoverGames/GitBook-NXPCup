@@ -1,7 +1,3 @@
----
-description: '[WORK IN PROGRESS]'
----
-
 # Introduction to NXP Gazebo Summer Camp
 
 ## Introduction
