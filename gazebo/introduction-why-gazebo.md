@@ -26,6 +26,7 @@ Minimum Requirements:
 
 * **CPU**: Quad-core Intel or AMD mobile processor or better \(i.e. Intel i5-8550U or AMD Ryzen 5 3500U\)
 * **GPU**: Intel UHD Graphics or better
+* **OS**: Ubuntu 20.04
 * **RAM**: 8GB \(Native Ubuntu\) / 16GB \(Virtual Machine\)
 * **Storage**: 50GB \(SSD highly recommended\)
 
@@ -33,6 +34,7 @@ Recommended Requirements:
 
 * **CPU**: Quad-core Intel or AMD desktop processor or better \(i.e. Intel i5-9400F or AMD Ryzen 5 2600\)
 * **GPU**: Dedicated Nvidia or AMD GPU \(i.e. Nvidia GTX 1060 or AMD RX 480\)
+* **OS**: Ubuntu 20.04
 * **RAM**: 16GB \(Native Ubuntu\)
 * **Storage**: 50GB \(SSD highly recommended\)
 
