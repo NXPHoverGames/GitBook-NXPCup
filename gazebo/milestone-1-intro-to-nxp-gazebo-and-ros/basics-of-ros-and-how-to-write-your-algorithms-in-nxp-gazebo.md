@@ -73,7 +73,7 @@ def publish_controls(self, speed, steer):
 
 All you need to do is call this function and pass it your speed and steer values!
 
-### Compiling the C++ node
+## Compiling the C++ node
 
 If you're using the C++ node, you will need to recompile the code each time you make a change. To do this, you need to open your terminal and run the following commands:
 
