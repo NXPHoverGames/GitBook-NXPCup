@@ -42,7 +42,7 @@ Once you've done this, you're ready to begin installation.
 
 To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just run the following script:
 
-{% file src="../../.gitbook/assets/foxy\_install\_nxp\_summer \(1\).sh" caption="ROS2 Install Script" %}
+{% file src="../../.gitbook/assets/foxy\_install\_nxp\_summer \(2\).sh" caption="NXP Gazebo Install Script" %}
 
 You can run it by using the following commands:
 
