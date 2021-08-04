@@ -20,9 +20,9 @@ If you're comfortable sharing your code, feel free to fork the `aim_line_follow_
 
 For Milestone 1 we asked you all to create a 5 minute video outlining your experience and what we could do to make the installation and initial setup better. For Milestone 2, we would like for you all to make a video showing:
 
-1. Screen recording of your fastest lap around the track using simulation time
-2. Difficulty of implementing your algorithms in the ROS nodes
-3. Was controlling the car with thrust and steer harder than with the real car?
+1. [ ] Screen recording of your fastest lap around the track using simulation time
+2. [ ] Difficulty of implementing your algorithms in the ROS nodes
+3. [ ] Was controlling the car with thrust and steer harder than with the real car?
 
 These things will help us determine our next steps!
 
