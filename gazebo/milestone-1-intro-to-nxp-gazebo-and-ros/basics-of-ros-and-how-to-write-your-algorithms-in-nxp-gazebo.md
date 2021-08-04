@@ -71,6 +71,14 @@ void publish_controls(double speed, double steer) {}
 def publish_controls(self, speed, steer):
 ```
 
+{% hint style="info" %}
+NOTE: The units for speed and steer are as follows:
+
+Speed: m/s
+
+Steer: rad/s
+{% endhint %}
+
 All you need to do is call this function and pass it your speed and steer values!
 
 ## Compiling the C++ node
