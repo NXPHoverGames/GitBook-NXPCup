@@ -88,7 +88,8 @@
   * [Running NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/running-nxp-gazebo.md)
   * [Basics of ROS and how to write your algorithms in NXP Gazebo](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/basics-of-ros-and-how-to-write-your-algorithms-in-nxp-gazebo.md)
   * [Change between C++ and Python](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/change-between-c++-and-python.md)
-* [Milestone 2 - Time to go fast!](gazebo/milestone-2-time-to-go-fast.md)
+* [Milestone 2 - Time to go fast!](gazebo/milestone-2-time-to-go-fast/README.md)
+  * [Configuring the simulation](gazebo/milestone-2-time-to-go-fast/configuring-the-simulation.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 
 ## HARDWARE REFERENCE
