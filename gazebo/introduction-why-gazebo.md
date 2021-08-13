@@ -42,13 +42,13 @@ Recommended Requirements:
 
 Throughout the NXP Gazebo Summer Camp, contestants will be required to meet four milestones within simulation. The milestones are as follows:
 
-### Milestone 1 - Kick-off
+### Milestone 1 - Intro to NXP Gazebo and ROS
 
 1. Obtain learning materials, documentation, videos, and more!
 2. Learn about Gazebo, ROS, and the NXP Gazebo environment
 3. Install and run the NXP Gazebo simulation
 
-### Milestone 2 - Familiarizing yourself with NXP Gazebo
+### Milestone 2 - Time to go fast!
 
 1. Drive around the track successfully using the example code
 2. Write your own self-driving algorithm and improve upon the example! See how fast you can go!

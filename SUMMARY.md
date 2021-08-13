@@ -90,6 +90,8 @@
   * [Change between C++ and Python](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/change-between-c++-and-python.md)
 * [Milestone 2 - Time to go fast!](gazebo/milestone-2-time-to-go-fast/README.md)
   * [Configuring the simulation](gazebo/milestone-2-time-to-go-fast/configuring-the-simulation.md)
+* [Milestone 3 - Simple Reaction](gazebo/milestone-3-simple-reaction/README.md)
+  * [Detecting AprilTags within simulation](gazebo/milestone-3-simple-reaction/detecting-apriltags-within-simulation.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 
 ## HARDWARE REFERENCE
