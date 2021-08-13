@@ -10,7 +10,7 @@ In NXP Gazebo, we use AprilTags to allow participants to detect objects within t
 
 ## How do I subscribe to the AprilTag detections topic?
 
-We have updated NXP Gazebo's example code to include a section about subscribing to AprilTags. You can find this example code within the "aim\_line_\__follow\_c.c" file. To update your NXP Gazebo, follow the page below:
+We have updated NXP Gazebo's example code to include a section about subscribing to AprilTags. You can find this example code within the "aim\_line_\__follow\_c.cpp" file. To update your NXP Gazebo, follow the page below:
 
 {% page-ref page="../updating-nxp-gazebo.md" %}
 
