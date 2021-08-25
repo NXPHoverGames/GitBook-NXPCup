@@ -14,7 +14,7 @@ In this challenge, two objects will be presented to participants:
 Each one of these objects will be placed on opposite ends of the track. It is your job, as participants, to create algorithms to deal with these objects. There are requirements for each object:
 
 1. Stop sign
-   1. Must stop at the stop sign for \(3\) seconds and then continue
+   1. Must stop at the stop sign for \(5\) seconds and then continue
 2. Object obstructing the road
    1. Must stop before the object for \(3\) seconds, go around the object without going off track, then continue
    2. Off-track is defined by the center of the car leaving the track's bounds.
