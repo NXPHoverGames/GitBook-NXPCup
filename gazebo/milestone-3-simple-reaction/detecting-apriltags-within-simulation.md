@@ -20,7 +20,7 @@ We have updated NXP Gazebo's example code to include a section about subscribing
 
 The IDs for each AprilTag are as follows:
 
-Stop sign - ID 0
+Stop sign: ID 0
 
-Object obstructing road - ID 1
+Object obstructing road: ID 1
 

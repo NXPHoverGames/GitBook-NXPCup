@@ -92,6 +92,7 @@
   * [Configuring the simulation](gazebo/milestone-2-time-to-go-fast/configuring-the-simulation.md)
 * [Milestone 3 - Simple Reaction](gazebo/milestone-3-simple-reaction/README.md)
   * [Detecting AprilTags within simulation](gazebo/milestone-3-simple-reaction/detecting-apriltags-within-simulation.md)
+  * [AprilTag Example Code Overview](gazebo/milestone-3-simple-reaction/apriltag-example-code-overview.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 
 ## HARDWARE REFERENCE
