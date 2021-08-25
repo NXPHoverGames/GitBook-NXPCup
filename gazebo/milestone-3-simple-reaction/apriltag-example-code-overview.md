@@ -1,6 +1,6 @@
 # AprilTag Example Code Overview
 
-## Subscribing to the /apriltag/detections topic
+## Subscribing to the `/apriltag/detections` topic
 
 The AprilTag detection node exposes a new topic called `/apriltag/detections`. This topic contains data detailing the ID of the AprilTag, the location within the image, and more. In NXP Gazebo, you will really only need the ID data.
 
@@ -8,7 +8,11 @@ If you want to see the full detail of the AprilTagDetection message, see below:
 
 {% embed url="https://github.com/christianrauch/apriltag\_msgs/blob/master/msg/AprilTagDetection.msg" %}
 
-To subscribe to the /apriltag/detections topic, we need to create a new subscriber. In the updated example code, you will find the following lines:
+{% hint style="info" %}
+The `/apriltag/detections` topic publishes a message called AprilTagDetectionArray - this message is an array of the message linked above. If more than one AprilTag is detected, you can use the array index to find each detection. In NXP Gazebo milestone 3, you will always use detection 0, as there is no case in which more than one detection will be found at any given time.
+{% endhint %}
+
+To subscribe to the `/apriltag/detections` topic, we need to create a new subscriber. In the updated example code, you will find the following lines:
 
 ```text
 apriltag_subscription_ = this->create_subscription<apriltag_msgs::msg::AprilTagDetectionArray>(
@@ -16,11 +20,11 @@ apriltag_subscription_ = this->create_subscription<apriltag_msgs::msg::AprilTagD
                               this, std::placeholders::_1));
 ```
 
-This section of code is similar to the simulated Pixy camera subscription, just adapted to the AprilTagDetectionArray message in the /apriltag/detections topic. You can see within this section of code we passed a new callback function called LineFollower::apriltag\_callback. This function will be run each time an AprilTagDetectionArray is published.
+This section of code is similar to the simulated Pixy camera subscription, just adapted to the AprilTagDetectionArray message in the `/apriltag/detections` topic. You can see within this section of code we passed a new callback function called `LineFollower::apriltag_callback`. This function will be run each time an AprilTagDetectionArray is published.
 
 ## Using the new callback function
 
-The new LineFollower::apriltag\_callback function will allow you to use the data from the /apriltag/detections topic at your disposal. An example function which prints out the ID of the detected AprilTag is included in the new example code.
+The new `LineFollower::apriltag_callback` function will allow you to use the data from the `/apriltag/detections` topic at your disposal. An example function which prints out the ID of the detected AprilTag is included in the new example code.
 
 ```text
   /*
