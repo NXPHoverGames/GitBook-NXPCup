@@ -4,6 +4,8 @@
 
 In Milestone 3, NXP Gazebo Summer Camp participants will use the included AprilTag software to detect objects and react to them within the simulation environment. These challenges are similar to what is used in the real NXP Cup competition to ensure that participants have a similar feel. Example code will be given for detecting AprilTags, but example code for manuevering objects will not.
 
+![](../../.gitbook/assets/image%20%2846%29.png)
+
 ## Requirements
 
 In this challenge, two objects will be presented to participants:
