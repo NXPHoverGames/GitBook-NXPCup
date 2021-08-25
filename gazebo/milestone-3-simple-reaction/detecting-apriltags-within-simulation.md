@@ -16,5 +16,11 @@ We have updated NXP Gazebo's example code to include a section about subscribing
 
 {% page-ref page="../updating-nxp-gazebo.md" %}
 
+## What are the AprilTag IDs?
 
+The IDs for each AprilTag are as follows:
+
+Stop sign - ID 0
+
+Object obstructing road - ID 1
 
