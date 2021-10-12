@@ -16,4 +16,4 @@ RDDRONE-FMUK66 Rev. C uses the new 10 pin connector for the Holybro GPS module. 
 
 ## Connector pinout
 
-Each connector has its own page with a pinout table and (a part of) the schematic of the connector. Some pages also include additional information relevant to the exposed interfaces. The connector specific pages are listed under this page.
+Each connector pinout can be viewed on the schematics. There may also be pages here that show the pinout table and (a part of) the schematic of the connector. Some pages also include additional information relevant to the exposed interfaces. The connector specific pages are listed under this page.
