@@ -10,7 +10,7 @@ To start building PX4 firmware from source, you should first install the PX4 too
 
 ## Install Git
 
-The minimal installation that we selected does not include Git by default. Git is a very popular distributed version-control system and you will probably use it a lot when developing software for the HoverGames.  It will also allow us to easily download \("clone"\) the PX4 code because it is available on GitHub, which is a Git-based source code hosting platform. 
+The minimal installation that we selected does not include Git by default. Git is a very popular distributed version-control system and you will probably use it a lot when developing software for the HoverGames.  It will also allow us to easily download ("clone") the PX4 code because it is available on GitHub, which is a Git-based source code hosting platform. 
 
 So let's install Git using the following command:
 
@@ -20,7 +20,7 @@ sudo apt install git
 
 ## Download the PX4 source code
 
-Before we install any tools we will download the PX4 source code. The PX4 developers have included a script that makes it much easier to install all required tools. Let's first create a folder to hold all sourcecode that we are going to work with. The following command creates the "src" folder in the user's home folder \(if it doesn't exist already\):
+Before we install any tools we will download the PX4 source code. The PX4 developers have included a script that makes it much easier to install all required tools. Let's first create a folder to hold all sourcecode that we are going to work with. The following command creates the "src" folder in the user's home folder (if it doesn't exist already):
 
 ```bash
 mkdir -p ~/src
@@ -52,7 +52,7 @@ Make sure to reboot your computer after the toolchain installation is finished. 
 cd ~/src/Firmware && make nxp_fmuk66-v3_default
 ```
 
-After the build process is done, you should be able to find `.bin`, `.px4` and `.elf` files in the `~/src/Firmware/build/nxp_fmuk66-v3_default` folder. We will later come back to building your own firmware binaries, when we set up an IDE \(integrated development environment\) to do it for us.
+After the build process is done, you should be able to find `.bin`, `.px4` and `.elf` files in the `~/src/Firmware/build/nxp_fmuk66-v3_default` folder. We will later come back to building your own firmware binaries, when we set up an IDE (integrated development environment) to do it for us.
 
 ## Install QGroundControl inside the VM
 
@@ -64,11 +64,11 @@ It is also a good idea to install the latest daily build release of QGroundContr
 
 Links to the daily builds are provided in the QGroundControl documentation. Inside your VM you need the Linux version, which is provided as an AppImage:
 
-{% embed url="https://docs.qgroundcontrol.com/en/releases/daily\_builds.html" %}
+{% embed url="https://docs.qgroundcontrol.com/en/releases/daily_builds.html" %}
 
 You don't need to install an AppImage. You only need to make it executable and run it. Move the AppImage file to your homefolder. Then, right click on the file, go to the file properties, and give the AppImage permission to execute as a program.
 
-![](../../../.gitbook/assets/29_vm_px4_toolchain.png)
+![](../../../.gitbook/assets/29\_VM_PX4\_Toolchain.PNG)
 
 Alternatively, you can make the file executable by running the command, assuming it is located in your home folder:
 
@@ -76,21 +76,20 @@ Alternatively, you can make the file executable by running the command, assuming
 
 More information about using an AppImage is available in the QGroundControl User Guide:
 
-{% embed url="https://docs.qgroundcontrol.com/en/getting\_started/download\_and\_install.html\#appimage" %}
+{% embed url="https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html#appimage" %}
 
-You are now ready to continue to the next section\(s\), in which we will set up an integrated development environment \(IDE\) to edit, build and debug the PX4 firmware. You can choose to install either [MCUXpresso](https://nxp.gitbook.io/nxp-cup/developer-guide/development-tools/rddrone-fmuk66-development/setting-up-mcuxpresso) \(recommended\) or [Visual Studio Code](https://nxp.gitbook.io/nxp-cup/developer-guide/development-tools/rddrone-fmuk66-development/setting-up-visual-studio-code), but you can also install both to see which one you like best.
+You are now ready to continue to the next section(s), in which we will set up an integrated development environment (IDE) to edit, build and debug the PX4 firmware. You can choose to install either [MCUXpresso](https://nxp.gitbook.io/nxp-cup/developer-guide/development-tools/rddrone-fmuk66-development/setting-up-mcuxpresso) (recommended) or [Visual Studio Code](https://nxp.gitbook.io/nxp-cup/developer-guide/development-tools/rddrone-fmuk66-development/setting-up-visual-studio-code), but you can also install both to see which one you like best.
 
 ## Instructions from the PX4 Developer Guide
 
 By following the steps provided above, you should be ready to build the PX4 firmware from source. In case you want more information, toolchain installation instructions are also available at the PX4 Developer Guide. **Note that you do not need to follow these instructions if you have already installed the toolchain according to the steps above.**
 
-{% embed url="https://dev.px4.io/master/en/setup/dev\_env\_linux.html" %}
+{% embed url="https://dev.px4.io/master/en/setup/dev_env_linux.html" %}
 
-For Linux computers, you only need to install the `Pixhawk/NuttX (and jMAVSim)` version \(so follow the steps at [https://dev.px4.io/master/en/setup/dev\_env\_linux.html](https://dev.px4.io/master/en/setup/dev_env_linux.html) up to the `Snapdragon Flight` heading\).
+For Linux computers, you only need to install the `Pixhawk/NuttX (and jMAVSim)` version (so follow the steps at [https://dev.px4.io/master/en/setup/dev_env_linux.html](https://dev.px4.io/master/en/setup/dev_env_linux.html) up to the `Snapdragon Flight` heading).
 
-For Windows computers, we recommend the Cygwin installation, which can be installed using the steps at [https://dev.px4.io/master/en/setup/dev\_env\_windows\_cygwin.html](https://dev.px4.io/master/en/setup/dev_env_windows_cygwin.html) up to the `Usage Instructions` heading. 
+For Windows computers, we recommend the Cygwin installation, which can be installed using the steps at [https://dev.px4.io/master/en/setup/dev_env_windows_cygwin.html](https://dev.px4.io/master/en/setup/dev_env_windows_cygwin.html) up to the `Usage Instructions` heading. 
 
-Another option for Windows users is to setup a Linux virtual machine and just install the Linux toolchain. That's exactly what we have done above, actually. The PX4 Developer Guide also provides a step-by-step guide for this: [https://dev.px4.io/master/en/setup/dev\_env\_windows\_vm.html](https://dev.px4.io/master/en/setup/dev_env_windows_vm.html)
+Another option for Windows users is to setup a Linux virtual machine and just install the Linux toolchain. That's exactly what we have done above, actually. The PX4 Developer Guide also provides a step-by-step guide for this: [https://dev.px4.io/master/en/setup/dev_env_windows_vm.html](https://dev.px4.io/master/en/setup/dev_env_windows_vm.html)
 
-Instructions for Mac OS are available as well, at [https://dev.px4.io/en/setup/dev\_env\_mac.html](https://dev.px4.io/master/en/setup/dev_env_mac.html).
-
+Instructions for Mac OS are available as well, at [https://dev.px4.io/en/setup/dev_env_mac.html](https://dev.px4.io/master/en/setup/dev_env_mac.html).

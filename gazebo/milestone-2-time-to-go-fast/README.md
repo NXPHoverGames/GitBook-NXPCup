@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of Milestone 2 is for NXP Cup participants to develop their algorithms into the NXP Gazebo simulation environment. Use either the `aim_line_follow_c` _or_ `aim_line_follow` ROS nodes to do so. We already went over how to do this in the last milestone, but now it is time for you all to really hit the ground running and put your algorithms to the test!
+The objective of Milestone 2 is for NXP Cup participants to develop their algorithms into the NXP Gazebo simulation environment. Use either the `aim_line_follow_c`_ or _`aim_line_follow` ROS nodes to do so. We already went over how to do this in the last milestone, but now it is time for you all to really hit the ground running and put your algorithms to the test!
 
 ## Caveats
 
@@ -10,17 +10,15 @@ Because the simulated car does not have bare PWM outputs, we know that it may be
 
 ## Share your code!
 
-If you're comfortable sharing your code, feel free to fork the `aim_line_follow_c` _or_  `aim_line_follow` git repositories and push your changes. We would love to see how you all implement your algorithms and how you manage using ROS2.
+If you're comfortable sharing your code, feel free to fork the `aim_line_follow_c`_ or  _`aim_line_follow` git repositories and push your changes. We would love to see how you all implement your algorithms and how you manage using ROS2.
 
 ## Submission for next milestone call
 
 For Milestone 1 we asked you all to create a 5 minute video outlining your experience and what we could do to make the installation and initial setup better. For Milestone 2, we would like for you all to make a video showing:
 
-1. [ ] Screen recording of your fastest lap around the track using simulation time
-2. [ ] Difficulty of implementing your algorithms in the ROS nodes
-3. [ ] Was controlling the car with thrust and steer harder than with the real car?
+* [ ] Screen recording of your fastest lap around the track using simulation time
+* [ ] Difficulty of implementing your algorithms in the ROS nodes
+* [ ] Was controlling the car with thrust and steer harder than with the real car?
 
 These things will help us determine our next steps!
-
-
 

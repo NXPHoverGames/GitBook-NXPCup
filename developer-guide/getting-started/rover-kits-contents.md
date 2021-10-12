@@ -16,9 +16,9 @@ The NXP RDDRONE-FMUK66 flight management unit is the brain of the HoverGames dro
 
 The FMU comes with a 3D printed enclosure, which can be mounted on top of the drone with double-sided tape. A microSD card is also included.
 
-![The RDDRONE-FMUK66 in its 3D printed enclosure \(bottom part only\).](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9GLtb-Tz_XaKbQu-Al%2F-LbcBkKUiFK3we9kKjld%2F-LbcGVsZrZONlvrG0dzI%2Ffmurevc.jpg?alt=media&token=489a5200-6a00-4ed0-b962-4cdedd4925e4)
+![The RDDRONE-FMUK66 in its 3D printed enclosure (bottom part only).](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9GLtb-Tz_XaKbQu-Al%2F-LbcBkKUiFK3we9kKjld%2F-LbcGVsZrZONlvrG0dzI%2Ffmurevc.jpg?alt=media\&token=489a5200-6a00-4ed0-b962-4cdedd4925e4)
 
-## RDDRONE-CUPK64 \(AKA MCU ARC Board\)
+## RDDRONE-CUPK64 (AKA MCU ARC Board)
 
 * 1x Mainboard
 * 3x Screws M2.5
@@ -35,6 +35,5 @@ The FMU comes with a 3D printed enclosure, which can be mounted on top of the dr
 
 * 1x Camera
 * 1x Micro-USB to USB cable
-* 1x Data cable for Pixy \(not needed for NXP Cup setup\)
-* srews and angles for mounting \(not needed for NXP Cup\)
-
+* 1x Data cable for Pixy (not needed for NXP Cup setup)
+* srews and angles for mounting (not needed for NXP Cup)

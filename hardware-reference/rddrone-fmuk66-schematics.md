@@ -12,5 +12,6 @@ The schematics for different revisions of of RDDRONE-FMUK66 are available as PDF
 Rev. C is the latest revision of the RDDRONE-FMUK66.
 {% endhint %}
 
-{% file src="../.gitbook/assets/spf-39053-bx14-1-.pdf" caption="RDDRONE-FMUK66 Schematics Rev. C" %}
-
+{% file src="../.gitbook/assets/SPF-39053-bx14 (1).pdf" %}
+RDDRONE-FMUK66 Schematics Rev. C
+{% endfile %}

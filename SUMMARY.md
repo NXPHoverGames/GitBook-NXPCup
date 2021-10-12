@@ -18,7 +18,7 @@
     * [Rear wheels and top plate](developer-guide/assembly/dfrobot-chassis/mounting-of-the-top-plate.md)
     * [Camera mount](developer-guide/assembly/dfrobot-chassis/camera-mount.md)
   * [Known Issues](developer-guide/assembly/known-issues.md)
-  * [RDDRONE-CUPK64 \(AKA Micro E board or ARC board\)](developer-guide/assembly/using-the-arc-board.md)
+  * [RDDRONE-CUPK64 (AKA Micro E board or ARC board)](developer-guide/assembly/using-the-arc-board.md)
   * [RDDRONE-FMUK66](developer-guide/assembly/rddrone-fmuk66/README.md)
     * [FMU enclosure](developer-guide/assembly/rddrone-fmuk66/fmu-enclosure.md)
     * [FMU assembly](developer-guide/assembly/rddrone-fmuk66/fmu-assembly.md)
@@ -45,10 +45,10 @@
         * [Power](developer-guide/development-tools/rddrone-fmuk66-development/commissioning-the-rddrone-fmuk66/px4-configuration-using-qgroundcontrol/power.md)
     * [Working with the Example-Application](developer-guide/development-tools/rddrone-fmuk66-development/the-example-application.md)
     * [Adding distance sensors to the FMUK66](developer-guide/development-tools/rddrone-fmuk66-development/adding-distance-sensors-to-the-fmuk66.md)
-* [Landzo car model \(OLD\)](developer-guide/landzo-car-model/README.md)
+* [Landzo car model (OLD)](developer-guide/landzo-car-model/README.md)
   * [Hardware](developer-guide/landzo-car-model/kit-contents/README.md)
     * [NXP FRDM-KL25Z](developer-guide/landzo-car-model/kit-contents/electronics.md)
-    * [Model Alamak -&gt;out of order](developer-guide/landzo-car-model/kit-contents/model-alamak/README.md)
+    * [Model Alamak ->out of order](developer-guide/landzo-car-model/kit-contents/model-alamak/README.md)
       * [Special: Camera module](developer-guide/landzo-car-model/kit-contents/model-alamak/kit-contents-camera-module.md)
       * [Special: Camera Mount](developer-guide/landzo-car-model/kit-contents/model-alamak/kit-contents-camera-mount.md)
   * [Assembly](developer-guide/landzo-car-model/assembly/README.md)
@@ -80,7 +80,7 @@
     * [LCD Module](developer-guide/landzo-car-model/known-issues/lcd-module.md)
     * [FRDM Board Socket Headers](developer-guide/landzo-car-model/known-issues/frdm-board-socket-headers.md)
 
-## NXP Gazebo Summer Camp <a id="gazebo"></a>
+## NXP Gazebo Summer Camp <a href="gazebo" id="gazebo"></a>
 
 * [Introduction to NXP Gazebo Summer Camp](gazebo/introduction-why-gazebo.md)
 * [Milestone 1 - Intro to NXP Gazebo and ROS](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/README.md)
@@ -95,10 +95,11 @@
   * [AprilTag Example Code Overview](gazebo/milestone-3-simple-reaction/apriltag-example-code-overview.md)
 * [Milestone 4 - Advanced Reaction](gazebo/milestone-4-advanced-reaction.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
+* [Video Tutorials](gazebo/video-tutorials.md)
 
 ## HARDWARE REFERENCE
 
-* [RDDRONE-CUPK64 \(AKA ARC Board\) schematics](hardware-reference/arc-board-schematics.md)
+* [RDDRONE-CUPK64 (AKA ARC Board) schematics](hardware-reference/arc-board-schematics.md)
 * [RDDRONE-FMUK66 Schematics](hardware-reference/rddrone-fmuk66-schematics.md)
 * [FMU Connectors and pinout](hardware-reference/connectors-and-pinout.md)
 
@@ -123,4 +124,3 @@
 ## NavQ on NXP Cup Car
 
 * [Setting up NavQ for use on the NXP Cup Car](navq-on-nxp-cup-car/setting-up-navq-for-use-on-the-nxp-cup-car.md)
-

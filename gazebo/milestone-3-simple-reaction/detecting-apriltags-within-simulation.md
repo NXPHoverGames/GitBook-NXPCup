@@ -2,9 +2,9 @@
 
 ## What's an AprilTag?
 
-An AprilTag is sort of like a QR code, but specifically for robotics. Because our cell phones typically have high resolution cameras, QR codes are quite high resolution. In robotics, camera resolutions are commonly quite low \(think 320x240\). AprilTags are a type of QR code specifically for low resolution cameras within the robotics space.
+An AprilTag is sort of like a QR code, but specifically for robotics. Because our cell phones typically have high resolution cameras, QR codes are quite high resolution. In robotics, camera resolutions are commonly quite low (think 320x240). AprilTags are a type of QR code specifically for low resolution cameras within the robotics space.
 
-![Obstacle 1 in NXP Gazebo](../../.gitbook/assets/image%20%2845%29.png)
+![Obstacle 1 in NXP Gazebo](<../../.gitbook/assets/image (46).png>)
 
 ## Why are we using them?
 
@@ -12,9 +12,11 @@ In NXP Gazebo, we use AprilTags to allow participants to detect objects within t
 
 ## How do I subscribe to the AprilTag detections topic?
 
-We have updated NXP Gazebo's example code to include a section about subscribing to AprilTags. You can find this example code within the "aim\_line_\__follow\_c.cpp" file. To update your NXP Gazebo, follow the page below:
+We have updated NXP Gazebo's example code to include a section about subscribing to AprilTags. You can find this example code within the "aim_line_\__follow_c.cpp" file. To update your NXP Gazebo, follow the page below:
 
-{% page-ref page="../updating-nxp-gazebo.md" %}
+{% content-ref url="../updating-nxp-gazebo.md" %}
+[updating-nxp-gazebo.md](../updating-nxp-gazebo.md)
+{% endcontent-ref %}
 
 ## What are the AprilTag IDs?
 
@@ -23,4 +25,3 @@ The IDs for each AprilTag are as follows:
 Stop sign: ID 0
 
 Object obstructing road: ID 1
-

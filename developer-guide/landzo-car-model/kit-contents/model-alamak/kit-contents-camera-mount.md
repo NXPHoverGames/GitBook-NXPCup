@@ -7,7 +7,6 @@ The camera mount system consists of a:
 * Rod Base 
 * Screws and nuts for the rod base
 
-![](../../../../.gitbook/assets/IMG_20171221_134543.png)
+![](../../../../.gitbook/assets/IMG\_20171221\_134543.png)
 
-![](../../../../.gitbook/assets/IMG_20171221_134628.png)
-
+![](../../../../.gitbook/assets/IMG\_20171221\_134628.png)

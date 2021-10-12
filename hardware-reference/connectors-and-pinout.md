@@ -10,11 +10,10 @@ description: >-
 
 RDDRONE-FMUK66 Rev. C uses the new 10 pin connector for the Holybro GPS module. That GPS module incorporates the arming button and LED, as well as the beeper and an RGB high intensity LED.
 
-![Port locations on the RDDRONE-FMUK66 Rev. C. ](../.gitbook/assets/fmu-aufkleber.png)
+![Port locations on the RDDRONE-FMUK66 Rev. C. ](../.gitbook/assets/FMU-Aufkleber.png)
 
-![Servorail on the bottom of the FMU. It has a BEC input and PWM outputs.](../.gitbook/assets/servo_pinout%20%281%29.png)
+![Servorail on the bottom of the FMU. It has a BEC input and PWM outputs.](../.gitbook/assets/servo_pinout.png)
 
 ## Connector pinout
 
-Each connector has its own page with a pinout table and \(a part of\) the schematic of the connector. Some pages also include additional information relevant to the exposed interfaces. The connector specific pages are listed under this page.
-
+Each connector has its own page with a pinout table and (a part of) the schematic of the connector. Some pages also include additional information relevant to the exposed interfaces. The connector specific pages are listed under this page.

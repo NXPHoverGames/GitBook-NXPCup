@@ -18,11 +18,14 @@ If you have any other issues with building the DFRobot chassis, or want to make 
 You may also use the contact information in the "Contact" page linked below.
 {% endhint %}
 
-{% page-ref page="../known-issues.md" %}
+{% content-ref url="../known-issues.md" %}
+[known-issues.md](../known-issues.md)
+{% endcontent-ref %}
 
-{% page-ref page="../../../welcome-to-nxp-cup.md" %}
+{% content-ref url="../../../welcome-to-nxp-cup.md" %}
+[welcome-to-nxp-cup.md](../../../welcome-to-nxp-cup.md)
+{% endcontent-ref %}
 
-![Front view of the DFRobot chassis](../../../.gitbook/assets/chassis_1.jpg)
+![Front view of the DFRobot chassis](../../../.gitbook/assets/Chassis\_1.jpg)
 
-![Side view of the DFRobot chassis](../../../.gitbook/assets/chassis_3.jpg)
-
+![Side view of the DFRobot chassis](../../../.gitbook/assets/Chassis\_3.jpg)

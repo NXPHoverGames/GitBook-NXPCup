@@ -1,4 +1,4 @@
-# Overview of the self-driving example code \[PX4\]
+# Overview of the self-driving example code \[PX4]
 
 ## Quick guide
 
@@ -10,7 +10,7 @@ Inside the NXP Gazebo stack, there is a pre-determined function for self-driving
 
 The `pixy_vector_s` data structure is outlined in a uORB topic definition within the PX4 firmware. Here is the contents of that uORB topic: 
 
-```text
+```
 uint64 timestamp
 # Vector 0 head and tail points
 uint8 m0_x0    # Tail of vector @ x
@@ -29,14 +29,14 @@ This data structure contains the head and tail points of two vectors from the si
 
 In the example code provided, we create two `Vector` variables and store the data from the `pixy` argument in the function. To do this we provide a function called `Vector copy_vectors(const pixy_vector_s &pixy, uint8_t num)` to perform this copy. You can see this at lines 74 and 75:
 
-```text
+```
 Vector vec1 = copy_vectors(pixy, 1);
 Vector vec2 = copy_vectors(pixy, 2);
 ```
 
 The Vector data structure is outlined in `nxpcup_race.h` and is as follows:
 
-```text
+```
 struct Vector
 {
 	void print()
@@ -54,13 +54,13 @@ struct Vector
 };
 ```
 
-The data structure contains `uint8_t` variables for the head and tail points of a vector \(or line segment\). This is the same way that the real pixy camera presents line data, so your existing self-driving code should be compatible. The Vector struct also contains a print statement for debugging purposes.
+The data structure contains `uint8_t` variables for the head and tail points of a vector (or line segment). This is the same way that the real pixy camera presents line data, so your existing self-driving code should be compatible. The Vector struct also contains a print statement for debugging purposes.
 
 Once we have copied vector data into the `Vector` data structure, we initialize some variables such as `frameHeight`, `frameWidth`, and `window_center`. These variables are for calculating steering angle, and we will go over that later in this guide.
 
 Next, we create a data structure with the type `roverControl`. This type is as follows:
 
-```text
+```
 struct roverControl {
 	float steer;
 	float speed;
@@ -85,7 +85,7 @@ The switch statement within `nxpcup_race.cpp` performs different instructions de
 
 #### Case 0
 
-If no vectors are found \(case 0\), then a timer will start and tell the vehicle to stop after 10000 usec. 
+If no vectors are found (case 0), then a timer will start and tell the vehicle to stop after 10000 usec. 
 
 #### Case 2
 
@@ -98,4 +98,3 @@ If one vector is found, the case will switch to default. The default case finds 
 ### Return
 
 Finally, the `control` variable will be returned for use in `nxpcup_work.cpp`.
-

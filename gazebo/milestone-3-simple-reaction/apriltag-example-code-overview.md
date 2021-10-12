@@ -6,7 +6,7 @@ The AprilTag detection node exposes a new topic called `/apriltag/detections`. T
 
 If you want to see the full detail of the AprilTagDetection message, see below:
 
-{% embed url="https://github.com/christianrauch/apriltag\_msgs/blob/master/msg/AprilTagDetection.msg" %}
+{% embed url="https://github.com/christianrauch/apriltag_msgs/blob/master/msg/AprilTagDetection.msg" %}
 
 {% hint style="info" %}
 The `/apriltag/detections` topic publishes a message called AprilTagDetectionArray - this message is an array of the message linked above. If more than one AprilTag is detected, you can use the array index to find each detection. In NXP Gazebo milestone 3, you will always use detection 0, as there is no case in which more than one detection will be found at any given time.
@@ -14,7 +14,7 @@ The `/apriltag/detections` topic publishes a message called AprilTagDetectionArr
 
 To subscribe to the `/apriltag/detections` topic, we need to create a new subscriber. In the updated example code, you will find the following lines:
 
-```text
+```
 apriltag_subscription_ = this->create_subscription<apriltag_msgs::msg::AprilTagDetectionArray>(
                               "/apriltag/detections", 10, std::bind(&LineFollower::apriltag_callback,
                               this, std::placeholders::_1));
@@ -26,7 +26,7 @@ This section of code is similar to the simulated Pixy camera subscription, just 
 
 The new `LineFollower::apriltag_callback` function will allow you to use the data from the `/apriltag/detections` topic at your disposal. An example function which prints out the ID of the detected AprilTag is included in the new example code.
 
-```text
+```
   /*
    * NXP SUMMER CAMP PARTICIPANTS:
    * This code just shows you how to retrieve the data from the
@@ -51,4 +51,3 @@ Note that the function looks for the first AprilTag detected. Within NXP Gazebo,
 ## Questions?
 
 If you have questions, please don't hesitate to ask Landon in the NXP Gazebo Summer Camp Teams channel!
-

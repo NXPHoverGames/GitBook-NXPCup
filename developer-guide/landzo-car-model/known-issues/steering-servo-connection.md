@@ -6,9 +6,8 @@ The steering servo connection is somewhat tight for the servo provided in the ki
 
 ## See the pictures below for the correct orientation:
 
-![](../../../.gitbook/assets/IMG_20171221_140243.jpg)
+![](../../../.gitbook/assets/IMG\_20171221\_140243.jpg)
 
-![](../../../.gitbook/assets/IMG_20171221_140232.jpg)
+![](../../../.gitbook/assets/IMG\_20171221\_140232.jpg)
 
-![](../../../.gitbook/assets/IMG_20171221_140251.jpg)
-
+![](../../../.gitbook/assets/IMG\_20171221\_140251.jpg)

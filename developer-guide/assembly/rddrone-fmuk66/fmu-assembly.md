@@ -12,7 +12,6 @@ The GPS is just used because of the button at the GPS module. You can run the ro
 But if you like to use the rover outside, the GPS may also be useful.
 {% endhint %}
 
-![Top view of the DFRobot chassis with the FMU installed.](../../../.gitbook/assets/dfr_top_view.jpg)
+![Top view of the DFRobot chassis with the FMU installed.](../../../.gitbook/assets/DFR_top_view.jpg)
 
-![Top view of the DFRobot chassis with the FMU.](../../../.gitbook/assets/chassis+fmu_4.jpg)
-
+![Top view of the DFRobot chassis with the FMU.](../../../.gitbook/assets/Chassis+FMU\_4.jpg)

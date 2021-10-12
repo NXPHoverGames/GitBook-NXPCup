@@ -10,18 +10,18 @@ All relevant information is available in the QGroundControl documentation. Below
 
 ## Battery Percentage
 
-For correct display of battery percentage, you should always specify the correct number of cells in the battery \(indicated by 3S, 4S, etc. on the battery\). You should also calculate the value for the voltage divider to calibrate the voltage readings coming from the power module. This can be done by measuring the voltage of the connected battery using a volt- or multi-meter, and inserting the measured voltage into the `Calculate Voltage Divider` prompt. Together, these settings will provide you with an accurate battery percentage while the drone is idle on the ground, so you can determine whether it is still safe to take off. PX4 also has a fail-safe that prevents arming when the battery percentage is too low.
+For correct display of battery percentage, you should always specify the correct number of cells in the battery (indicated by 3S, 4S, etc. on the battery). You should also calculate the value for the voltage divider to calibrate the voltage readings coming from the power module. This can be done by measuring the voltage of the connected battery using a volt- or multi-meter, and inserting the measured voltage into the `Calculate Voltage Divider` prompt. Together, these settings will provide you with an accurate battery percentage while the drone is idle on the ground, so you can determine whether it is still safe to take off. PX4 also has a fail-safe that prevents arming when the battery percentage is too low.
 
 {% hint style="info" %}
 If you don't have a multimeter, keep in mind that a fully charged 4S battery should have a voltage close to 16.8 V, and a 3S battery should be 12.6 V. When you have a fully charged battery connected, you could use those approximations because they would be very close to the actual value. This should give decent results in the end.
 {% endhint %}
 
-![](../../../../../.gitbook/assets/qgc_battery.png)
+![](../../../../../.gitbook/assets/QGC_battery.png)
 
 For a better indication of the battery percentage when the drone is flying, you should also calculate the  Amps per volt value: this will allow the software to calculate the battery voltage based on current draw, correctly taking high-load voltage drop into account. The calculation can be performed by measuring the current through the drone when it is idle, and inserting the value into the `Calculate Amps per Volt` prompt. After calculating the correct Amps per Volt value, the battery percentage will also be correct during flight. This will allow you to determine how much flight-time you have remaining during flight. It also allows you to make use of more advanced PX4 fail-safes based on battery percentage, such as automatically returning home and landing when the battery percentage gets too low.
 
 {% hint style="info" %}
-It might not be easy to measure the current flow if you don't have the right tools. We have found that the whole system draws about 0.15 to 0.20A when disarmed \(no motors spinning\). You can use this to make an educated guess, which will give decent results if you are not able to perform the measurements.
+It might not be easy to measure the current flow if you don't have the right tools. We have found that the whole system draws about 0.15 to 0.20A when disarmed (no motors spinning). You can use this to make an educated guess, which will give decent results if you are not able to perform the measurements.
 {% endhint %}
 
 If you still have issues with incorrect battery percentages, it is possible to manually specify the voltage drop under Advanced power settings. This voltage drop can be determined based on flight logs by looking at the difference in voltage when the drone takes off.
@@ -34,18 +34,17 @@ To ensure that all motors correctly respond to commands coming from the FMU, you
 You should always perform the ESC calibration. Uncalibrated ESCs can make your roverunable to drive. 
 {% endhint %}
 
-## PWM settings for the motor output <a id="pwm-settings-for-the-motor-output"></a>
+## PWM settings for the motor output <a href="pwm-settings-for-the-motor-output" id="pwm-settings-for-the-motor-output"></a>
 
 The default settings for the PWM motor output do not work for the ESC supplied. Change the following parameter in QGroundControl:
 
 In the parameter tab of QGroundControl go to "PWM Outputs". Than change
 
-* **PWM\_MAIN\_DIS3** to **1485** us
-* **PWM\_MAIN\_DIS4** to **1485** us
-* **PWM\_MAIN\_FAIL3** to **1485** us
-* **PWM\_MAIN\_FAIl4** to **1485** us
-* **PWM\_MAIN\_MIN3** to **985** us
-* **PWM\_MAIN\_MIN4** to **985** us
+* **PWM_MAIN_DIS3** to **1485** us
+* **PWM_MAIN_DIS4** to **1485** us
+* **PWM_MAIN_FAIL3** to **1485** us
+* **PWM_MAIN_FAIl4** to **1485** us
+* **PWM_MAIN_MIN3** to **985** us
+* **PWM_MAIN_MIN4** to **985** us
 
-![](https://gblobscdn.gitbook.com/assets%2F-L9GLtaxrQtBdBRsFIJB%2F-M-xSxDuwpWNvlC25tP1%2F-M-y3AEy8FbYKNw-vjNG%2FQGC_PWM_Outputs_edit_new_edit.png?alt=media&token=818cf9ed-9e1c-4a04-8f5a-f58c6b4b710c)
-
+![](https://gblobscdn.gitbook.com/assets%2F-L9GLtaxrQtBdBRsFIJB%2F-M-xSxDuwpWNvlC25tP1%2F-M-y3AEy8FbYKNw-vjNG%2FQGC_PWM_Outputs_edit_new_edit.png?alt=media\&token=818cf9ed-9e1c-4a04-8f5a-f58c6b4b710c)

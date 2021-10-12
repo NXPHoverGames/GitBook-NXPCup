@@ -5,21 +5,20 @@ description: >-
   board with preset inputs for encoders, multip
 ---
 
-# Model Alamak -&gt;out of order
+# Model Alamak ->out of order
 
-![](../../../../.gitbook/assets/grafik%20%283%29.png)
+![](<../../../../.gitbook/assets/grafik (10).png>)
 
-![](../../../../.gitbook/assets/grafik%20%288%29.png)
+![](<../../../../.gitbook/assets/grafik (3).png>)
 
-![](../../../../.gitbook/assets/grafik%20%289%29.png)
+![](<../../../../.gitbook/assets/grafik (4).png>)
 
-![](../../../../.gitbook/assets/grafik%20%285%29.png)
+![](<../../../../.gitbook/assets/grafik (5).png>)
 
-![](../../../../.gitbook/assets/grafik%20%284%29.png)
+![](<../../../../.gitbook/assets/grafik (6).png>)
 
-![](../../../../.gitbook/assets/grafik%20%287%29.png)
+![](<../../../../.gitbook/assets/grafik (7).png>)
 
-![](../../../../.gitbook/assets/grafik%20%282%29.png)
+![](<../../../../.gitbook/assets/grafik (8).png>)
 
-![](../../../../.gitbook/assets/grafik%20%286%29.png)
-
+![](<../../../../.gitbook/assets/grafik (9).png>)

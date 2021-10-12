@@ -12,9 +12,8 @@ Connectors needed are:
 
 ![](../../../.gitbook/assets/FRDM-KL25Z.png)
 
-These socket headers follow the conventional 0.100"x 0.100" \(2.54mmx2.54mm\) pin spacing shown below
+These socket headers follow the conventional 0.100"x 0.100" (2.54mmx2.54mm) pin spacing shown below
 
-* [**An example of these components from Mouser**](https://www.mouser.com/Connectors/Board-to-Board-Mezzanine-Connectors/_/N-ay0kr?P=1ytkls1Z1yvgchuZ1ytkn39Z1ytkn06Z1z0j1prZ1z0z5h6Z1z0wxp6Z1z0zlewZ1z0zlg8&Keyword=2.54mm&FS=True)
+* [**An example of these components from Mouser**](https://www.mouser.com/Connectors/Board-to-Board-Mezzanine-Connectors/\_/N-ay0kr?P=1ytkls1Z1yvgchuZ1ytkn39Z1ytkn06Z1z0j1prZ1z0z5h6Z1z0wxp6Z1z0zlewZ1z0zlg8\&Keyword=2.54mm\&FS=True)
 
 ![](../../../.gitbook/assets/PP_CXX2LFBN_FTPRNT.jpg)
-

@@ -10,9 +10,9 @@ For information on System Requirements, Milestones, and more, read below!
 
 ## What's Gazebo?
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](<../.gitbook/assets/image (10).png>)
 
-Gazebo is a full-fledged simulation environment built on top of ROS. In 2021, NXP Cup contestants may use the Gazebo simulation for an extra challenge at home. The benefit to using the Gazebo simulation environment is that you can test your code without crashing or damaging your actual NXP Cup car. The code modules that you run on your actual NXP Cup car can be ported to the Gazebo simulation environment \(and vice versa\) with ease.
+Gazebo is a full-fledged simulation environment built on top of ROS. In 2021, NXP Cup contestants may use the Gazebo simulation for an extra challenge at home. The benefit to using the Gazebo simulation environment is that you can test your code without crashing or damaging your actual NXP Cup car. The code modules that you run on your actual NXP Cup car can be ported to the Gazebo simulation environment (and vice versa) with ease.
 
 ## Can I run NXP Gazebo?
 
@@ -24,19 +24,19 @@ It is HIGHLY RECOMMENDED that you run NXP Gazebo in a native Ubuntu installation
 
 Minimum Requirements:
 
-* **CPU**: Quad-core Intel or AMD mobile processor or better \(i.e. Intel i5-8550U or AMD Ryzen 5 3500U\)
+* **CPU**: Quad-core Intel or AMD mobile processor or better (i.e. Intel i5-8550U or AMD Ryzen 5 3500U)
 * **GPU**: Intel UHD Graphics or better
 * **OS**: Ubuntu 20.04
-* **RAM**: 8GB \(Native Ubuntu\) / 16GB \(Virtual Machine\)
-* **Storage**: 50GB \(SSD highly recommended\)
+* **RAM**: 8GB (Native Ubuntu) / 16GB (Virtual Machine)
+* **Storage**: 50GB (SSD highly recommended)
 
 Recommended Requirements:
 
-* **CPU**: Quad-core Intel or AMD desktop processor or better \(i.e. Intel i5-9400F or AMD Ryzen 5 2600\)
-* **GPU**: Dedicated Nvidia or AMD GPU \(i.e. Nvidia GTX 1060 or AMD RX 480\)
+* **CPU**: Quad-core Intel or AMD desktop processor or better (i.e. Intel i5-9400F or AMD Ryzen 5 2600)
+* **GPU**: Dedicated Nvidia or AMD GPU (i.e. Nvidia GTX 1060 or AMD RX 480)
 * **OS**: Ubuntu 20.04
-* **RAM**: 16GB \(Native Ubuntu\)
-* **Storage**: 50GB \(SSD highly recommended\)
+* **RAM**: 16GB (Native Ubuntu)
+* **Storage**: 50GB (SSD highly recommended)
 
 ## Milestones
 
@@ -67,9 +67,9 @@ Throughout the NXP Gazebo Summer Camp, contestants will be required to meet four
 
 Continue to the next section to start installing the required software for the Gazebo simulation environment. Soon you will be running the environment shown below!
 
-{% page-ref page="milestone-1-intro-to-nxp-gazebo-and-ros/" %}
+{% content-ref url="milestone-1-intro-to-nxp-gazebo-and-ros/" %}
+[milestone-1-intro-to-nxp-gazebo-and-ros](milestone-1-intro-to-nxp-gazebo-and-ros/)
+{% endcontent-ref %}
 
-![NXP Cup Car in Gazebo Simulation](../.gitbook/assets/image%20%2811%29.png)
-
-
+![NXP Cup Car in Gazebo Simulation](<../.gitbook/assets/image (11).png>)
 

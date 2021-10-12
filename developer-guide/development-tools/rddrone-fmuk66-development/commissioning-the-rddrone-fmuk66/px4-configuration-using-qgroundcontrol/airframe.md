@@ -10,7 +10,6 @@ In the _airframe_ screen, under the _Rover_ configurations, select the _Generic 
 As of 1/22/21, PX4 and QGroundControl now have an option for the NXP Cup Rover when setting up the "Airframe". Instead of Generic Ground Vehicle as pictured below, use the drop-down menu and select the NXP Cup Rover airframe.
 {% endhint %}
 
-{% embed url="https://docs.qgroundcontrol.com/en/SetupView/airframe\_px4.html" %}
+{% embed url="https://docs.qgroundcontrol.com/en/SetupView/airframe_px4.html" %}
 
-![Select the Generic Ground Vehicle airframe preset under &quot;Rover&quot;.](../../../../../.gitbook/assets/qgc_airframe.png)
-
+![Select the Generic Ground Vehicle airframe preset under "Rover".](../../../../../.gitbook/assets/QGC_airframe.PNG)
