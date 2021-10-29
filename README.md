@@ -14,3 +14,6 @@ Finally we introduce an intelligent camera into the Cup, the **Pixy 2 camera**. 
 All these components and configurations are described in this documentation. The default setup is the DFRobot chassis with brushed motors, the Micro E board and the Pixy 2 OR DFRobot chassis with brushless motors, RDDRONE-FMUK66 and Pixy 2. You pick!
 
 Students have the option of using setups from the past seasons or other NXP MCU boards. But these are not supported in this documentation.
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
