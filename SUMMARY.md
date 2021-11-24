@@ -8,7 +8,7 @@
 
 ## MR-Buggy3
 
-* [Page 2](mr-buggy3/page-2.md)
+* [Getting started](mr-buggy3/getting-started.md)
 
 ## DFRobot Chassis Developer Guide
 
