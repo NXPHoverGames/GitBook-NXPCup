@@ -29,14 +29,14 @@ If you are using other boards than the Micro E or the FMUK66, pay attention to t
 ## Motor assembly without ESCs (for Micro E board)
 
 {% hint style="info" %}
-The following description is for using a Micro E board which has two double H-bridges for the motor control on board and do not need ESCs. 
+The following description is for using a Micro E board which has two double H-bridges for the motor control on board and do not need ESCs.&#x20;
 
 In case you use another board (like FMU, or different boards) and you need ESCs for the Motors follow the instructions below the next heading (and skip this section).
 {% endhint %}
 
 For connecting the motors to the Micro E board you need additionally two wires per motor and one wire end ferrule per wire. This items are not included in the kit, you have to get them on your own.
 
-Strip the ends of the cables. A wire end ferrule must be attached to one end of each cable. The other ends must be soldered to the motors. Each motor has a** red dot next to one of the connectors**. Solder the red cable here. The black cable has to be soldered to the other connector. Isolate both contacts with some heat shrinkable tubing.
+Strip the ends of the cables. A wire end ferrule must be attached to one end of each cable. The other ends must be soldered to the motors. Each motor has a **red dot next to one of the connectors**. Solder the red cable here. The black cable has to be soldered to the other connector. Isolate both contacts with some heat shrinkable tubing.
 
 ![](../../../.gitbook/assets/20191218\_153722.jpg)
 
@@ -44,7 +44,7 @@ Now connect the wire end ferrules to the green connectors. Both motors must be c
 
 ![](../../../.gitbook/assets/20191218\_164529.jpg)
 
-Finally the small white gear wheels have to be put on the motor axis. You may need some force to push the gear onto the axis. Push the gear onto the axis only so far that it is flush with the end of the axis. Otherwise is does not fit with the big white gear wheel. 
+Finally the small white gear wheels have to be put on the motor axis. You may need some force to push the gear onto the axis. Push the gear onto the axis only so far that it is flush with the end of the axis. Otherwise is does not fit with the big white gear wheel.&#x20;
 
 
 
@@ -54,11 +54,11 @@ If you are using the Micro E board, you can skip this chapter.
 
 ![](../../../.gitbook/assets/20191205\_144639.jpg)
 
-The ESC must be soldered to the motor and the XT60 Connector in the way the picture above shows. The inner cables of the ESC are soldered to the motor. The red cable is soldered to the motor connector with the red dot. The black cable is soldered to the other connector. The outer cables of the ESC are soldered to the XT60 connector. **Pay attention to the inscription on the connector for "+" and "-"**. 
+The ESC must be soldered to the motor and the XT60 Connector in the way the picture above shows. The inner cables of the ESC are soldered to the motor. The red cable is soldered to the motor connector with the red dot. The black cable is soldered to the other connector. The outer cables of the ESC are soldered to the XT60 connector. **Pay attention to the inscription on the connector for "+" and "-"**.&#x20;
 
-In the case that the kit has** two motors and two ESCs**, both ESC power connections have to be soldered to the **same XT60 connector** (unlike the picture above). The cable with the three wires (black, red, white) is for the PWM connection to the board. Do not change this cable. Later you can connect it to your board.
+In the case that the kit has **two motors and two ESCs**, both ESC power connections have to be soldered to the **same XT60 connector** (unlike the picture above). The cable with the three wires (black, red, white) is for the PWM connection to the board. Do not change this cable. Later you can connect it to your board.
 
-Finally the **small white gear wheels **have to be put on the motor axis. You may need some force to push the gear onto the axis. Push the gear onto the axis only so far that it is flush with the end of the axis. Otherwise is does not fit with the big white gear wheel. 
+Finally the **small white gear wheels** have to be put on the motor axis. You may need some force to push the gear onto the axis. Push the gear onto the axis only so far that it is flush with the end of the axis. Otherwise is does not fit with the big white gear wheel.&#x20;
 
 ## Mounting the motors to the chassis
 

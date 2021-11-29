@@ -38,7 +38,7 @@ The servo is mounted upside down in the next three images. The heads of the M4 s
 
 ![](../../../.gitbook/assets/20191217\_140838.jpg)
 
-In the next step mount the Servo-arm with a screw from the servo kit to the Servo connector. The Servo-arm should look like the one in the picture below. 
+In the next step mount the Servo-arm with a screw from the servo kit to the Servo connector. The Servo-arm should look like the one in the picture below.&#x20;
 
 ### 2021 and newer version
 
@@ -52,7 +52,7 @@ The part on the left is what the control arms will attach to, and the part on th
 
 ![](../../../.gitbook/assets/IMG\_1687.jpg)
 
-Once you have attached that part, you'll want to fasten the next part on top using two M3x6mm screws. 
+Once you have attached that part, you'll want to fasten the next part on top using two M3x6mm screws.&#x20;
 
 ![](../../../.gitbook/assets/IMG\_1688.jpg)
 
@@ -75,7 +75,7 @@ Here are some images of the steering setup in CAD which gives some more detail:
 ### 2020 and older version
 
 {% hint style="warning" %}
-**Do not rotate the Servo connector before the arm is fixed to it! **When you put the arm to the connector be sure that the arm is absolutely parallel to the longer side of the Servo. This ensures that the wheels have the full steering range.
+**Do not rotate the Servo connector before the arm is fixed to it!** When you put the arm to the connector be sure that the arm is absolutely parallel to the longer side of the Servo. This ensures that the wheels have the full steering range.
 {% endhint %}
 
 ![](../../../.gitbook/assets/20191217\_142126.jpg)
@@ -86,7 +86,7 @@ Now we want to mount the servo motor to the lower plate. Now need the lower plat
 
 ![](../../../.gitbook/assets/20191217\_142747.jpg)
 
-Fix the Servo assembly to the plate as follows: Use the M3x6 screw for the double pass copper column in the middle and use the two single head copper columns to fix the Servo on the left and right side. 
+Fix the Servo assembly to the plate as follows: Use the M3x6 screw for the double pass copper column in the middle and use the two single head copper columns to fix the Servo on the left and right side.&#x20;
 
 ![](../../../.gitbook/assets/20191217\_143729.jpg)
 
@@ -96,9 +96,9 @@ Fix the Servo assembly to the plate as follows: Use the M3x6 screw for the doubl
 
 The mounting of the two front wheels is similar. As preparation you need the following pieces for the steering cup:
 
-![](../../../.gitbook/assets/steering_cup_edit.jpg)
+![](../../../.gitbook/assets/steering\_cup\_edit.jpg)
 
-Put the smaller silver ring in the outer smaller space and the bigger silver ring in the inner space of the steering cup as shown in the picture above. 
+Put the smaller silver ring in the outer smaller space and the bigger silver ring in the inner space of the steering cup as shown in the picture above.&#x20;
 
 ![](../../../.gitbook/assets/20191217\_144445.jpg)
 
@@ -131,7 +131,7 @@ Repeat for the second wheel.
 
 ![](../../../.gitbook/assets/20191217\_150126.jpg)
 
-![](../../../.gitbook/assets/Front_wheels_steering_mount.jpg)
+![](../../../.gitbook/assets/Front\_wheels\_steering\_mount.jpg)
 
 The steering cups have to be connected to the steering rods now. Therefore you need a M2 screw and an anti-fall nut. They are not included in the kit (the delivered instructions says to use a M2 self-taping screw which do not fit here, because the hole is too big for the M2 self-taping screw.)
 

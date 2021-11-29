@@ -1,10 +1,10 @@
 # LZCAMADAPT2 Camera Adapter
 
-\*** NOTE THIS BOARD CORRECTS an error in LZCAMADAPT**\*
+\* **NOTE THIS BOARD CORRECTS an error in LZCAMADAPT**\*
 
 **I was rushing and made a dumb mistake. \*The board shown here\*, With "LZCAMADAPT2" printed on it is the correct version.**
 
-A simple camera adapter board has been prepared to jumper from the original 5 pin 0.100" header/socket to the smaller 2x4 0.50" header/socket. Only "Version 2" camera module needs this adapter since the ribbon cable on "Version 2" already has the correct 0.50" connector, it just needs to be removed from **its own ** adapter board that converts to 5 pin.
+A simple camera adapter board has been prepared to jumper from the original 5 pin 0.100" header/socket to the smaller 2x4 0.50" header/socket. Only "Version 2" camera module needs this adapter since the ribbon cable on "Version 2" already has the correct 0.50" connector, it just needs to be removed from **its own** adapter board that converts to 5 pin.
 
 * The board and schematic are available in EAGLE CAD format.
 

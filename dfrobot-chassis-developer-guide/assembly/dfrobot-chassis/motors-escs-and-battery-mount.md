@@ -20,7 +20,7 @@ The motors must be soldered to the ESCs. The sequences must be observed carefull
 This will be mentioned elsewhere in the guide, but the UBEC seen in the last image on this page (the small blue component in the middle of the image) is required to power the steering servo. Keep this in mind before you solder the ESCs to the XT60 connector (if you don't have a power distribution board).
 {% endhint %}
 
-The power cables have to be soldered to the XT60 connector. Be aware that you have to solder both ESC to **ONE **XT60 connector! Alternatively, you can solder the ESCs to a Power Distribution board and solder the XT60 with some cable to the Power Distribution Board either. (Detailed description at the [Known issues](https://nxp.gitbook.io/nxp-cup/developer-guide/assembly/dfrobot-chassis/known-issues), similar to the FMU power distribution board)
+The power cables have to be soldered to the XT60 connector. Be aware that you have to solder both ESC to **ONE** XT60 connector! Alternatively, you can solder the ESCs to a Power Distribution board and solder the XT60 with some cable to the Power Distribution Board either. (Detailed description at the [Known issues](https://nxp.gitbook.io/nxp-cup/developer-guide/assembly/dfrobot-chassis/known-issues), similar to the FMU power distribution board)
 
 {% hint style="warning" %}
 Please try to solder as short as you could. The longer the soldering takes, the more solder is drawn into the cable and the cable becomes inflexible and can break more easily.
@@ -48,6 +48,6 @@ Also, the M3 screw heads are a little small for the slots to mount the motors. Y
 
 ## Power Connection w/ distribution board
 
-In the FMU kit is a power module. This can be fixed to the lower side of the upper plate with a cable tie. The male connector will be plugged to the battery later. So is might be good to fix the power connection in a position that you can easily reach the male connector later. The female connector must be plugged to the ESC connector. In the case that you use a Power Distribution board (PDB), the power module should be connected to the Power connector of the PDB. 
+In the FMU kit is a power module. This can be fixed to the lower side of the upper plate with a cable tie. The male connector will be plugged to the battery later. So is might be good to fix the power connection in a position that you can easily reach the male connector later. The female connector must be plugged to the ESC connector. In the case that you use a Power Distribution board (PDB), the power module should be connected to the Power connector of the PDB.&#x20;
 
-![](../../../.gitbook/assets/Powermodule_FMU.jpg)
+![](../../../.gitbook/assets/Powermodule\_FMU.jpg)

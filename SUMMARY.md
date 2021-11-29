@@ -9,6 +9,7 @@
 ## MR-Buggy3
 
 * [Getting started](mr-buggy3/getting-started.md)
+* [Parameter setup](mr-buggy3/parameter-setup.md)
 
 ## DFRobot Chassis Developer Guide
 
@@ -85,7 +86,7 @@
     * [LCD Module](dfrobot-chassis-developer-guide/landzo-car-model/known-issues/lcd-module.md)
     * [FRDM Board Socket Headers](dfrobot-chassis-developer-guide/landzo-car-model/known-issues/frdm-board-socket-headers.md)
 
-## NXP Gazebo Summer Camp <a href="gazebo" id="gazebo"></a>
+## NXP Gazebo Summer Camp <a href="#gazebo" id="gazebo"></a>
 
 * [Introduction to NXP Gazebo Summer Camp](gazebo/introduction-why-gazebo.md)
 * [Milestone 1 - Intro to NXP Gazebo and ROS](gazebo/milestone-1-intro-to-nxp-gazebo-and-ros/README.md)

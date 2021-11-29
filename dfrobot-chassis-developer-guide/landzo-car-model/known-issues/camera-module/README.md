@@ -28,7 +28,7 @@ This version has the correct signals on the 5 pin 0.100" connector, but does not
 
 ### Version 2 problem resolution
 
-In order to correct this problem a small adapter board has been prepared. **LZCAMADAPT2 **is the correct board to allow the 5 pin header to adapt to the 10 pin CCD1 header.
+In order to correct this problem a small adapter board has been prepared. **LZCAMADAPT2** is the correct board to allow the 5 pin header to adapt to the 10 pin CCD1 header.
 
 NOTE: \*I\* was rushing and made a dumb mistake on the first board **LZCAMADAPT. This is corrected in LZCAMADAPT2.**
 
