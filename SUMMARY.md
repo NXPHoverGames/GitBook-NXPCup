@@ -4,7 +4,6 @@
 * [Downloads and links](downloads-and-links.md)
 * [Support Material](support-material.md)
 * [Contact](welcome-to-nxp-cup.md)
-* [Page 1](page-1.md)
 
 ## MR-Buggy3 Developer Guide
 
