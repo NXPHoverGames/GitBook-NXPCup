@@ -101,6 +101,7 @@
 * [Milestone 4 - Advanced Reaction](gazebo/milestone-4-advanced-reaction.md)
 * [Updating NXP Gazebo](gazebo/updating-nxp-gazebo.md)
 * [Video Tutorials](gazebo/video-tutorials.md)
+* [\[NOTICE\] Update - 12.2.2021](gazebo/notice-update-12.2.2021.md)
 
 ## HARDWARE REFERENCE
 
