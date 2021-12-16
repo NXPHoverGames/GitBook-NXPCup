@@ -8,6 +8,7 @@
 ## MR-Buggy3 Developer Guide
 
 * [Getting started](mr-buggy3-developer-guide/getting-started.md)
+* [FCC-CE EMC Notification](mr-buggy3-developer-guide/fcc-ce-emc-notification.md)
 * [Parameter setup](mr-buggy3-developer-guide/parameter-setup.md)
 
 ## DFRobot Chassis Developer Guide
