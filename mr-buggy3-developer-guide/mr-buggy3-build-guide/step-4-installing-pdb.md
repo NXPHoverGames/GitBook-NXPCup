@@ -9,7 +9,12 @@ Locate the PDB and front shock tower mount as shown below:
 You should use four M2.5x5mm screws to mount the PDB to the front mount.
 
 {% hint style="danger" %}
-On early 2022 kits, the front mount may have incorrectly sized screw holes. We suggest using some of the M3 screws from the nylon screw/spacer kit that was included in the buggy box. It may take a bit of force to get them to thread initially, but they should hold much better than the M2.5x5mm screws. YMMV. If you have issues with this step and need help, please contact us in the Discord server support channel.
+On early 2022 kits, the front mount may have incorrectly sized screw holes. We suggest using some of the M3 screws from the nylon screw/spacer kit that was included in the buggy box. It may take a bit of force to get them to thread initially, but they should hold much better than the M2.5x5mm screws.&#x20;
+
+Alternatively some white glue will also hold the existing screws in place. \
+
+
+YMMV. If you have issues with this step and need help, please contact us in the Discord server support channel.
 {% endhint %}
 
 ![This image shows the M3 nylon screws instead of the M2.5x5mm screws.](../../.gitbook/assets/IMG\_5947.JPEG)

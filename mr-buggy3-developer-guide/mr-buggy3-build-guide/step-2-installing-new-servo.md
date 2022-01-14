@@ -2,13 +2,14 @@
 
 ## Task 1: Remove existing servo
 
-The existing servo on the buggy does not have the proper connector to speak with our FMU. So we must swap it out for one that uses 3-wire PWM. To remove the existing servo, first we must remove it from the base of the buggy. There are two screws on the bottom with locking pins next to them to keep in sturdy and in place. Remove these two screws like so:
+The existing servo on the buggy does not have the proper interface connector to work the FMU. It needs to be swapped for one that uses traditional RC 3-wire PWM. To remove the existing servo, first we must unfasten it from the base of the buggy. There are two screws on the bottom, and you can see two small locking pins next to them which keeps the plastic mount in place. Remove these two screws like so:
 
 ![](<../../.gitbook/assets/IMG\_5913 (1).JPEG>)
 
 ![](../../.gitbook/assets/IMG\_5915.JPEG)
 
-Once these screws have been removed, you can lift the servo out of its mounting bracket. The next step is to remove the steering crown from the servo. Remove the crown by unscrewing the single set screw in the middle:
+Once these screws have been removed,  the servo can be lifted out of its mounting bracket. \
+The next step is to remove the steering crown from the servo. Remove the crown by unscrewing the single set screw in the middle:
 
 ![](../../.gitbook/assets/IMG\_5917.JPEG)
 
@@ -26,7 +27,7 @@ You will not need any of the hardware included in the baggy with the JX servo.
 
 ## Task 2: Install new servo
 
-Apply the crown to the new servo. Make sure that it is facing straight up. Do not turn the servo or it will require calibration upon booting up the PX4 system.
+Attach the crown to the new servo. Make sure that it is facing straight up. Do not turn the servo or it will require calibration upon booting up the PX4 system.
 
 {% hint style="warning" %}
 Also make sure that the front wheels are pointing straight! There is a bit of outward toe by default, just try to get it as straight as possible.
@@ -34,7 +35,9 @@ Also make sure that the front wheels are pointing straight! There is a bit of ou
 
 ![](../../.gitbook/assets/IMG\_5924.JPEG)
 
-The set screw from the previous servo will not work as the previous servo had a plastic housing. You will need to use a screw from the extra screw kit included in your box. The screw will be in the middle right bin of the kit.
+The set screw from the previous servo will not work as the previous servo had a plastic housing. You will need to use a screw from the extra screw kit included in your box. The screw will be in the middle right bin of the kit.\
+\
+(XXX LANDON - While this screw may work, I thought we had included a separate socket head cap screw that was purchased for this purpose. Need to double check)&#x20;
 
 ![](../../.gitbook/assets/IMG\_5925.JPEG)
 

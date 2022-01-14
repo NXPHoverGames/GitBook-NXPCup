@@ -8,11 +8,15 @@ Gather the FMU power module:
 
 Plug the power module into the PDB. Route the 6-pin power connector to the top PCB and plug into the FMU POWER port.
 
+You may wish to zip tie the power module to the underside of the PCB
+
 ![](../../.gitbook/assets/IMG\_6059.JPEG)
 
 ![](../../.gitbook/assets/IMG\_6060.JPEG)
 
 ![](../../.gitbook/assets/IMG\_6061.JPEG)
+
+### Servo and ESC PWM connections
 
 You will also need to connect the two PWM wires from the servo/ESC. The servo PWM goes in slot 2, whereas the ESC goes in slot 4.
 

@@ -2,7 +2,7 @@
 
 ## Task 1: Install standoffs
 
-For this step you will need the M3x5mm screws, the PCBs, and the purple standoffs.
+For this step you will need the M3x5mm screws, the two PCBs, and the purple standoffs.
 
 ![](../../.gitbook/assets/IMG\_5962.JPEG)
 
@@ -12,7 +12,7 @@ Mount the standoffs using the M3x5mm screws like so:
 
 ## Task 2: Install PCB to Buggy
 
-Install the PCB to the buggy by using the wing, screws, and black plate on the rear, and some M3x5mm screws on the front.
+Attach this "lower" PCB to the buggy. In the rear,  reuse the wing, the screws, and the wing black plate, and on the front use two M3x5mm screws.
 
 ![](../../.gitbook/assets/IMG\_5966.JPEG)
 

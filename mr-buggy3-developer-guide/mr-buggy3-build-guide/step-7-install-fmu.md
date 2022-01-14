@@ -1,12 +1,12 @@
 # Step 7: Install FMU
 
-## Task 1: Put FMU in case
+## Task 1: Assemble the FMU in its case
 
 Gather the FMU, FMU Case, and screw baggy that was taped to the FMU case.
 
 ![](../../.gitbook/assets/IMG\_5972.JPEG)
 
-Gather the small button from the baggy and install it into the case like so:
+Locate small button from the baggy and install it into the case as shown below:
 
 ![](../../.gitbook/assets/IMG\_5974.JPEG)
 
@@ -14,11 +14,15 @@ Gather the small button from the baggy and install it into the case like so:
 
 ![](../../.gitbook/assets/IMG\_5976.JPEG)
 
-Next, install the FMU to the bottom half of the case by using 4 of the screws from the baggy.
+Next, install the FMU to the bottom half of the case by using 4 screws from the bag.
 
 ![](../../.gitbook/assets/IMG\_5979.JPEG)
 
 ![](../../.gitbook/assets/IMG\_5980.JPEG)
+
+{% hint style="warning" %}
+Double check that the reset button is in place, and that you see movement, and feel the reset button click when pressing the button. It should be free to move. Adjust the screws as necessary to ensure the reset button is not permanently depressed.
+{% endhint %}
 
 Next, install the top of the case. There are 4 screw holes on the bottom for it to attach to.
 
@@ -26,7 +30,7 @@ Next, install the top of the case. There are 4 screw holes on the bottom for it 
 
 ![](../../.gitbook/assets/IMG\_5982.JPEG)
 
-Next, place the sticker on top of the case.
+Next, carefully apply the sticker to the top of the case.
 
 ![](../../.gitbook/assets/IMG\_5984.JPEG)
 
@@ -55,6 +59,10 @@ Next, use 4 squars of double sided foam tape and apply them to the corners of th
 ![](../../.gitbook/assets/IMG\_6010.JPEG)
 
 Then, attach the FMU in the orientation shown below. Make sure that the FMU is pointing directly towards the front of the PCB.
+
+{% hint style="success" %}
+Take extra care to ensure the FMU is well aligned with the forward axis/direction of the Buggy.
+{% endhint %}
 
 ![](../../.gitbook/assets/IMG\_6011.JPEG)
 

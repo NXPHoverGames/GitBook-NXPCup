@@ -10,6 +10,10 @@ Gather the FlySky i-6S radio controller package and unpack it.
 
 We won't need the two baggies on the left - you can put those away. We are really focusing on the baggy on the right - the RC receiver.
 
+{% hint style="info" %}
+The extra components provided in the center bag allow for spring loading the joystick which may be desirable in some instances.
+{% endhint %}
+
 Take the receiver out, and grab the double sided tape from the ESC bag - it should be a rounded rectangle with red covering tape.
 
 You will also need the 3-prong to JST-GH connector for the receiver, shown in the picture below.
@@ -21,6 +25,10 @@ Place the tape on the back of the receiver and place the receiver on the back of
 ![](../../.gitbook/assets/IMG\_6054.JPEG)
 
 ![](../../.gitbook/assets/IMG\_6055.JPEG)
+
+{% hint style="success" %}
+The antennas can be positioned in a variety of ways. You may wish to 3d print a mount for them, or use the oval holes on the edges of the PCB to zip tie them upward. Facing them upright will result in better range.
+{% endhint %}
 
 Plug the receiver into the FMU through the RC IN port.
 

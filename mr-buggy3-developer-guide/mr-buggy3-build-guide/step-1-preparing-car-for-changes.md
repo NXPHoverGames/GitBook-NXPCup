@@ -1,4 +1,6 @@
-# Step 1: Removing Parts
+# Step 1: Preparing Car for changes
+
+The Buggy car frame as shipped needs the servo and the motor controller swapped out with ones that are able to be controlled from the FMU
 
 ## Task 1: Remove Cover
 

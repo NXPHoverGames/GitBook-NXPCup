@@ -1,5 +1,9 @@
 # Step 8: Install GPS
 
+## OPTIONAL
+
+Note that not all kits use the GPS. If your kit has one then follow these instructions. Otherwise you will alternatively use a PX4-ARMING-BRD to provide the arming, LED, and Beeper functions.
+
 ## Task 1: Gather GPS parts
 
 Start by gathering the GPS. All the parts you need for this step are included in the GPS package.
@@ -38,13 +42,17 @@ Attach the upper mounting plate with the set screw. Make sure that the flat side
 
 ![](../../.gitbook/assets/IMG\_6025.JPEG)
 
-## Task 4: Install to PCB
+## Task 4: Attach GPS to PCB
 
 Gather the baggie with 4 bolts and 4 locknuts.
 
 ![](../../.gitbook/assets/IMG\_6026.JPEG)
 
 Attach the GPS mount to the PCB like so:
+
+{% hint style="info" %}
+Note: You may need to adjust the position of the GPS slightly to accommodate the Camera mount installation as described in future next steps.&#x20;
+{% endhint %}
 
 ![](../../.gitbook/assets/IMG\_6028.JPEG)
 

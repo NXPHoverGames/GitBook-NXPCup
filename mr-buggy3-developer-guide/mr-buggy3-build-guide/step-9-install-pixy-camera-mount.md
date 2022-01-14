@@ -4,6 +4,10 @@
 
 Gather the Pixy mount and mounting hardware baggy.
 
+{% hint style="success" %}
+The two plastic pieces may be a tight fit initially. Wiggling them back and forth gently while assembling will help them go together.
+{% endhint %}
+
 ![](../../.gitbook/assets/IMG\_6036.JPEG)
 
 Take out the large screw and nut from the baggy.&#x20;
@@ -14,7 +18,7 @@ The nut goes in the side that has a hole cut out for it. Thread the screw throug
 
 ![](../../.gitbook/assets/IMG\_6041.JPEG)
 
-Once you've done this, take out the other mounting hardware from the baggy (3 screws and 3 nuts). We will mount this to the front of the top PCB.
+Once the main nut and bolt are installed, take out the other mounting hardware from the baggy (3 screws and 3 nuts). We will mount this to the front of the top PCB.
 
 ![](../../.gitbook/assets/IMG\_6043.JPEG)
 
