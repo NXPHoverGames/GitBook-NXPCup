@@ -30,8 +30,8 @@ You should have the following items in your kit:
 * FlySky i-6S Radio Controller w/ receiver
 * Pixy Camera w/ adapter cable
 * Camera mount
-* Various fasteners
-* Various tools
+* Various fasteners, including nylon spacers and WLToys spare fastener kit.
+* Hex wrench and socket set.
 * USB powered 2S battery charger
 *
 *   GPS Module (optional depending on which kit is purchased)\
