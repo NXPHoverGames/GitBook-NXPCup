@@ -9,6 +9,18 @@
 
 * [Getting started](mr-buggy3-developer-guide/getting-started.md)
 * [FCC-CE EMC Notification](mr-buggy3-developer-guide/fcc-ce-emc-notification.md)
+* [MR-Buggy3 build guide](mr-buggy3-developer-guide/mr-buggy3-build-guide/README.md)
+  * [Step 1: Removing Parts](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-1-removing-parts.md)
+  * [Step 2: Installing new Servo](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-2-installing-new-servo.md)
+  * [Step 3: Installing ESC](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-3-installing-esc.md)
+  * [Step 4: Installing PDB](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-4-installing-pdb.md)
+  * [Step 5: Install Mounting PCB](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-5-install-mounting-pcb.md)
+  * [Step 7: Install FMU](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-7-install-fmu.md)
+  * [Step 8: Install GPS](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-8-install-gps.md)
+  * [Step 9: Install Pixy Camera mount](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-9-install-pixy-camera-mount.md)
+  * [Step 9: Installing top PCB](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-9-installing-top-pcb.md)
+  * [Step 10: Installing the RC receiver](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-10-installing-the-rc-receiver.md)
+  * [Step 11: Wiring the Buggy3](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-11-wiring-the-buggy3.md)
 * [Parameter setup](mr-buggy3-developer-guide/parameter-setup.md)
 
 ## DFRobot Chassis Developer Guide
