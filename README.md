@@ -3,11 +3,10 @@
 {% hint style="success" %}
 Also take a look at some of our other Gitbooks:
 
-* \[HoverGames]\(https://nxp.gitbook.io/hovergames)
-* \[8M Mini NavQ]\(https://nxp.gitbook.io/8mmnavq/)
-* \[8M Plus NavQ]\(https://nxp.gitbook.io/8mpnavq/)
-* \[UCANS32K146 UAVCAN/CAN Node]\(https://nxp.gitbook.io/ucans32k146/)
-* \[RDDRONE-BMS772 Battery Management System]\(https://nxp.gitbook.io/rddrone-bms772)
+* [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
+* [8M Mini NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M-CCnxDe4dTvAz3QmDw/)
+* [8M Plus NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/)
+* [UCANS32K146 UAVCAN/CAN Node](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
 {% endhint %}
 
 ### description: 2019/2020 season. Found at: [https://nxp.gitbook.io/nxp-cup/](https://nxp.gitbook.io/nxp-cup/)
