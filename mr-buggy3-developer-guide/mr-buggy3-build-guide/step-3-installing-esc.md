@@ -2,7 +2,7 @@
 
 ## Task 1: Apply tape to ESC
 
-The new replacement ESC looks like this:
+The replacement ESC looks like this:
 
 ![](../../.gitbook/assets/IMG\_5933.JPEG)
 

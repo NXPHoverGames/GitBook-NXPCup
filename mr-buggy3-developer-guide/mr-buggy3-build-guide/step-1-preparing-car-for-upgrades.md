@@ -1,6 +1,6 @@
-# Step 1: Preparing Car for changes
+# Step 1: Preparing Car for upgrades
 
-The Buggy car frame as shipped needs the servo and the motor controller swapped out with ones that are able to be controlled from the FMU
+The Buggy3 car frame as shipped \*may\* need the servo and the motor controller swapped out with replacement versions that are able to be controlled from the FMU
 
 ## Task 1: Remove Cover
 
@@ -12,7 +12,7 @@ Remove the two pins holding the body cover on and then lift the body cover to re
 
 You should find a motor, servo, and radio controlled ESC underneath.
 
-## Task 2: Remove Radio Controlled ESC (if applicable)
+## Task 2: Remove original Radio Controlled ESC+Radio RX (if applicable)
 
 {% hint style="info" %}
 Your kit may already have the radio controlled ESC removed. If so, skip this step.

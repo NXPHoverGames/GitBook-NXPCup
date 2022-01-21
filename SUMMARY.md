@@ -10,7 +10,7 @@
 * [Getting started](mr-buggy3-developer-guide/getting-started.md)
 * [FCC-CE EMC Notification](mr-buggy3-developer-guide/fcc-ce-emc-notification.md)
 * [MR-Buggy3 build guide](mr-buggy3-developer-guide/mr-buggy3-build-guide/README.md)
-  * [Step 1: Preparing Car for changes](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-1-preparing-car-for-changes.md)
+  * [Step 1: Preparing Car for upgrades](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-1-preparing-car-for-upgrades.md)
   * [Step 2: Installing new Servo](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-2-installing-new-servo.md)
   * [Step 3: Installing ESC](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-3-installing-esc.md)
   * [Step 4: Installing PDB](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-4-installing-pdb.md)

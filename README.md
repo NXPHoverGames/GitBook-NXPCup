@@ -9,7 +9,7 @@ Also take a look at some of our other Gitbooks:
 * [UCANS32K146 UAVCAN/CAN Node](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
 {% endhint %}
 
-### description: 2019/2020 season. Found at: [https://nxp.gitbook.io/nxp-cup/](https://nxp.gitbook.io/nxp-cup/)
+### This gitbook can be found at: [https://nxp.gitbook.io/nxp-cup/](https://nxp.gitbook.io/nxp-cup/)
 
 ## Welcome to NXP Cup
 

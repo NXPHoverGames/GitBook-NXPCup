@@ -2,7 +2,7 @@
 
 ## Task 1: Remove existing servo
 
-The existing servo on the buggy does not have the proper interface connector to work the FMU. It needs to be swapped for one that uses traditional RC 3-wire PWM. To remove the existing servo, first we must unfasten it from the base of the buggy. There are two screws on the bottom, and you can see two small locking pins next to them which keeps the plastic mount in place. Remove these two screws like so:
+The existing original steering servo on the buggy does not have the proper interface connector to work the FMU. It needs to be swapped for one that uses traditional RC 3-Wire PWM. To remove the existing servo, first we must unfasten it from the base of the buggy. There are two screws on the bottom, and you can see two small locking pins next to them which keeps the plastic mount in place. Remove these two screws like so:
 
 ![](<../../.gitbook/assets/IMG\_5913 (1).JPEG>)
 
@@ -35,9 +35,15 @@ Also make sure that the front wheels are pointing straight! There is a bit of ou
 
 ![](../../.gitbook/assets/IMG\_5924.JPEG)
 
-The set screw from the previous servo will not work as the previous servo had a plastic housing. You will need to use a screw from the extra screw kit included in your box. The screw will be in the middle right bin of the kit.\
+The set screw from the previous servo will not work as the previous servo had a plastic housing. You will need to use a screw from the extra screw kit included in your box. The screw will be in the middle right bin of the kit.
+
+{% hint style="info" %}
+XXX NOTE TO LANDON XXX - While this screw likely works fine work, I understood there should be a separate socket head cap screw (Silver or Black) that was purchased specifically for this purpose. Need to double check in the BOM.
+{% endhint %}
+
 \
-(XXX LANDON - While this screw may work, I thought we had included a separate socket head cap screw that was purchased for this purpose. Need to double check)&#x20;
+\
+
 
 ![](../../.gitbook/assets/IMG\_5925.JPEG)
 
