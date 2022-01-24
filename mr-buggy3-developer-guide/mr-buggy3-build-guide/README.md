@@ -4,6 +4,8 @@ description: Work in progress
 
 # MR-Buggy3 build guide
 
+![](<../../.gitbook/assets/Rover 4\_cropped\_edited.jpg>)
+
 ## Kit of parts
 
 ### You should have the following items in your kit:

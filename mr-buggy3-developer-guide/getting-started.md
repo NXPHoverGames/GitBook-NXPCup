@@ -2,6 +2,8 @@
 
 ## Welcome to the MR-Buggy3 NXP-CUP Vehicle Chassis
 
+![](<../.gitbook/assets/Rover 4\_cropped\_edited.jpg>)
+
 {% hint style="warning" %}
 This section is under construction. Come back later for the completed guide.
 {% endhint %}
