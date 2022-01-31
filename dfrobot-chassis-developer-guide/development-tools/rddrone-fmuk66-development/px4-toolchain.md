@@ -10,7 +10,7 @@ To start building PX4 firmware from source, you should first install the PX4 too
 
 ## Install Git
 
-The minimal installation that we selected does not include Git by default. Git is a very popular distributed version-control system and you will probably use it a lot when developing software for the HoverGames.  It will also allow us to easily download ("clone") the PX4 code because it is available on GitHub, which is a Git-based source code hosting platform. 
+The minimal installation that we selected does not include Git by default. Git is a very popular distributed version-control system and you will probably use it a lot when developing software for the HoverGames.  It will also allow us to easily download ("clone") the PX4 code because it is available on GitHub, which is a Git-based source code hosting platform.&#x20;
 
 So let's install Git using the following command:
 
@@ -29,7 +29,7 @@ mkdir -p ~/src
 The next step is to actually download the source code. We will use Git to create a local copy of the online repository that is hosted on GitHub. The following command first changes the working directory to the "src" folder that we just created, then it will "clone" the whole PX4 firmware repository, including submodules, in a new "px4-firmware" folder.
 
 ```bash
-cd ~/src && git clone --recursive https://github.com/PX4/Firmware.git px4-firmware
+cd ~/src && git clone --recursive https://github.com/PX4/Firmware.git px4-firmware -b v1.11.3
 ```
 
 Note that it will take a while to clone the whole repository. The PX4 source code should now be available in the `~/src/px4-firmware` folder. The tilde represents the current user's home folder within the file system. You can also browse to this location with the file manager.
@@ -68,7 +68,7 @@ Links to the daily builds are provided in the QGroundControl documentation. Insi
 
 You don't need to install an AppImage. You only need to make it executable and run it. Move the AppImage file to your homefolder. Then, right click on the file, go to the file properties, and give the AppImage permission to execute as a program.
 
-![](../../../.gitbook/assets/29\_VM_PX4\_Toolchain.PNG)
+![](../../../.gitbook/assets/29\_VM\_PX4\_Toolchain.PNG)
 
 Alternatively, you can make the file executable by running the command, assuming it is located in your home folder:
 
@@ -86,10 +86,10 @@ By following the steps provided above, you should be ready to build the PX4 firm
 
 {% embed url="https://dev.px4.io/master/en/setup/dev_env_linux.html" %}
 
-For Linux computers, you only need to install the `Pixhawk/NuttX (and jMAVSim)` version (so follow the steps at [https://dev.px4.io/master/en/setup/dev_env_linux.html](https://dev.px4.io/master/en/setup/dev_env_linux.html) up to the `Snapdragon Flight` heading).
+For Linux computers, you only need to install the `Pixhawk/NuttX (and jMAVSim)` version (so follow the steps at [https://dev.px4.io/master/en/setup/dev\_env\_linux.html](https://dev.px4.io/master/en/setup/dev\_env\_linux.html) up to the `Snapdragon Flight` heading).
 
-For Windows computers, we recommend the Cygwin installation, which can be installed using the steps at [https://dev.px4.io/master/en/setup/dev_env_windows_cygwin.html](https://dev.px4.io/master/en/setup/dev_env_windows_cygwin.html) up to the `Usage Instructions` heading. 
+For Windows computers, we recommend the Cygwin installation, which can be installed using the steps at [https://dev.px4.io/master/en/setup/dev\_env\_windows\_cygwin.html](https://dev.px4.io/master/en/setup/dev\_env\_windows\_cygwin.html) up to the `Usage Instructions` heading.&#x20;
 
-Another option for Windows users is to setup a Linux virtual machine and just install the Linux toolchain. That's exactly what we have done above, actually. The PX4 Developer Guide also provides a step-by-step guide for this: [https://dev.px4.io/master/en/setup/dev_env_windows_vm.html](https://dev.px4.io/master/en/setup/dev_env_windows_vm.html)
+Another option for Windows users is to setup a Linux virtual machine and just install the Linux toolchain. That's exactly what we have done above, actually. The PX4 Developer Guide also provides a step-by-step guide for this: [https://dev.px4.io/master/en/setup/dev\_env\_windows\_vm.html](https://dev.px4.io/master/en/setup/dev\_env\_windows\_vm.html)
 
-Instructions for Mac OS are available as well, at [https://dev.px4.io/en/setup/dev_env_mac.html](https://dev.px4.io/master/en/setup/dev_env_mac.html).
+Instructions for Mac OS are available as well, at [https://dev.px4.io/en/setup/dev\_env\_mac.html](https://dev.px4.io/master/en/setup/dev\_env\_mac.html).
