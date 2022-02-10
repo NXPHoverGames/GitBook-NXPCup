@@ -7,9 +7,8 @@
 
 ## MR-Buggy3 Developer Guide
 
-* [Getting started](mr-buggy3-developer-guide/getting-started.md)
-* [MR-Buggy3 software setup](mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
 * [FCC-CE EMC Notification](mr-buggy3-developer-guide/fcc-ce-emc-notification.md)
+* [Getting started](mr-buggy3-developer-guide/getting-started.md)
 * [MR-Buggy3 build guide](mr-buggy3-developer-guide/mr-buggy3-build-guide/README.md)
   * [Step 1: Preparing Car for upgrades](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-1-preparing-car-for-upgrades.md)
   * [Step 2: Installing new Servo](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-2-installing-new-servo.md)
@@ -22,7 +21,7 @@
   * [Step 9: Installing top PCB](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-9-installing-top-pcb.md)
   * [Step 10: Installing the RC receiver](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-10-installing-the-rc-receiver.md)
   * [Step 11: Wiring the Buggy3](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-11-wiring-the-buggy3.md)
-* [Parameter setup](mr-buggy3-developer-guide/parameter-setup.md)
+* [MR-Buggy3 software setup](mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
 
 ## DFRobot Chassis Developer Guide
 
