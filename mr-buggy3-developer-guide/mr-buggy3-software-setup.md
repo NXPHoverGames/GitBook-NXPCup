@@ -26,7 +26,7 @@ Once this is done, restart your computer. You will now have the build tools nece
 Next, we need to build the PX4 firmware to flash to our FMU. To do this, please change directories to the PX4-Autopilot folder and run the following command:
 
 ```
-$ cd ~/git/PX4-Autopilot/ && make nxp_fmuk66-v3
+$ cd ~/git/PX4-Autopilot/ && make nxp_fmuk66-v3_rtps
 ```
 
 This process will take a while to finish depending on your machine, so feel free to step away for a moment. Once it is done, we can flash our FMU!
@@ -127,7 +127,30 @@ Next, continue to the Sensors menu, and follow the instructions to calibrate the
 
 ## Step 5: Configure radio controls
 
-Next, turn on your FlySky i-6S radio and open the Radio menu in QGroundControl. Follow the instructions after selecting "Calibrate" on that screen.
+Next, turn on your FlySky i-6S radio. You will need to make some configuration changes in the radio itself so it can communicate correctly with the FMU.
+
+### Setting the output mode
+
+On your radio controller, navigate to Settings -> System -> Output mode, and make sure it is configured like the image below (PPS and S.BUS selected):
+
+![](<../.gitbook/assets/image (50).png>)
+
+### Configuring channels
+
+Go to Settings -> Aux Channels -> Functions on your radio controller, and set the following channels to their respective settings:
+
+| Channel | Switch/Dial |   |
+| ------- | ----------- | - |
+| 5       | SwA         |   |
+| 6       | SwB         |   |
+| 7       | SwC         |   |
+| 8       | SwD         |   |
+| 9       | VrA         |   |
+| 10      | VrB         |   |
+
+### Setting up the Radio Controller in QGroundControl
+
+Next, open the Radio menu in QGroundControl. Follow the instructions after selecting "Calibrate" on that screen. This will calibrate the sticks. If you would like to set up flight mode control with the switches on the top of the radio controller, navigate to the Flight Modes tab and configure the switches to your liking.
 
 ## Step 6: Configure PWM parameters
 
