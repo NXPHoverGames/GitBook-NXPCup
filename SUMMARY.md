@@ -8,6 +8,7 @@
 ## MR-Buggy3 Developer Guide
 
 * [Getting started](mr-buggy3-developer-guide/getting-started.md)
+* [MR-Buggy3 software setup](mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
 * [FCC-CE EMC Notification](mr-buggy3-developer-guide/fcc-ce-emc-notification.md)
 * [MR-Buggy3 build guide](mr-buggy3-developer-guide/mr-buggy3-build-guide/README.md)
   * [Step 1: Preparing Car for upgrades](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-1-preparing-car-for-upgrades.md)

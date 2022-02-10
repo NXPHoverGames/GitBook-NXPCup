@@ -26,7 +26,7 @@ An XT60 may be soldered in place (carefully - you must be extra careful to never
 
 ![DEANS T  Male connector to XT60 Female](<../../.gitbook/assets/image (49).png>)
 
-![Battery needs to fit in this space on the Buggy](<../../.gitbook/assets/image (51).png>)
+![Battery needs to fit in this space on the Buggy](<../../.gitbook/assets/image (51) (1).png>)
 
 ### Servo and ESC PWM connections
 
