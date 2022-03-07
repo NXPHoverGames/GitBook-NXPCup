@@ -154,7 +154,20 @@ Next, open the Radio menu in QGroundControl. Follow the instructions after selec
 
 ## Step 6: Configure PWM parameters
 
-In PX4, the default PWM parameters will not work for Buggy3. You will need to go to the Parameters tab and scroll down to "PWM Outputs". Change all of the red parameters below to those values, then reboot the FMU.
+In PX4, the default PWM parameters will not work for Buggy3. You will need to go to the Parameters tab and scroll down to "PWM Outputs". Use the search function at the top of the parameters tab to search for the following parameters. Please set their values to the one assigned in the table below.
+
+{% hint style="info" %}
+The image below is just an example of the parameters tab. The values set there are outdated. Please use the table below to set the correct values.
+{% endhint %}
+
+| Parameter       | Value  |
+| --------------- | ------ |
+| PWM\_MAIN\_DIS2 | 1500us |
+| PWM\_MAIN\_DIS4 | 1500us |
+| PWM\_MAIN\_MIN2 | 1300us |
+| PWM\_MAIN\_MIN4 | 1000us |
+| PWM\_MAIN\_MAX2 | 1700us |
+| PWM\_MAIN\_MAX4 | 2000us |
 
 ![](<../.gitbook/assets/image (49) (1).png>)
 
