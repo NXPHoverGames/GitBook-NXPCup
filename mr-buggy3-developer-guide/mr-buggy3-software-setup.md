@@ -26,7 +26,7 @@ Once this is done, restart your computer. You will now have the build tools nece
 Next, we need to build the PX4 firmware to flash to our FMU. To do this, please change directories to the PX4-Autopilot folder and run the following command:
 
 ```
-$ cd ~/git/PX4-Autopilot/ && make nxp_fmuk66-v3_rtps
+$ cd ~/git/PX4-Autopilot/ && make nxp_fmuk66-v3_default
 ```
 
 This process will take a while to finish depending on your machine, so feel free to step away for a moment. Once it is done, we can flash our FMU!
