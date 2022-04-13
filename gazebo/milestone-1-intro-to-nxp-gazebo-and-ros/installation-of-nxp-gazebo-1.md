@@ -14,17 +14,17 @@ To create an SSH key, run the following in a terminal:
 $ ssh-keygen
 ```
 
-Follow the prompt. We suggest just pressing enter until you reach the end. It will be easier if you just use the default path for the id_rsa file and if you go without a passphrase (though you're welcome to use one!). You should get the output below. Note that the RSA key is not shown here for security reasons:
+Follow the prompt. We suggest just pressing enter until you reach the end. It will be easier if you just use the default path for the id\_rsa file and if you go without a passphrase (though you're welcome to use one!). You should get the output below. Note that the RSA key is not shown here for security reasons:
 
 ![](<../../.gitbook/assets/image (35).png>)
 
-Next, you'll want to install `xclip`. This program will allow you to copy the contents of the id_rsa.pub file to your clipboard so you can paste it into GitHub. To install `xclip`, run the following command:
+Next, you'll want to install `xclip`. This program will allow you to copy the contents of the id\_rsa.pub file to your clipboard so you can paste it into GitHub. To install `xclip`, run the following command:
 
 ```
 $ sudo apt install xclip git
 ```
 
-Once you've installed xclip, you need to copy the id_rsa.pub file to your clipboard. To do so, run the following command:
+Once you've installed xclip, you need to copy the id\_rsa.pub file to your clipboard. To do so, run the following command:
 
 ```
 $ xclip -sel clip < ~/.ssh/id_rsa.pub
@@ -40,19 +40,14 @@ Once you've done this, you're ready to begin installation.
 
 ## Installing ROS2
 
-To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just run the following script:
-
-{% file src="../../.gitbook/assets/foxy_install_nxp_summer (2).sh" %}
-NXP Gazebo Install Script
-{% endfile %}
-
-You can run it by using the following commands:
+To run NXP Gazebo, you must have ROS2 installed. This is an easy process - just follow the commands below:
 
 ```
-$ sudo apt install curl
-$ cd ~/Downloads
-$ chmod a+x foxy_install_nxp_summer.sh
-$ ./foxy_install_nxp_summer.sh
+$ mkdir ~/git
+$ cd ~/git
+$ git clone git@github.com:rudislabs/nxp_install.git
+$ chmod a+x nxp_install/install.sh
+$ ./nxp_install/install.sh
 ```
 
 And then source ROS2 by running the following command:
@@ -63,7 +58,7 @@ $ source ~/.bashrc
 
 ## Installing NXP Gazebo
 
-### Cloning and running sim_gazebo_bringup
+### Cloning and running sim\_gazebo\_bringup
 
 Installing NXP Gazebo has become much easier over time. With this new install process, you'll be up and running with NXP Gazebo in record time!
 
@@ -77,18 +72,18 @@ $ mkdir -p ros2ws/src && cd ros2ws/src
 Once you are in the directory `~/ros2ws/src`, it's time to clone the bringup repo. The bringup repo contains code that sets up the workspace for you automatically. To clone it, run the following command:
 
 ```
-$ git clone git@github.com:rudislabs/sim_gazebo_bringup.git -b nxp-summer
+$ git clone git@github.com:rudislabs/sim_ignition_bringup.git
 ```
 
 When git prompts you to continue connecting with your RSA fingerprint, type yes:
 
 ![](<../../.gitbook/assets/image (37).png>)
 
-Next, we are going to run `sim_gazebo_bringup`. To do this, run the following commands:
+Next, we are going to run `sim_ignition_bringup`. To do this, run the following commands:
 
 ```
 $ cd ~/ros2ws
-$ colcon build --packages-select sim_gazebo_bringup --symlink-install
+$ colcon build --packages-select sim_ignition_bringup --symlink-install
 $ echo "source /home/$USER/ros2ws/install/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
@@ -96,7 +91,7 @@ $ source ~/.bashrc
 Now that we have the bringup package set up, we can start installing all of the NXP Gazebo packages. Run the following command:
 
 ```
-$ ros2 launch sim_gazebo_bringup sim_gazebo.launch.py
+$ ros2 launch sim_ignition_bringup sim_ignition.launch.py
 ```
 
 ## You're finished installing NXP Gazebo!
