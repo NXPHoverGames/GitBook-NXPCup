@@ -6,11 +6,11 @@ description: >-
 
 # Not included items
 
-## LiPo batteries <a href="lipo-batteries" id="lipo-batteries"></a>
+## LiPo batteries <a href="#lipo-batteries" id="lipo-batteries"></a>
 
 Drones require batteries which can handle the high currents drawn by the motors. These lithium polymer (LiPo) batteries can be quite dangerous and there may be restrictions for shipping this kind of batteries. For this reason, there was no battery included in the kit. You will have to buy a decent LiPo battery yourself.‌
 
-### LiPo battery specification <a href="lipo-battery-specification" id="lipo-battery-specification"></a>
+### LiPo battery specification <a href="#lipo-battery-specification" id="lipo-battery-specification"></a>
 
 The provided chassis, motors and ESCs are designed for a a LiPo battery with the following battery specifications:‌
 
@@ -20,7 +20,7 @@ The provided chassis, motors and ESCs are designed for a a LiPo battery with the
 * **20C continuous discharge rating or higher** is recommended. 20C means that the battery can supply a continuous current 20 times its capacity. For a 4000 mAh battery, that means it can continuously supply a current of 80 A. For a 3000 mAh battery you probably want to have at least a 25C rating.
 
 {% hint style="info" %}
-Check electronics webshops such as [Hobbyking](https://hobbyking.com/en_us/batteries-chargers/batteries.html) or [Conrad](https://www.conrad.com). NXP does not endorse any specific shop, we are merely suggesting some options.
+Check electronics webshops such as [Hobbyking](https://hobbyking.com/en\_us/batteries-chargers/batteries.html) or [Conrad](https://www.conrad.com/). NXP does not endorse any specific shop, we are merely suggesting some options.
 
 We suggest a 2**S**, +/- **1800mAh** battery with **XT60** connector.
 {% endhint %}
@@ -36,7 +36,7 @@ A good LiPo battery charger is required to safely charge your LiPo batteries. Th
 Therefore, it is recommended that you buy a higher quality charger at some point. A good one charges the battery through its main connector and uses the balance connector only for cell balancing. A good battery charger should also be able to charge batteries with different cell configurations.
 
 {% hint style="info" %}
-The same shops suggested for the LiPo batteries should also sell the right chargers. Have a look at  DIY electronics shops or go to webshops such as [HobbyKing](https://hobbyking.com/en_us/batteries-chargers/batteries.html), [Conrad](https://www.conrad.com).
+The same shops suggested for the LiPo batteries should also sell the right chargers. Have a look at  DIY electronics shops or go to webshops such as [HobbyKing](https://hobbyking.com/en\_us/batteries-chargers/batteries.html), [Conrad](https://www.conrad.com/).
 
 Again, this is not an endorsement of these specific shops, merely a suggestion.
 {% endhint %}

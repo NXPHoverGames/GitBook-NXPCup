@@ -8,7 +8,7 @@ description: >-
 
 ## QGroundControl
 
-Ground control software is used for configuration and monitoring of your drone. We will use [QGroundControl](http://qgroundcontrol.com) to configure the PX4 flight stack that you should have been programmed on your FMU. With QGroundControl you can configure the propeller configuration, radio controller, sensor calibration and much more. It also provides different ways of controlling the drone, such as an autonomous mission planner. Download links for QGroundControl are available on the [downloads page](https://nxp.gitbook.io/nxp-cup/downloads-and-links).
+Ground control software is used for configuration and monitoring of your drone. We will use [QGroundControl](http://qgroundcontrol.com/) to configure the PX4 flight stack that you should have been programmed on your FMU. With QGroundControl you can configure the propeller configuration, radio controller, sensor calibration and much more. It also provides different ways of controlling the drone, such as an autonomous mission planner. Download links for QGroundControl are available on the [downloads page](https://nxp.gitbook.io/nxp-cup/downloads-and-links).
 
 The next sections will guide you through the process of using QGroundControl to set up your FMU. All the steps correspond to one setup screen inside of QGroundControl. In the QGroundControl documentation you can find more information about each of these steps.
 
@@ -29,5 +29,5 @@ In order to configure your FMU through QGroundControl, you need to connect it to
 | Can be used mid-flight      | No\*      | Yes             |
 
 {% hint style="info" %}
-(\*) While the USB connection cannot be used to connect the FMU to a laptop mid-flight, it can be used as a way to connect a companion computer for performing complex computations on the drone. This requires advanced parameter configuration (one step required is [disabling the USB link check circuit breaker](https://dev.px4.io/en/advanced/parameter_reference.html#CBRK_USB_CHK)).
+(\*) While the USB connection cannot be used to connect the FMU to a laptop mid-flight, it can be used as a way to connect a companion computer for performing complex computations on the drone. This requires advanced parameter configuration (one step required is [disabling the USB link check circuit breaker](https://dev.px4.io/en/advanced/parameter\_reference.html#CBRK\_USB\_CHK)).
 {% endhint %}

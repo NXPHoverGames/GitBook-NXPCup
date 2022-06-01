@@ -9,7 +9,7 @@ description: >-
 ## **NXP CUP Website & Community**
 
 **NXP CUP landing page:**\
-****[**https://nxpcup.nxp.com/**](https://nxpcup.nxp.com) **** with all information on NXP CUP.
+****[**https://nxpcup.nxp.com/**](https://nxpcup.nxp.com/) **** with all information on NXP CUP.
 
 **NXP CUP Community:**\
 [https://nxpcup.nxp.com/news](https://nxpcup.nxp.com/news) with latest news, rules, track information, challenges etc. on the current season. Your news portal.

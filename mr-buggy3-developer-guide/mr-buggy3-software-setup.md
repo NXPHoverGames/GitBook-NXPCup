@@ -67,7 +67,7 @@ You can ignore the USB-TTL-3V3 cable for this step, as it is not needed.
 
 Then, connect the 7-pin JST GH connector to the FMU's "DEBUG" port. You will also need to connect a microUSB cable to the FMU to power it. Once you have connected both of these cables, you should have a setup similar to the image below (minus the USB-TTL-3V3 cable):
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (56).png>)
 
 Connect the USB cables to your computer and continue with the step.
 
@@ -119,7 +119,7 @@ Please follow the instuctions at the QGroundControl website to install QGroundCo
 
 Open QGroundControl and click the Q at the top left, then select Vehicle Setup. On the left you should see a set of menus. Select the Airframe menu and scroll down until you see the rover icon. Under the rover icon, click the dropdown and select Generic Ground Vehicle. It should look like the screenshot below.
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../.gitbook/assets/image (53).png>)
 
 ## Step 4: Calibrate sensors
 
@@ -133,7 +133,7 @@ Next, turn on your FlySky i-6S radio. You will need to make some configuration c
 
 On your radio controller, navigate to Settings -> System -> Output mode, and make sure it is configured like the image below (PPS and S.BUS selected):
 
-![](<../.gitbook/assets/image (50).png>)
+![](<../.gitbook/assets/image (51).png>)
 
 ### Configuring channels
 
@@ -169,7 +169,7 @@ The image below is just an example of the parameters tab. The values set there a
 | PWM\_MAIN\_MAX2 | 1700us |
 | PWM\_MAIN\_MAX4 | 2000us |
 
-![](<../.gitbook/assets/image (49) (1).png>)
+![](<../.gitbook/assets/image (50).png>)
 
 ## Step 7: Test!
 
