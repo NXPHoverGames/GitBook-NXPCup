@@ -18,7 +18,7 @@ You may wish to zip tie the power module to the underside of the PCB
 
 ## Note regarding Buggy 3 Battery
 
-The Buggy3 can use a 2S or 3S battery in the range of 1000 - 5000mAh. Carefully check which ones will fit in the space available. A 3S battery may be preferable in in the future depending on what additional companion computers are added (for example NavQPlus.)\
+The Buggy3 can use a 2S in the range of 1000 - 5000mAh. Carefully check which ones will fit in the space available. \
 \
 The battery should have an XT60 plug end and not the T or DEANS style end.\
 An XT60 may be soldered in place (carefully - you must be extra careful to never short the battery pins for risk of fire/explosion!) or an adapter from T/Deans to XT60 may be used.\
