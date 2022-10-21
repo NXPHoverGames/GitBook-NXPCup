@@ -4,7 +4,7 @@
 
 This chassis has two rear axles for implementing a differential in software. Thus you have to screw on an axle bracket in the rear area. You need two M3x6 screws and the axle mount. Screw them to the two round holes at the mid-back.
 
-![](../../../.gitbook/assets/Axle_mount_edit.jpg)
+![](../../../.gitbook/assets/Axle\_mount\_edit.jpg)
 
 Regardless of whether ESCs have been used or not, the motors are installed as follows:
 
@@ -28,9 +28,9 @@ Put the flanges through the wholes of the gears and fix them with four M3x6 scre
 
 ![](../../../.gitbook/assets/20191217\_160627.jpg)
 
-Put the gears onto the axles as shown in the picture below. Means the black flange has directly contact to the lower plate. Fix the hub screws of the flanges and the retaining rings. Make sure that the retaining ring and flange fix the axle to the lower plate so that the axle cannot slip. 
+Put the gears onto the axles as shown in the picture below. Means the black flange has directly contact to the lower plate. Fix the hub screws of the flanges and the retaining rings. Make sure that the retaining ring and flange fix the axle to the lower plate so that the axle cannot slip.&#x20;
 
-![](<../../../.gitbook/assets/rear_wheels_axis_mount (3).jpg>)
+![](<../../../.gitbook/assets/rear\_wheels\_axis\_mount (1) (1).jpg>)
 
 It may be necessary to adjust the motor so that the big and the small gear fit. Make sure that a very small gap is between the both gears, but the motor can drives the gear.
 
@@ -102,7 +102,7 @@ Last but not least the top plate can be fixed to the chassis with six M3x6 screw
 
 
 
-This is the end of the general mounting. Depending on the board that is to be used, something else may need to be mounted or added. 
+This is the end of the general mounting. Depending on the board that is to be used, something else may need to be mounted or added.&#x20;
 
 For mounting the FMU go to:
 

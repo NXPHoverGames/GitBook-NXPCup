@@ -12,7 +12,7 @@ If you run into issues with this guide, please use the `Contact` section in the 
 
 ## Setting up your Ubuntu desktop environment
 
-You can install by using nxp_desktop.sh shell by downloading the file at
+You can install by using nxp\_desktop.sh shell by downloading the file at
 
 {% embed url="https://github.com/rudislabs/desktop_installs" %}
 
@@ -46,7 +46,7 @@ Now, we want to run this file to set up our desktop environment. It will ask you
 $ ./nxp_desktop.sh
 ```
 
-![Expected output for \`./nxp_desktop.sh\`](<../.gitbook/assets/image (18).png>)
+![Expected output for \`./nxp\_desktop.sh\`](<../.gitbook/assets/image (18).png>)
 
 You should now see that your background has changed and the command has given you the `All done!` signal. Great! Now let's run the workspace setup to get Gazebo, PX4, and ROS installed.
 
@@ -61,19 +61,19 @@ $ cd ~/git/nxp_gazebo/scripts
 $ ls
 ```
 
-![Expected output of \`cd \~/git/nxp_gazebo/scripts/\`](<../.gitbook/assets/image (20).png>)
+![Expected output of \`cd \~/git/nxp\_gazebo/scripts/\`](<../.gitbook/assets/image (20).png>)
 
 Now, we will need to run the `foxy_install.sh` file to set up our software. To start, run the following command and make sure you get the expected output:
 
 {% hint style="warning" %}
-Note: This command will take a long time to finish since it is installing ROS2. 
+Note: This command will take a long time to finish since it is installing ROS2.&#x20;
 {% endhint %}
 
 ```
 $ ./foxy_install.sh
 ```
 
-![Expected output from \`./foxy_install.sh\`](<../.gitbook/assets/image (21).png>)
+![Expected output from \`./foxy\_install.sh\`](<../.gitbook/assets/image (21).png>)
 
 Once you get the expected output from `./foxy_install.sh`, you'll want to add a line to your `~/.bashrc`. Follow the instructions below:
 
@@ -156,9 +156,9 @@ $ colcon build --packages-select nxp_cup_bringup --symlink-install
 
 ![Expected output for building px4\_msgs](<../.gitbook/assets/image (26).png>)
 
-![Expected output for building px4\_ros_com (stderr is okay!)](<../.gitbook/assets/image (33).png>)
+![Expected output for building px4\_ros\_com (stderr is okay!)](<../.gitbook/assets/image (33) (1).png>)
 
-![Expected output for building nxp_cup_vision and nxp_cup_bringup](<../.gitbook/assets/image (28).png>)
+![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](<../.gitbook/assets/image (28).png>)
 
 Once we have built all of our ROS2 workspace, we will want to source the setup.bash for the workspace. We also want to make sure that all of our library paths are properly sourced. To do so, we will add some lines to the end of our `~/.bashrc`. Add the following lines to the end of your `~/.bashrc`:
 

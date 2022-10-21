@@ -1,8 +1,21 @@
-# Step 8: Install GPS
+# Step 7: Install GPS
 
-## OPTIONAL
+## OPTIONAL PX4-ARMING-BRD&#x20;
 
-Note that not all kits use the GPS. If your kit has one then follow these instructions. Otherwise you will alternatively use a PX4-ARMING-BRD to provide the arming, LED, and Beeper functions.
+{% hint style="success" %}
+Note that not all kits use the GPS&#x20;
+
+An alternative is to use PX4-ARMING-BRD that is also included in the kit&#x20;
+{% endhint %}
+
+An alternative to using the GPS below is to use PX4-ARMING-BRD. Using the same GPS cable and connector location, this board is typically included in most versions of the kit and provides the following:
+
+* ARMING Switch
+* Status LED
+* Beeper &#x20;
+* (and no GPS functions.)
+
+<figure><img src="../../.gitbook/assets/MicrosoftTeams-image (11).png" alt=""><figcaption><p>PX4-ARMING-BRD</p></figcaption></figure>
 
 ## Task 1: Gather GPS parts
 
