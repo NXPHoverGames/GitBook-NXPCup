@@ -173,4 +173,16 @@ The image below is just an example of the parameters tab. The values set there a
 
 ## Step 7: Test!
 
-Test your buggy by manually controlling it using the FlySky i-6S controller. Use QGroundControl to arm the rover.
+Test your buggy by manually controlling it using the FlySky i-6S controller.&#x20;
+
+{% hint style="info" %}
+Don't forget to ARM your system!\
+Depending on how your system is configured, Arming may be required using QGroundcontrol, the PX4-ARMING-BRD, or the GPS Module arming switch.\
+There may even bee more than one arming method requred simultaneously
+
+(For example with drones you arm with the GPS first, then use the RC remote sticks pointed toward bottom middle to start the motors)
+{% endhint %}
+
+
+
+Use QGroundControl to arm the rover.
