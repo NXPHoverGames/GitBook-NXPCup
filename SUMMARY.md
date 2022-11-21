@@ -22,6 +22,7 @@
   * [Step 10: Installing the RC receiver](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-10-installing-the-rc-receiver.md)
   * [Step 11: Wiring the Buggy3](mr-buggy3-developer-guide/mr-buggy3-build-guide/step-11-wiring-the-buggy3.md)
 * [MR-Buggy3 software setup](mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
+* [Configuring the PixyCam](mr-buggy3-developer-guide/configuring-the-pixycam.md)
 * [NXP Cup Example Application](mr-buggy3-developer-guide/nxp-cup-example-application.md)
 
 ## DFRobot Chassis Developer Guide
