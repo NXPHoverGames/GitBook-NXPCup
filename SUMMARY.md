@@ -24,6 +24,7 @@
 * [MR-Buggy3 software setup](mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
 * [Configuring the PixyCam](mr-buggy3-developer-guide/configuring-the-pixycam.md)
 * [NXP Cup Example Application](mr-buggy3-developer-guide/nxp-cup-example-application.md)
+* [UWB-control sample Application](mr-buggy3-developer-guide/uwb-control-sample-application.md)
 
 ## DFRobot Chassis Developer Guide
 
