@@ -25,9 +25,15 @@ The white wire should be toward the outside.\
 TODO- take new pictures and update.
 {% endhint %}
 
+<figure><img src="https://2872949447-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-L9GLtb-Tz_XaKbQu-Al%2F-LlgBuvDPTuhf1Hyvwoc%2F-LlgBzSmW0jR2SOFYzn0%2F20190807_150917.jpg?alt=media&#x26;token=6f21e99c-50cb-40a9-a868-ce5b4722c787" alt=""><figcaption><p>NOTE - This is the correct wiring!</p></figcaption></figure>
 
+<mark style="color:blue;">Note the above (blue) picture shows the correct orientation of the RC cable wiring.</mark>
 
 ![](../../.gitbook/assets/IMG\_6053.JPEG)
+
+
+
+
 
 Place the tape on the back of the receiver and place the receiver on the back of the top PCB.
 
