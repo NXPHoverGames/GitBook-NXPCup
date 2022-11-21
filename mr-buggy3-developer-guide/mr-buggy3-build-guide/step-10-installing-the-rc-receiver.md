@@ -18,6 +18,15 @@ Take the receiver out, and grab the double sided tape from the ESC bag - it shou
 
 You will also need the 3-prong to JST-GH connector for the receiver, shown in the picture below.
 
+{% hint style="danger" %}
+\<TODO> 11/21/2022\
+The images below all show the 3 pin receiver connector installed in reverse.\
+The white wire should be toward the outside.\
+TODO- take new pictures and update.
+{% endhint %}
+
+
+
 ![](../../.gitbook/assets/IMG\_6053.JPEG)
 
 Place the tape on the back of the receiver and place the receiver on the back of the top PCB.
