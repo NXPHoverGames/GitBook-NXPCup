@@ -21,6 +21,17 @@ YMMV. If you have issues with this step and need help, please contact us in the 
 
 The front mount assembly is completed. You may move on to task 2.\
 
+## Task 1.5: For ESC with the "DEANS"  T-type connector
+
+If the ESC provided comes with the reddish "DEANS"  T-type connector, the front mounting post for the body cover must be removed or it will interfere with the connection of the ESC to the PDB.
+
+![](../../.gitbook/assets/IMG\_20221217\_191041.jpg)
+
+For this the mid-plate of the buggy must be removed, to get access to the screw holding the mounting posts. Remove all 8 screws, 4 in the front and 4 in back, of the mid-plate. Then unscrew and remove the front mounting post (the back one can be removed as well but it is not necessary):
+
+![](../../.gitbook/assets/IMG\_20221217\_191011.jpg)
+
+Re-assemble the mid-plate of the buggy and move on to task 3.\
 
 ## Task 2: Install front mount to front shock tower
 
@@ -47,3 +58,5 @@ The power connector on your ESC may be this Yellow "XT60"" type or a reddish "DE
 ![](../../.gitbook/assets/IMG\_5955.JPEG)
 
 ![](../../.gitbook/assets/IMG\_5956.JPEG)
+
+![](../../.gitbook/assets/IMG\_20221217\_191520.jpg)
