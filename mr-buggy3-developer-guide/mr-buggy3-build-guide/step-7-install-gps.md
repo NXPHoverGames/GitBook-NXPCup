@@ -15,7 +15,7 @@ An alternative to using the GPS below is to use PX4-ARMING-BRD. Using the same G
 * Beeper &#x20;
 * (and no GPS functions.)
 
-<figure><img src="../../.gitbook/assets/MicrosoftTeams-image (11).png" alt=""><figcaption><p>PX4-ARMING-BRD</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/MicrosoftTeams-image (11) (1).png" alt=""><figcaption><p>PX4-ARMING-BRD</p></figcaption></figure>
 
 ## Task 1: Gather GPS parts
 
@@ -37,7 +37,7 @@ Place the carbon rod into the mount with the flat side facing the set screw hole
 
 Fasten the set screw.
 
-![](<../../.gitbook/assets/IMG\_6017 (1).JPEG>)
+![](../../.gitbook/assets/IMG\_6017.JPEG)
 
 Attach this assembly to the lower mount like so:
 

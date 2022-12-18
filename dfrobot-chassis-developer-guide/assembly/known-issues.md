@@ -40,7 +40,7 @@ The installation description which is part of the delivered kit shows to use M3x
 
 The Servo motor needs a power connection, but the FMU itself does not supply any power at the PWM pins and the ESCs do not supply voltage to the PWM pins either. So it is recommended to use an external power connection. You can use an UBEC which will be connected to the last PWM pin as shown in the picture. The ground connection (black) must be connected to the upper pin.
 
-![](../../.gitbook/assets/UBEC\_FMU\_edit.jpg)
+![](../../.gitbook/assets/ubec\_fmu\_edit.jpg)
 
 In the case that you now have to connect threes devices to the XT60 connector for the FMU power module, it may recommended to use a power distribution board. In principle, any PCB board can be used. The connectors only have to be soldered: All "+" cables must be soldered together and all "-" cables must be connected. A connection between "+" and "-" must be avoided.
 
@@ -50,13 +50,13 @@ Or you can buy a power distribution board:
 
 The  order of the connections does not matter. But it is important that the ground connections are connected to a "-" and all power connections are connected to "-" . The picture below shows a possible order with one ESC.
 
-![](../../.gitbook/assets/PDB\_edit.jpg)
+![](../../.gitbook/assets/pdb\_edit.jpg)
 
 {% hint style="danger" %}
 Be aware! The whole chassis is made of metal and the PDB must be connected in such a way that the connections do not cause a short-circuit with the metal of the chassis. It is recommended to fix the PDB to the chassis with plastic screws and plastic spacer.
 {% endhint %}
 
-![](<../../.gitbook/assets/PCB mount\_edit (1).jpg>)
+![](<../../.gitbook/assets/pcb-mount\_edit (1).jpg>)
 
 As example you can buy these:
 
@@ -83,7 +83,7 @@ In the parameter tab of QGroundControl go to "PWM Outputs". Than change&#x20;
 * **PWM\_MAIN\_MIN3** to **985** us
 * **PWM\_MAIN\_MIN4** to **985** us
 
-![](../../.gitbook/assets/QGC\_PWM\_Outputs\_edit\_new\_edit.png)
+![](../../.gitbook/assets/qgc\_pwm\_outputs\_edit\_new\_edit.png)
 
 ## Mount of Pixy camera
 
@@ -120,10 +120,10 @@ The next picture shows the schematics of the cable. Note that the IDC FC 10p con
 
 The cables can be removed from the JST connector if the little white nose is pulled up a bit. You can do this with a small slot screwdriver or similar tool. After pushing the right cable in the connector make sure that the nose is returned to its place. Be careful and make sure that you do not broke the white nose. The cable may not fit anymore.
 
-![Schematics of the cable. The connector IDC FC 10p has a schmal triangle where the pin 1 is.](../../.gitbook/assets/Pixy\_connector\_FMU\_edit.jpg)
+![Schematics of the cable. The connector IDC FC 10p has a schmal triangle where the pin 1 is.](../../.gitbook/assets/pixy\_connector\_fmu\_edit.jpg)
 
 The corrected cable should be look like following picture shows:
 
-![Numbering of the connector](../../.gitbook/assets/Pixy\_corrected.jpg)
+![Numbering of the connector](../../.gitbook/assets/pixy\_corrected.jpg)
 
 You have to separate the wires to change the connections. When you finish the cable, twist the cables. This reduces disturbances and interferences.

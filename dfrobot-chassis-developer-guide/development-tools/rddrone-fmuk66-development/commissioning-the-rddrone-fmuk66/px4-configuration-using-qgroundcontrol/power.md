@@ -16,7 +16,7 @@ For correct display of battery percentage, you should always specify the correct
 If you don't have a multimeter, keep in mind that a fully charged 4S battery should have a voltage close to 16.8 V, and a 3S battery should be 12.6 V. When you have a fully charged battery connected, you could use those approximations because they would be very close to the actual value. This should give decent results in the end.
 {% endhint %}
 
-![](../../../../../.gitbook/assets/QGC_battery.png)
+![](../../../../../.gitbook/assets/qgc\_battery.png)
 
 For a better indication of the battery percentage when the drone is flying, you should also calculate the  Amps per volt value: this will allow the software to calculate the battery voltage based on current draw, correctly taking high-load voltage drop into account. The calculation can be performed by measuring the current through the drone when it is idle, and inserting the value into the `Calculate Amps per Volt` prompt. After calculating the correct Amps per Volt value, the battery percentage will also be correct during flight. This will allow you to determine how much flight-time you have remaining during flight. It also allows you to make use of more advanced PX4 fail-safes based on battery percentage, such as automatically returning home and landing when the battery percentage gets too low.
 
@@ -28,23 +28,23 @@ If you still have issues with incorrect battery percentages, it is possible to m
 
 ## ESC Calibration
 
-To ensure that all motors correctly respond to commands coming from the FMU, you should perform an ESC "calibration". It makes sure that the ESCs are aware of the minimum and maximum PWM values that the FMU will provide. This can be done by pressing the ESC calibration button and following the on-screen prompts. The calibration process requires a USB connection, since it involves steps where you have to disconnect and reconnect the battery. 
+To ensure that all motors correctly respond to commands coming from the FMU, you should perform an ESC "calibration". It makes sure that the ESCs are aware of the minimum and maximum PWM values that the FMU will provide. This can be done by pressing the ESC calibration button and following the on-screen prompts. The calibration process requires a USB connection, since it involves steps where you have to disconnect and reconnect the battery.&#x20;
 
 {% hint style="warning" %}
-You should always perform the ESC calibration. Uncalibrated ESCs can make your roverunable to drive. 
+You should always perform the ESC calibration. Uncalibrated ESCs can make your roverunable to drive.&#x20;
 {% endhint %}
 
-## PWM settings for the motor output <a href="pwm-settings-for-the-motor-output" id="pwm-settings-for-the-motor-output"></a>
+## PWM settings for the motor output <a href="#pwm-settings-for-the-motor-output" id="pwm-settings-for-the-motor-output"></a>
 
 The default settings for the PWM motor output do not work for the ESC supplied. Change the following parameter in QGroundControl:
 
 In the parameter tab of QGroundControl go to "PWM Outputs". Than change
 
-* **PWM_MAIN_DIS3** to **1485** us
-* **PWM_MAIN_DIS4** to **1485** us
-* **PWM_MAIN_FAIL3** to **1485** us
-* **PWM_MAIN_FAIl4** to **1485** us
-* **PWM_MAIN_MIN3** to **985** us
-* **PWM_MAIN_MIN4** to **985** us
+* **PWM\_MAIN\_DIS3** to **1485** us
+* **PWM\_MAIN\_DIS4** to **1485** us
+* **PWM\_MAIN\_FAIL3** to **1485** us
+* **PWM\_MAIN\_FAIl4** to **1485** us
+* **PWM\_MAIN\_MIN3** to **985** us
+* **PWM\_MAIN\_MIN4** to **985** us
 
-![](https://gblobscdn.gitbook.com/assets%2F-L9GLtaxrQtBdBRsFIJB%2F-M-xSxDuwpWNvlC25tP1%2F-M-y3AEy8FbYKNw-vjNG%2FQGC_PWM_Outputs_edit_new_edit.png?alt=media\&token=818cf9ed-9e1c-4a04-8f5a-f58c6b4b710c)
+![](https://gblobscdn.gitbook.com/assets%2F-L9GLtaxrQtBdBRsFIJB%2F-M-xSxDuwpWNvlC25tP1%2F-M-y3AEy8FbYKNw-vjNG%2FQGC\_PWM\_Outputs\_edit\_new\_edit.png?alt=media\&token=818cf9ed-9e1c-4a04-8f5a-f58c6b4b710c)

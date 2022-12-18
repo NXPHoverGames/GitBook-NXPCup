@@ -46,19 +46,19 @@ The 2021 DFRobot Cup Car has a new steering linkage setup. If you have a 2020 or
 
 There are two parts that you need to mount the control arms to the servo. The two parts are pictured below:
 
-![](../../../.gitbook/assets/IMG\_1686.jpg)
+![](../../../.gitbook/assets/img\_1686.jpg)
 
 The part on the left is what the control arms will attach to, and the part on the right attaches to the servo itself. These two parts will be connected together later. First, you'll want to attach the part on the right to the servo, and fasten it using the two screws that came in the bag with it. These screws go into the sides of the part to give it clamping force on the servo.
 
-![](../../../.gitbook/assets/IMG\_1687.jpg)
+![](../../../.gitbook/assets/img\_1687.jpg)
 
 Once you have attached that part, you'll want to fasten the next part on top using two M3x6mm screws.&#x20;
 
-![](../../../.gitbook/assets/IMG\_1688.jpg)
+![](../../../.gitbook/assets/img\_1688.jpg)
 
 The two M3x6mm screws will fasten into the servo itself as well as one of the holes at the bottom of the two parts. Next, fasten the two control arms to the side holes on the mounting plate using M3x16mm screws and M3 locknuts like so:
 
-![](../../../.gitbook/assets/IMG\_1695.jpg)
+![](../../../.gitbook/assets/img\_1695.jpg)
 
 {% hint style="warning" %}
 NOTE: The servo needs to mounted in the opposite direction compared to the previous NXP Cup Car. If the servo is mounted the same way, the steering geometry will be wrong which will result in the wheels turning away from each other.
@@ -68,7 +68,7 @@ Here are some images of the steering setup in CAD which gives some more detail:
 
 ![This image is from the back of the cup car.](../../../.gitbook/assets/1066ef29af613d5c63203db1cfdd3ae.png)
 
-![](<../../../.gitbook/assets/83fd5bb07718f7857a5cf237c1700ef (1).png>)
+![](../../../.gitbook/assets/83fd5bb07718f7857a5cf237c1700ef.png)
 
 ![This image is from the front of the cup car.](../../../.gitbook/assets/13b050a2242c9f6c130a7c657f805e2.png)
 
@@ -131,7 +131,7 @@ Repeat for the second wheel.
 
 ![](../../../.gitbook/assets/20191217\_150126.jpg)
 
-![](../../../.gitbook/assets/Front\_wheels\_steering\_mount.jpg)
+![](../../../.gitbook/assets/front\_wheels\_steering\_mount.jpg)
 
 The steering cups have to be connected to the steering rods now. Therefore you need a M2 screw and an anti-fall nut. They are not included in the kit (the delivered instructions says to use a M2 self-taping screw which do not fit here, because the hole is too big for the M2 self-taping screw.)
 

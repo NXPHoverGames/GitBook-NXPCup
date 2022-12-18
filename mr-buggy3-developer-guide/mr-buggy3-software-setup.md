@@ -139,14 +139,7 @@ On your radio controller, navigate to Settings -> System -> Output mode, and mak
 
 Go to Settings -> Aux Channels -> Functions on your radio controller, and set the following channels to their respective settings:
 
-| Channel | Switch/Dial |   |
-| ------- | ----------- | - |
-| 5       | SwA         |   |
-| 6       | SwB         |   |
-| 7       | SwC         |   |
-| 8       | SwD         |   |
-| 9       | VrA         |   |
-| 10      | VrB         |   |
+<table><thead><tr><th>Channel</th><th>Switch/Dial</th><th data-hidden></th></tr></thead><tbody><tr><td>5</td><td>SwA</td><td></td></tr><tr><td>6</td><td>SwB</td><td></td></tr><tr><td>7</td><td>SwC</td><td></td></tr><tr><td>8</td><td>SwD</td><td></td></tr><tr><td>9</td><td>VrA</td><td></td></tr><tr><td>10</td><td>VrB</td><td></td></tr></tbody></table>
 
 ### Setting up the Radio Controller in QGroundControl
 
@@ -169,7 +162,7 @@ The image below is just an example of the parameters tab. The values set there a
 | PWM\_MAIN\_MAX2 | 1700us |
 | PWM\_MAIN\_MAX4 | 2000us |
 
-![](<../.gitbook/assets/image (50).png>)
+![](<../.gitbook/assets/image (49) (1).png>)
 
 ## Step 7: Test!
 

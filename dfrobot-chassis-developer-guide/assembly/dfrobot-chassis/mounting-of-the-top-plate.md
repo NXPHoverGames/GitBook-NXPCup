@@ -4,7 +4,7 @@
 
 This chassis has two rear axles for implementing a differential in software. Thus you have to screw on an axle bracket in the rear area. You need two M3x6 screws and the axle mount. Screw them to the two round holes at the mid-back.
 
-![](../../../.gitbook/assets/Axle\_mount\_edit.jpg)
+![](../../../.gitbook/assets/axle\_mount\_edit.jpg)
 
 Regardless of whether ESCs have been used or not, the motors are installed as follows:
 
@@ -12,7 +12,7 @@ If not already done, put the small white gear wheels onto to motor axles.
 
 Mounting the motors requires two M3x6 screws per motor. At each side of the chassis are a big oval hole enclosed from two smaller oval holes. Guide the motor axis through the larger hole and fix the motor with the screws over the two smaller holes.
 
-![](<../../../.gitbook/assets/20191218\_160405 (1).jpg>)
+![](../../../.gitbook/assets/20191218\_160405.jpg)
 
 First guide an axis through the outer ball bearing. Before you put the axle through the second ball bearing, put the retaining ring on the axle. Screw a hub screw slightly onto the retaining ring. Do not tighten the screw completely yet. Repeat for the second axis.
 
@@ -30,7 +30,7 @@ Put the flanges through the wholes of the gears and fix them with four M3x6 scre
 
 Put the gears onto the axles as shown in the picture below. Means the black flange has directly contact to the lower plate. Fix the hub screws of the flanges and the retaining rings. Make sure that the retaining ring and flange fix the axle to the lower plate so that the axle cannot slip.&#x20;
 
-![](<../../../.gitbook/assets/rear\_wheels\_axis\_mount (1) (1).jpg>)
+![](<../../../.gitbook/assets/rear\_wheels\_axis\_mount (1).jpg>)
 
 It may be necessary to adjust the motor so that the big and the small gear fit. Make sure that a very small gap is between the both gears, but the motor can drives the gear.
 

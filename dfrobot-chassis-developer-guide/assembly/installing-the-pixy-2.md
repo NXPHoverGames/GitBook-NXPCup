@@ -12,7 +12,7 @@ The Pixy 2 can be commissioned and parameterized by the **PixyMon** software. A 
 
 Within the PixyMon Software the Pixy 2 parameter for line tracking can be optimized. Following pictures show the nearly optimal settings for line tracking on the NXPCup track.
 
-![Tuning tab](../../.gitbook/assets/Rover\_eight\_driving\_small.png)
+![Tuning tab](../../.gitbook/assets/rover\_eight\_driving\_small.png)
 
 I2C Communication
 -----------------

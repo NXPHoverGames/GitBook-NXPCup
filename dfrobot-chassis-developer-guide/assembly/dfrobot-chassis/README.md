@@ -26,6 +26,6 @@ You may also use the contact information in the "Contact" page linked below.
 [welcome-to-nxp-cup.md](../../../welcome-to-nxp-cup.md)
 {% endcontent-ref %}
 
-![Front view of the DFRobot chassis](../../../.gitbook/assets/Chassis\_1.jpg)
+![Front view of the DFRobot chassis](../../../.gitbook/assets/chassis\_1.jpg)
 
-![Side view of the DFRobot chassis](../../../.gitbook/assets/Chassis\_3.jpg)
+![Side view of the DFRobot chassis](../../../.gitbook/assets/chassis\_3.jpg)

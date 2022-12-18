@@ -12,4 +12,4 @@ As of 1/22/21, PX4 and QGroundControl now have an option for the NXP Cup Rover w
 
 {% embed url="https://docs.qgroundcontrol.com/en/SetupView/airframe_px4.html" %}
 
-![Select the Generic Ground Vehicle airframe preset under "Rover".](../../../../../.gitbook/assets/QGC_airframe.PNG)
+![Select the Generic Ground Vehicle airframe preset under "Rover".](../../../../../.gitbook/assets/qgc\_airframe.png)

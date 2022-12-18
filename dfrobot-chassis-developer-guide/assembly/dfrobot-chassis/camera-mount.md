@@ -18,7 +18,7 @@ NOTE: If you used the extra set screws from the camera mount for your brass whee
 
 In the back of the top plate are four oval holes which are arranged like a cross. This is the place for the camera flange.
 
-![](../../../.gitbook/assets/Camera_place.jpg)
+![](../../../.gitbook/assets/camera\_place.jpg)
 
 Fix the flange with four M4x8 screws and four M4 nuts.
 
@@ -30,6 +30,6 @@ The camera mounting clamps are fix to the rod with two M4x20 screws and two M4 n
 
 It might be good to fix the camera as far up as possible. This ensures a good view for the camera.
 
-![](../../../.gitbook/assets/Camera_mount_edit.jpg)
+![](../../../.gitbook/assets/camera\_mount\_edit.jpg)
 
 Last but not least put the pole into the flange and connect the camera with the for your board right cable. The kits come with a cable for the Micro E board or the FMU. If you are using a different board, you may produce a separate cable.

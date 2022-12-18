@@ -49,7 +49,7 @@ Once it's assembled, the GPS mount can be installed onto the top plate. It's eas
 
 Now you can mount the base of the rod to the top plate of the rover. The best place is the left back corner (compare with the pictures below). Use the four black screws which were included in the GPS kit and the lock nuts. It may be helpful to remove the top plate before.
 
-![](../../../.gitbook/assets/GPS\_mount\_edit.jpg)
+![](../../../.gitbook/assets/gps\_mount\_edit.jpg)
 
 ## Telemetry mount
 

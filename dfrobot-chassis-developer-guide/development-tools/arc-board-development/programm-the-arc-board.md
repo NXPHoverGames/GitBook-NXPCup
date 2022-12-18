@@ -8,15 +8,15 @@ description: This section describe the basic code for the ARC Mainboard and how 
 
 Inside MCUXpresso, create a new project by going to "File", "New", and then "Project". A wizard will appear, in which you should select "New C/C++ Project" under "C/C++".  &#x20;
 
-![](../../../.gitbook/assets/01\_NewProject.PNG)
+![](../../../.gitbook/assets/01\_newproject.png)
 
 The SDK wizard is shown now. Select the MK64FN1M0xxx12 in the tap "SDK MCUs". Then select the "frdmk64f" board under "Available boards." This board fits the best to the ARC Board. Now, press "Next >".
 
-![](../../../.gitbook/assets/02\_NewProject\_SDK.PNG)
+![](../../../.gitbook/assets/02\_newproject\_sdk.png)
 
 You can use any name, but for clarity, we will call it "NXPCUP\_c++". As project type select "C++ Project". The other settings can stay that way. Now you can finish the project wizard.
 
-![](../../../.gitbook/assets/03\_NewProject\_project\_type.PNG)
+![](../../../.gitbook/assets/03\_newproject\_project\_type.png)
 
 ## Including the example code
 
@@ -26,7 +26,7 @@ You can download the example code [here](https://nxp.gitbook.io/nxp-cup/download
 
 First delete the main-file, "NXPCUP\_c++.cpp", from the "source" folder. You will copy a new main into the folder. Now you copy all folders and files from the example code to the "source" folder in the project. Your project tree should look like this:
 
-![Project tree of the example code](<../../../.gitbook/assets/05\_Projcet tree.PNG>)
+![Project tree of the example code](../../../.gitbook/assets/05\_projcet-tree.png)
 
 ## Writing your own code
 
@@ -50,7 +50,7 @@ The software is based on a 3-layers model:
 
 Within the Quickstart Panel you can build and debug the project.
 
-![](../../../.gitbook/assets/06\_1\_Quick\_start\_panel.png)
+![](../../../.gitbook/assets/06\_1\_quick\_start\_panel.png)
 
 {% hint style="warning" %}
 Flashing and debugging the Micro E board requires a **JLink Debugger**!&#x20;
@@ -62,7 +62,7 @@ The USB port cannot be used for programming!
 
 Build the project first, then you can flash and run the project with the GUI Flash Tool. (see Picture below)
 
-![](../../../.gitbook/assets/08\_MCU\_Toolbar\_GUI.PNG)
+![](../../../.gitbook/assets/08\_mcu\_toolbar\_gui.png)
 
 For debugging use the "Debug" button from the Quickstart Panel.
 

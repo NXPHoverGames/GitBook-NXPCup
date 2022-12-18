@@ -59,7 +59,7 @@ Now, start MCUXpresso within your VM. You can find it in Ubuntu's **launcher men
 
 You will be greeted by a welcome screen. You can **close the "Welcome" tab** or **press the "IDE" button on the top right** to continue. Once you are in the main view of the IDE, find the location were you stored the Kinetis K66 SDK .zip file, and **drag the archive** into the area of the IDE window that says "Installed SDKs". It's usually located at the bottom. It will ask you to confirm that you want to import the SDK. Just press "OK". It might take a few seconds to install.
 
-![](<../../../.gitbook/assets/30\_VM\_MCU\_SDK (1).PNG>)
+![](<../../../.gitbook/assets/30\_vm\_mcu\_sdk (1).png>)
 
 ## Create a new project for PX4 <a href="#create-a-new-project-for-px4" id="create-a-new-project-for-px4"></a>
 
@@ -69,7 +69,7 @@ Now that MCUXpresso and the Kinetis K66 SDK are installed, we can continue and c
 
 You can use any project name, but for clarity we will call it "HoverGames PX4". You should select `/home/hovergames/src/px4-firmware` as the **existing code location**. This is the folder where we cloned the PX4 firmware code. Make sure that both the C and C++ languages are selected. For "Toolchain for Indexer Settings", select **"NXP MCU Tools"**. Click "Finish" to create the project.
 
-![](../../../.gitbook/assets/31\_VM\_MCU\_Project.PNG)
+![](../../../.gitbook/assets/31\_vm\_mcu\_project.png)
 
 ## Project Properties <a href="#project-properties" id="project-properties"></a>
 
@@ -77,25 +77,25 @@ Before we continue we should change some project properties. **Select the projec
 
 Go to **"MCU Settings"** under "C/C++ Build". An error _might_ pop up, complaining about invalid values. If this happens you can close the error, switch to another tab and switch back again. You should now see the same screen as shown in the image below. On this "MCU Settings" screen, select the **MK66FN2M0xxx18** under the K6x family of MCUs.
 
-![](../../../.gitbook/assets/32\_VM\_MCU\_Projectsettings.PNG)
+![](../../../.gitbook/assets/32\_vm\_mcu\_projectsettings.png)
 
 Now go to the main "C/C++ Build" tab. Uncheck "Use default build command" and change the build command to just `make`. The PX4 build scripts will take care of the specifics, we should not supply any additional arguments here.
 
-![](../../../.gitbook/assets/33\_VM\_MCU\_Project\_debug.PNG)
+![](../../../.gitbook/assets/33\_vm\_mcu\_project\_debug.png)
 
 Then switch to the "Behavior" tab. Uncheck "Enable parallel build", because the PX4 build tools also already takes care of this. Set the "Build (incremental build)" target to `nxp_fmuk66-v3_default` and change the "Clean" target to `distclean`. Click "Apply" to apply all changed settings.
 
-![](../../../.gitbook/assets/34\_VM\_MCU\_Project\_settings3.PNG)
+![](../../../.gitbook/assets/34\_vm\_mcu\_project\_settings3.png)
 
 At the top of the window, you can press the button "Manage Configurations...". Create a new configuration named "Default", make it a copy of "Debug". Select the newly created configuration, and make it active using the "Set Active" button.
 
-![](../../../.gitbook/assets/35\_VM\_MCU\_Project\_settings4.PNG)
+![](../../../.gitbook/assets/35\_vm\_mcu\_project\_settings4.png)
 
 You can press "Apply and Close" to apply the changes and close the window.
 
 In the properties window, make sure "Debug" is still selected as the profile of which you are editing. Now switch to the "Environment" tab under "C/C++ Build". Add a variable named "CFLAGS" with value `O0` (the capital letter O and a zero). Make sure you DO NOT select the checkbox to add the variable to all configurations. After you have done this, you can press "Apply and Close", we are done in this window.
 
-![](../../../.gitbook/assets/36\_VM\_MCU\_Project\_settings5.PNG)
+![](../../../.gitbook/assets/36\_vm\_mcu\_project\_settings5.png)
 
 ## Run Configurations <a href="#run-configurations" id="run-configurations"></a>
 
@@ -103,21 +103,21 @@ At the top of the screen, you have a green "Run" icon. Click on the small arrow 
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9GLtb-Tz\_XaKbQu-Al%2F-LY7qul7a7mV1hecZj\_x%2F-LY7raHz8YEXW9ThUAKn%2Fimage.png?alt=media\&token=d77a45fc-2a45-41d4-9646-0a8f2396f497)
 
-![](../../../.gitbook/assets/38\_VM\_MCU\_Runconfig2.PNG)
+![](../../../.gitbook/assets/38\_vm\_mcu\_runconfig2.png)
 
 Also go into the "Arguments" tab and add `nxp_fmuk66-v3_default upload` into "Program arguments".
 
-![](../../../.gitbook/assets/39\_VM\_MCU\_Runconfig3.PNG)
+![](../../../.gitbook/assets/39\_vm\_mcu\_runconfig3.png)
 
 Finally, go into the "Common" tab. Tick the checkbox in front of "Run" under "DIsplay in favorites menu". Press apply and close the window.
 
-![](../../../.gitbook/assets/40\_VM\_MCU\_Runconfig4.PNG)
+![](../../../.gitbook/assets/40\_vm\_mcu\_runconfig4.png)
 
 ## Debug Configurations <a href="#debug-configurations" id="debug-configurations"></a>
 
 Make sure you still have the right project selected on the left. Also make sure your J-Link debugger is plugged in and correctly passed through to your VM ([verify that you added the J-Link debugger in the USB tab of the VM settings](https://nxp.gitbook.io/hovergames/developerguide/tools/virtual-machine#virtual-machine-settings)). Now in the bottom left of your screen, in the quickstart panel, press the blue bug icon with the label "Debug".
 
-![](../../../.gitbook/assets/41\_VM\_MCU\_Debugconfig.PNG)
+![](../../../.gitbook/assets/41\_vm\_mcu\_debugconfig.png)
 
 A new window opens and should show the attached J-Link debugger. Select it and press "OK".
 

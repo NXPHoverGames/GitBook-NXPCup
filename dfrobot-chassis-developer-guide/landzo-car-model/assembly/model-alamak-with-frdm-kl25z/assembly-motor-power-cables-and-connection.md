@@ -4,9 +4,9 @@
 
 Crimp the pins to the motor cables and put it into the motor connectors.
 
-![motor connectors](../../../../.gitbook/assets/IMG\_1925.jpeg)
+![motor connectors](../../../../.gitbook/assets/img\_1925.jpeg)
 
-In some kits the motor connectors and pins are missing. Therefor we are sorry. Please try to get the connectors and pins at your local electronic dealer. 
+In some kits the motor connectors and pins are missing. Therefor we are sorry. Please try to get the connectors and pins at your local electronic dealer.&#x20;
 
 ### Connectors: JST VH2P BU
 

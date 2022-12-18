@@ -68,7 +68,7 @@ Links to the daily builds are provided in the QGroundControl documentation. Insi
 
 You don't need to install an AppImage. You only need to make it executable and run it. Move the AppImage file to your homefolder. Then, right click on the file, go to the file properties, and give the AppImage permission to execute as a program.
 
-![](../../../.gitbook/assets/29\_VM\_PX4\_Toolchain.PNG)
+![](../../../.gitbook/assets/29\_vm\_px4\_toolchain.png)
 
 Alternatively, you can make the file executable by running the command, assuming it is located in your home folder:
 

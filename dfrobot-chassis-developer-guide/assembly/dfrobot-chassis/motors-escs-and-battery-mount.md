@@ -34,7 +34,7 @@ Fix the ESC to the Chassis with a cable tie so that the ESC cannot get in confli
 
 You can mount the motors the same way as the brushed motors. Keep in mind that the brass gears are hard to press onto the motor shafts. You may need to use something to hammer them onto the shaft like the nut-driver seen below.
 
-![](../../../.gitbook/assets/IMG\_0950.jpeg)
+![](../../../.gitbook/assets/img\_0950.jpeg)
 
 The motors have two different diameter mount points. You can use either. The longer diameter mount points will require you to mount the motor at an angle, but this can be beneficial because it will give you some lee-way to get the gears meshed just right.
 
@@ -50,4 +50,4 @@ Also, the M3 screw heads are a little small for the slots to mount the motors. Y
 
 In the FMU kit is a power module. This can be fixed to the lower side of the upper plate with a cable tie. The male connector will be plugged to the battery later. So is might be good to fix the power connection in a position that you can easily reach the male connector later. The female connector must be plugged to the ESC connector. In the case that you use a Power Distribution board (PDB), the power module should be connected to the Power connector of the PDB.&#x20;
 
-![](../../../.gitbook/assets/Powermodule\_FMU.jpg)
+![](../../../.gitbook/assets/powermodule\_fmu.jpg)

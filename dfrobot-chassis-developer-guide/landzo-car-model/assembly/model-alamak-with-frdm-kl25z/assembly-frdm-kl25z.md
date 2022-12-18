@@ -2,6 +2,6 @@
 
 ## FRDM-KL25Z
 
-Put the FRDM-KL25Z board over the system board. 
+Put the FRDM-KL25Z board over the system board.&#x20;
 
-![FRDM-KL25Z mount](../../../../.gitbook/assets/IMG\_1941.jpeg)
+![FRDM-KL25Z mount](../../../../.gitbook/assets/img\_1941.jpeg)

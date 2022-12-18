@@ -66,6 +66,6 @@ Regardless of whether ESCs have been used or not, the motors are installed as fo
 
 
 
-![](<../../../.gitbook/assets/20191218\_160405 (1).jpg>)
+![](../../../.gitbook/assets/20191218\_160405.jpg)
 
-![](<../../../.gitbook/assets/20191218\_161301 (1).jpg>)
+![](../../../.gitbook/assets/20191218\_161301.jpg)

@@ -4,7 +4,7 @@
 
 The existing original steering servo on the buggy does not have the proper interface connector to work the FMU. It needs to be swapped for one that uses traditional RC 3-Wire PWM. To remove the existing servo, first we must unfasten it from the base of the buggy. There are two screws on the bottom, and you can see two small locking pins next to them which keeps the plastic mount in place. Remove these two screws like so:
 
-![](<../../.gitbook/assets/IMG\_5913 (1).JPEG>)
+![](../../.gitbook/assets/IMG\_5913.JPEG)
 
 ![](../../.gitbook/assets/IMG\_5915.JPEG)
 

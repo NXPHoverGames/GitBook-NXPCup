@@ -14,7 +14,7 @@ This notice applies to the boards listed below that may be included in some vers
 
 PX4-ARMINGBRD
 
-![](<../.gitbook/assets/MicrosoftTeams-image (11) (1).png>)
+![](<../.gitbook/assets/MicrosoftTeams-image (11).png>)
 
 NXPBUGGY3PDB \
 ![](<../.gitbook/assets/MicrosoftTeams-image (8).png>)

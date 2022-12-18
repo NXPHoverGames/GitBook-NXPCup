@@ -16,19 +16,19 @@ The HoverGames drone kit includes an adapter board for the RDDRONE-FMUK66 DCD-LZ
 
 This picture below shows the J-Link EDU Mini and an FTDI-USB-UART-3V3 plugged into the DCD-LZ-ADAPT board and then connecting to the DCD-LZ port an RDDRONE-FMUK66. This is the setup as included in the HoverGames drone kits. Note that the FMU has to be powered using a micro USB cable.
 
-![](../../../../.gitbook/assets/debuggig_setup.jpg)
+![](../../../../.gitbook/assets/debuggig\_setup.jpg)
 
-The 7-pin JST GH cable connects the debug adapter board to the FMU. The USB-TTL-3V3 cable plugs in as shown below. The **black (GND) wire should be on the same side as the small notch/mark** on the orange case! The SWD cable goes between the adapter board and the J-Link EDU Mini debugger. 
+The 7-pin JST GH cable connects the debug adapter board to the FMU. The USB-TTL-3V3 cable plugs in as shown below. The **black (GND) wire should be on the same side as the small notch/mark** on the orange case! The SWD cable goes between the adapter board and the J-Link EDU Mini debugger.&#x20;
 
-![](../../../../.gitbook/assets/debug_adapter.jpg)
+![](../../../../.gitbook/assets/debug\_adapter.jpg)
 
 ### Alternative debugger configurations
 
 Shown below is the Landzo OpenSDA Debugger with an adapter board connected to the 7-pin JST-GH RDDRONE-FMUK66 DCD-LZ interface.
 
-![](../../../../.gitbook/assets/Landzo_openSDA.png)
+![](../../../../.gitbook/assets/landzo\_opensda.png)
 
-![](../../../../.gitbook/assets/Jlink_debugger.png)
+![](../../../../.gitbook/assets/jlink\_debugger.png)
 
 ## J-Link Software setup
 
@@ -36,11 +36,11 @@ You will need the J-Link Commander program, which is part of the J-Link Software
 
 On Windows, you will find J-Link Commander under the program menu after installation. It can be found in a directory similar to this:
 
-![](../../../../.gitbook/assets/Jlink_software1.png)
+![](../../../../.gitbook/assets/jlink\_software1.png)
 
 You can also browse to the installation folder and run the program from there. Usually, the J-Link Software pack is installed to a location similar to `C:\Program Files (x86)\SEGGER\JLink_Vxxxx`. Note that the name of the J-Link Commander executable is actually JLink.exe.
 
-![](../../../../.gitbook/assets/Jlink_software2.png)
+![](../../../../.gitbook/assets/jlink\_software2.png)
 
 On a **Linux OS**, you can only run the executable through a commandline. You can directly run J-Link Commander from its installation directory by entering `/opt/SEGGER/JLink/JLinkExe` in the commandline.
 
@@ -48,7 +48,7 @@ On a **Linux OS**, you can only run the executable through a commandline. You ca
 
 When prompted, type `connect` to establish a connection with the debugger.
 
-![](../../../../.gitbook/assets/connect_jlink.png)
+![](../../../../.gitbook/assets/connect\_jlink.png)
 
 ### Set the target device
 
@@ -62,25 +62,25 @@ MK66FN2M0XXX18 is the target device for RDDRONE-FMUK66 (NXPhlite).
 This selection dialog might not work on operating systems other than Windows. If it does not work, restart the program and enter the right device manually, by typing the full device name (MK66FN2M0XXX18) instead of the question mark (?).
 {% endhint %}
 
-![](../../../../.gitbook/assets/connect_jlink2.png)
+![](../../../../.gitbook/assets/connect\_jlink2.png)
 
 ### Select the target interface and speed
 
- Enter `s` to select SWD as the target interface. 
+&#x20;Enter `s` to select SWD as the target interface.&#x20;
 
-![](../../../../.gitbook/assets/select_SWD.png)
+![](../../../../.gitbook/assets/select\_swd.png)
 
 You can accept the default target speed of 4000 kHz by just pressing `enter`.
 
 The JLink will then connect to the target. You should see something similar to this:
 
-![](../../../../.gitbook/assets/sucessful_jlink_connection.png)
+![](../../../../.gitbook/assets/sucessful\_jlink\_connection.png)
 
 ### J-Link help
 
 At this point you can type `?` to get help and a list of commands that JLink accepts. Note the command `loadbin`, we will use it later.
 
-![](../../../../.gitbook/assets/JLink_help.png)
+![](../../../../.gitbook/assets/jlink\_help.png)
 
 ## Flash binary files to the FMU board
 
@@ -105,9 +105,9 @@ Depending on the size of the binary, it might take a while to flash. A pop-up wi
 
 
 
-![](../../../../.gitbook/assets/flashing_process.png)
+![](../../../../.gitbook/assets/flashing\_process.png)
 
-![](<../../../../.gitbook/assets/flashing bootloader.png>)
+![](../../../../.gitbook/assets/flashing-bootloader.png)
 
 That is everything. You may need to press reset on the board, or power cycle for the new code to start running on the RDDRONE-FMUK66. Note that with just a bootloader, the board will not do much. You will need both a bootloader and PX4 firmware for the board to function as intended.
 

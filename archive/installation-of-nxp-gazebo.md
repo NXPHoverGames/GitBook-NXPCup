@@ -18,7 +18,7 @@ You can install by using nxp\_desktop.sh shell by downloading the file at
 
 You can do so easily by running the following git clone command using the link from the git repo:
 
-![](<../.gitbook/assets/Screen Shot 2021-02-04 at 4.11.43 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-02-04-at-4.11.43-pm.png)
 
 ```
 $ git clone https://github.com/rudislabs/desktop_installs
@@ -26,7 +26,7 @@ $ git clone https://github.com/rudislabs/desktop_installs
 
 Now you should see the `desktop_installs` folder in your home folder:
 
-![Expected output for \`git clone\`](<../.gitbook/assets/Screen Shot 2021-02-04 at 4.13.36 PM.png>)
+![Expected output for \`git clone\`](../.gitbook/assets/screen-shot-2021-02-04-at-4.13.36-pm.png)
 
 After downloading the file you may need to make it executable. You can do so by entering the `desktop_installs` directory and running a `chmod` command:
 
@@ -156,7 +156,7 @@ $ colcon build --packages-select nxp_cup_bringup --symlink-install
 
 ![Expected output for building px4\_msgs](<../.gitbook/assets/image (26).png>)
 
-![Expected output for building px4\_ros\_com (stderr is okay!)](<../.gitbook/assets/image (33) (1).png>)
+![Expected output for building px4\_ros\_com (stderr is okay!)](<../.gitbook/assets/image (27).png>)
 
 ![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](<../.gitbook/assets/image (28).png>)
 
