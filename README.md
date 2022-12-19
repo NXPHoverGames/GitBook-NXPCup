@@ -4,10 +4,13 @@
 Also take a look at some of our other Gitbooks:
 
 * [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
-* [8M Mini NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M-CCnxDe4dTvAz3QmDw/)
-* [8M Plus NavQ](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-MQsLUVVC7cJOe9aVARC/)
-* [UCANS32K146 UAVCAN/CAN Node](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-M7FJ\_hQKd8L0MNgduui/)
+* [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/)
+* [UCANS32K1 ](https://nxp.gitbook.io/ucans32k146/) CAN-FD / UAVCAN node
+
+
 {% endhint %}
+
+
 
 ### This gitbook can be found at: [https://nxp.gitbook.io/nxp-cup/](https://nxp.gitbook.io/nxp-cup/)
 
