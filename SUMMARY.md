@@ -25,6 +25,7 @@
 * [Configuring the PixyCam](mr-buggy3-developer-guide/configuring-the-pixycam.md)
 * [NXP Cup Example Application](mr-buggy3-developer-guide/nxp-cup-example-application.md)
 * [UWB-control sample Application](mr-buggy3-developer-guide/uwb-control-sample-application.md)
+* [Ignition Gazebo Simulation](mr-buggy3-developer-guide/ignition-gazebo-simulation.md)
 
 ## DFRobot Chassis Developer Guide
 
