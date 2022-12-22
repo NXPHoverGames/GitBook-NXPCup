@@ -2,48 +2,55 @@
 
 ## Task 1: Remove existing servo
 
-The existing original steering servo on the buggy does not have the proper interface connector to work the FMU. It needs to be swapped for one that uses traditional RC 3-Wire PWM. To remove the existing servo, first we must unfasten it from the base of the buggy. There are two screws on the bottom, and you can see two small locking pins next to them which keeps the plastic mount in place. Remove these two screws like so:
+The original steering servo connector installed on the buggy from the factory does not connect with the FMU. It needs to be swapped for one that uses traditional 3-Wire RC-PWM.&#x20;
+
+To remove the existing servo unfasten it from the base of the buggy. There are two screws on the bottom, and you can notice two small locking pins next to them which keeps the plastic mount in place. \
+Remove these two screws like so:
 
 ![](../../.gitbook/assets/IMG\_5913.JPEG)
 
 ![](../../.gitbook/assets/IMG\_5915.JPEG)
 
-Once these screws have been removed,  the servo can be lifted out of its mounting bracket. \
-The next step is to remove the steering crown from the servo. Remove the crown by unscrewing the single set screw in the middle:
+Once these screws have been removed,  the servo can be lifted out of its mounting bracket.&#x20;
+
+\
+Next remove the steering horn (steering arm) from the servo.&#x20;
+
+Remove the horn by unscrewing the single set screw in the middle:
 
 ![](../../.gitbook/assets/IMG\_5917.JPEG)
 
 ![](../../.gitbook/assets/IMG\_5918.JPEG)
 
-Next, transfer the servo mounting bracket to the new servo.
+Transfer the servo mounting bracket to the new servo.
 
 ![](../../.gitbook/assets/IMG\_5920.JPEG)
 
 ![](../../.gitbook/assets/IMG\_5921.JPEG)
 
-You will not need any of the hardware included in the baggy with the JX servo.
+You will not need any of the extra hardware included in the baggy that comes with the new JX servo.
 
 ![](../../.gitbook/assets/IMG\_5922.JPEG)
 
 ## Task 2: Install new servo
 
-Attach the crown to the new servo. Make sure that it is facing straight up. Do not turn the servo or it will require calibration upon booting up the PX4 system.
+Attach the horn (arm) to the new servo.&#x20;
 
-{% hint style="warning" %}
-Also make sure that the front wheels are pointing straight! There is a bit of outward toe by default, just try to get it as straight as possible.
-{% endhint %}
+1.  Ensure the arm is pointing straight upward. Don't turn the servo or it will require calibration upon booting up the PX4 system.
+
+    (You can carefully move the servo back and forth if you need to relocate the center-of-throw again before attaching the servo horn)
+2. Ensure that the front wheels are pointing straight ! There is a bit of outward toe by default, just try to get it as straight as possible.
 
 ![](../../.gitbook/assets/IMG\_5924.JPEG)
 
-The set screw from the previous servo will not work as the previous servo had a plastic housing. You will need to use a screw from the extra screw kit included in your box. The screw will be in the middle right bin of the kit.
+{% hint style="danger" %}
+The set screw from the previous servo will not work as the previous servo had a plastic housing.&#x20;
 
-{% hint style="info" %}
-XXX NOTE TO LANDON XXX - While this screw likely works fine work, I understood there should be a separate socket head cap screw (Silver or Black) that was purchased specifically for this purpose. Need to double check in the BOM.
+You will need to use a new screw.
+
+\
+There should be an extra socket head cap screw included in the kit that fits, alternatively you can use a screw from the extra-screw-kit included in your box.&#x20;
 {% endhint %}
-
-\
-\
-
 
 ![](../../.gitbook/assets/IMG\_5925.JPEG)
 
@@ -55,7 +62,7 @@ Screw in the set screw and try not to tighten it too tight. If the horn twists, 
 
 ![](../../.gitbook/assets/IMG\_5928.JPEG)
 
-Place the servo back in the slot and screw it back in.
+Reinstall the screws on the bottom that hold the servo in place
 
 ![](../../.gitbook/assets/IMG\_5929.JPEG)
 
