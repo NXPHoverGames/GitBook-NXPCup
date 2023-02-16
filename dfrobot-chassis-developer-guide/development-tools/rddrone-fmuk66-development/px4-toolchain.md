@@ -49,7 +49,7 @@ You should reboot the virtual machine after the installation is done.
 Make sure to reboot your computer after the toolchain installation is finished. Then change your working directory to the PX4 firmware repository again and start a build for the FMUK66 using the following command:
 
 ```bash
-cd ~/src/Firmware && make nxp_fmuk66-v3_default
+cd ~/src/px4-Firmware && make nxp_fmuk66-v3_default
 ```
 
 After the build process is done, you should be able to find `.bin`, `.px4` and `.elf` files in the `~/src/Firmware/build/nxp_fmuk66-v3_default` folder. We will later come back to building your own firmware binaries, when we set up an IDE (integrated development environment) to do it for us.
