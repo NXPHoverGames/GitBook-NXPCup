@@ -41,11 +41,12 @@ There are a couple of items that need to be completed before flashing our FMU:
 
 #### Downloading the bootloader
 
-The FMU requires a bootloader to run. You will be able to flash this using the J-Link debugger. Please download the file below:
+The FMU requires a bootloader to run. You will be able to flash this using the J-Link debugger. Please follow the instructions here on the HoverGames gitbook:\
+[https://nxp.gitbook.io/hovergames/downloads#rddrone-fmuk66-e-px4-bootloader](https://nxp.gitbook.io/hovergames/downloads#rddrone-fmuk66-e-px4-bootloader)
 
-{% embed url="http://ci.px4.io/job/PX4/job/PX4-Bootloader/job/master/lastSuccessfulBuild/artifact/build/fmuk66v3_bl/fmuk66v3_bl.bin" %}
-FMUK66 Bootloader
-{% endembed %}
+{% embed url="https://nxp.gitbook.io/hovergames/downloads#rddrone-fmuk66-e-px4-bootloader" %}
+
+
 
 #### Download and install the J-Link software pack
 
