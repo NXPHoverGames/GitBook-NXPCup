@@ -9,13 +9,13 @@ description: >-
 ## **NXP CUP Website & Community**
 
 **NXP CUP landing page:**\
-****[**https://nxpcup.nxp.com/**](https://nxpcup.nxp.com/) **** with all information on NXP CUP.
+[**https://nxpcup.nxp.com/**](https://nxpcup.nxp.com/) with all information on NXP CUP.
 
 **NXP CUP Community:**\
 [https://nxpcup.nxp.com/news](https://nxpcup.nxp.com/news) with latest news, rules, track information, challenges etc. on the current season. Your news portal.
 
 **Registration to participate:**\
-****[**Register here**](https://getregisterednow.com/NXP/Cup/Registration/Register.aspx?li=87)**.**
+[**Register here**](https://getregisterednow.com/NXP/Cup/Registration/Register.aspx?li=87)**.**
 
 ## QGroundControl
 
@@ -41,7 +41,7 @@ J-Link Commander is used to flash binaries onto the RDDRONE-FMUK66 board. The la
 
 ## Example code
 
-{% file src=".gitbook/assets/nxpcup_microE.zip" %}
+{% file src=".gitbook/assets/nxpcup_microe.zip" %}
 Micro E Board Project
 {% endfile %}
 

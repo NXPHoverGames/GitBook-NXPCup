@@ -6,4 +6,4 @@
 
 **Katrin Moritz** - katrin.moritz@nxp.com - Technical Support
 
-## ~~~~
+##

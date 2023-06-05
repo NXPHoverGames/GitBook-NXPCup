@@ -2,7 +2,7 @@
 
 1. **START HERE:**
    * **Your community:**\
-     The [**NXP Community page**](https://community.nxp.com/groups/tfc-emea) **** gives information about registration, rules and commentary\
+     The [**NXP Community page**](https://community.nxp.com/groups/tfc-emea) gives information about registration, rules and commentary\
 
    * **FRDM-KL25Z:**\
      [FRDM-KL25Z reference manual and documentation on NXP.com](https://www.nxp.com/products/processors-and-microcontrollers/arm-based-processors-and-mcus/kinetis-cortex-m-mcus/l-seriesultra-low-powerm0-plus/freedom-development-platform-for-kinetis-kl14-kl15-kl24-kl25-mcus:FRDM-KL25Z)\
