@@ -8,4 +8,4 @@ We have discovered that only two of the mounting holes may line up correctly on 
 
 ## On Landzo Model C the Power distribution board would mount using the holes shown below.
 
-![](../../../.gitbook/assets/Landzo-TFC-MODEL_C_Mounting.png)
+![](../../../.gitbook/assets/Landzo-TFC-MODEL\_C\_Mounting.png)

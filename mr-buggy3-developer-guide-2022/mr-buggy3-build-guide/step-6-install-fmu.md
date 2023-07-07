@@ -1,4 +1,4 @@
-# Step 7: Install FMU
+# Step 6: Install FMU
 
 ## Task 1: Assemble the FMU in its case
 

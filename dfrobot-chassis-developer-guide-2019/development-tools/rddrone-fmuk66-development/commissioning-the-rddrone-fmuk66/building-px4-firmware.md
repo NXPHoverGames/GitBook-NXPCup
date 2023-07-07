@@ -8,7 +8,7 @@ Most of the times when using the RDDRONE-FMUK66 (NXPhlite) flight controller, yo
 
 ## Building the firmware
 
-When you have your [toolchain set up](https://nxp.gitbook.io/nxp-cup/developer-guide/development-tools/rddrone-fmuk66-development/px4-toolchain), you can start building firmware. As part of the installation, the firmware has already been cloned to your computer under the folder `~/src/Firmware`. To build the firmware for RDDRONE-FMUK66 (NXPhlite), open a terminal in this folder (On Windows, follow steps 1. and 2. at [https://dev.px4.io/en/setup/dev_env_windows_cygwin.html#getting_started](https://dev.px4.io/en/setup/dev_env_windows_cygwin.html#getting_started)), and use the following command:
+When you have your [toolchain set up](https://nxp.gitbook.io/nxp-cup/developer-guide/development-tools/rddrone-fmuk66-development/px4-toolchain), you can start building firmware. As part of the installation, the firmware has already been cloned to your computer under the folder `~/src/Firmware`. To build the firmware for RDDRONE-FMUK66 (NXPhlite), open a terminal in this folder (On Windows, follow steps 1. and 2. at [https://dev.px4.io/en/setup/dev\_env\_windows\_cygwin.html#getting\_started](https://dev.px4.io/en/setup/dev\_env\_windows\_cygwin.html#getting\_started)), and use the following command:
 
 ```
 make nxp_fmuk66-v3_default

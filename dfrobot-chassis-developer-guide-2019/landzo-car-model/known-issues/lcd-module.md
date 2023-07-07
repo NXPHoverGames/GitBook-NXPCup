@@ -20,4 +20,4 @@ A: That is correct. From the Landzo documentation (see picture below, we see tha
 
 ![](../../../.gitbook/assets/IMG\_20171221\_140602.jpg)
 
-* [ ] \<ToDo: Look at what would be needed to provide a support bracket that could be 3D printable using an FDM printer and post to thingiverse.> 
+* [ ] \<ToDo: Look at what would be needed to provide a support bracket that could be 3D printable using an FDM printer and post to thingiverse.>&#x20;

@@ -1,3 +1,3 @@
 # System Block Diagram
 
-![](../../../../.gitbook/assets/Landzo-TFC-System_block_diagram.png)
+![](../../../../.gitbook/assets/Landzo-TFC-System\_block\_diagram.png)

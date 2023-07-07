@@ -6,4 +6,4 @@ description: >-
 
 # Landzo car model (OLD)
 
-The next pages introduces the hardware and show a step-by-step description for the setup. Afterwards software tools will be presented and Known Issues are described. 
+The next pages introduces the hardware and show a step-by-step description for the setup. Afterwards software tools will be presented and Known Issues are described.&#x20;

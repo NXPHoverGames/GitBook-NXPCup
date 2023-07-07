@@ -1,4 +1,4 @@
-# Step 9: Install Pixy Camera mount
+# Step 8: Install Pixy Camera mount
 
 ## Task 1: Build Pixy Camera mount
 

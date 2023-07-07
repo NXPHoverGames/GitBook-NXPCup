@@ -2,4 +2,4 @@
 
 ## Power Distribution
 
-![](../../../../.gitbook/assets/Landzo-TFC-Power_System.png)
+![](../../../../.gitbook/assets/Landzo-TFC-Power\_System.png)
