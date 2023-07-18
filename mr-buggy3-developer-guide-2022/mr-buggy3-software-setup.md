@@ -142,6 +142,8 @@ Go to Settings -> Aux Channels -> Functions on your radio controller, and set th
 
 <table><thead><tr><th>Channel</th><th>Switch/Dial</th><th data-hidden></th></tr></thead><tbody><tr><td>5</td><td>SwA</td><td></td></tr><tr><td>6</td><td>SwB</td><td></td></tr><tr><td>7</td><td>SwC</td><td></td></tr><tr><td>8</td><td>SwD</td><td></td></tr><tr><td>9</td><td>VrA</td><td></td></tr><tr><td>10</td><td>VrB</td><td></td></tr></tbody></table>
 
+With these settings complete go to Settings . System > RX bind then connect the controller to the RC transmitter. The LED should stop flashing.
+
 ### Setting up the Radio Controller in QGroundControl
 
 Next, open the Radio menu in QGroundControl. Follow the instructions after selecting "Calibrate" on that screen. This will calibrate the sticks. If you would like to set up flight mode control with the switches on the top of the radio controller, navigate to the Flight Modes tab and configure the switches to your liking.
