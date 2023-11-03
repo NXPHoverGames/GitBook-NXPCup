@@ -39,6 +39,7 @@ description: Work in progress
 ### Not included in the kit, but required separately:
 
 * Pixy Camera&#x20;
+* [2s \~2200mAh LiPo Battery](https://nxp.gitbook.io/nxp-cup/mr-buggy3-developer-guide-2022/mr-buggy3-build-guide/step-11-wiring-the-buggy3#note-regarding-buggy-3-battery)
 
 ### Optional depending on which specific kit was procured&#x20;
 
