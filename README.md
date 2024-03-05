@@ -3,7 +3,7 @@
 {% hint style="success" %}
 Also take a look at some of our other Gitbooks:
 
-* [HoverGames](http://localhost:5000/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
+* [HoverGames](https://app.gitbook.com/o/-L9GLsni4p7csCR7QCJ8/s/-L9GLtb-Tz\_XaKbQu-Al/)
 * [NavQPlus (NavQ+) Companion Computer](https://nxp.gitbook.io/8mpnavq/)
 * [UCANS32K1 ](https://nxp.gitbook.io/ucans32k146/) CAN-FD / UAVCAN node
 

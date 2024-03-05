@@ -147,3 +147,7 @@
 ## NavQ on NXP Cup Car
 
 * [Setting up NavQ for use on the NXP Cup Car](navq-on-nxp-cup-car/setting-up-navq-for-use-on-the-nxp-cup-car.md)
+
+## Group 1
+
+* [Getting started with MR-B3RB](group-1/getting-started-with-mr-b3rb.md)
