@@ -5,6 +5,10 @@
 * [Support Material](support-material.md)
 * [Contact](welcome-to-nxp-cup.md)
 
+## 2024 NXP-CUP using MR-B3RB&#x20;
+
+* [Getting started with MR-B3RB](2024-nxp-cup-using-mr-b3rb/getting-started-with-mr-b3rb.md)
+
 ## MR-Buggy3 Developer Guide 2022
 
 * [FCC-CE EMC Notification](mr-buggy3-developer-guide-2022/fcc-ce-emc-notification.md)
@@ -147,7 +151,3 @@
 ## NavQ on NXP Cup Car
 
 * [Setting up NavQ for use on the NXP Cup Car](navq-on-nxp-cup-car/setting-up-navq-for-use-on-the-nxp-cup-car.md)
-
-## Group 1
-
-* [Getting started with MR-B3RB](group-1/getting-started-with-mr-b3rb.md)
