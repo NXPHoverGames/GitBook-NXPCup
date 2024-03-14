@@ -12,10 +12,10 @@
 ## 2022 MR-Buggy3 Developer Guide
 
 * [FCC-CE EMC Notification](2022-mr-buggy3-developer-guide/fcc-ce-emc-notification.md)
-* [Getting started](2022-mr-buggy3-developer-guide/getting-started.md)
-* [MR-Buggy3 build guide](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/README.md)
-  * [Step 1: Preparing Car for upgrades](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-1-preparing-car-for-upgrades.md)
-  * [Step 2: Installing new Servo](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-2-installing-new-servo.md)
+* [Getting started](mr-buggy3-developer-guide-2022/getting-started.md)
+* [MR-Buggy3 build guide](mr-buggy3-developer-guide-2022/mr-buggy3-build-guide/README.md)
+  * [Step 1: Preparing Car for upgrades](mr-buggy3-developer-guide-2022/mr-buggy3-build-guide/step-1-preparing-car-for-upgrades.md)
+  * [Step 2: Installing new Servo](mr-buggy3-developer-guide-2022/mr-buggy3-build-guide/step-2-installing-new-servo.md)
   * [Step 3: Installing ESC](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-3-installing-esc.md)
   * [Step 4: Installing PDB](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-4-installing-pdb.md)
   * [Step 5: Install Mounting PCB](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-5-install-mounting-pcb.md)
