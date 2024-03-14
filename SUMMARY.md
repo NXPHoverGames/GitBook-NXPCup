@@ -25,7 +25,7 @@
   * [Step 9: Installing top PCB](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-9-installing-top-pcb.md)
   * [Step 10: Installing the RC receiver](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-10-installing-the-rc-receiver.md)
   * [Step 11: Wiring the Buggy3](2022-mr-buggy3-developer-guide/mr-buggy3-build-guide/step-11-wiring-the-buggy3.md)
-* [MR-Buggy3 software setup](2022-mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
+* [MR-Buggy3 software setup](mr-buggy3-developer-guide/mr-buggy3-software-setup.md)
 * [Configuring the PixyCam](2022-mr-buggy3-developer-guide/configuring-the-pixycam.md)
 * [NXP Cup Example Application](2022-mr-buggy3-developer-guide/nxp-cup-example-application.md)
 * [UWB-control sample Application](2022-mr-buggy3-developer-guide/uwb-control-sample-application.md)

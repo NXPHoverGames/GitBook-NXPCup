@@ -163,7 +163,7 @@ The image below is just an example of the parameters tab. The values set there a
 | PWM\_MAIN\_MIN2 | 1300us |
 | PWM\_MAIN\_MIN4 | 1000us |
 | PWM\_MAIN\_MAX2 | 1700us |
-| PWM\_MAIN\_MAX4 | 2000us |
+| PWM\_MAIN\_MAX4 | 1700us |
 
 ![](<../.gitbook/assets/image (49) (1).png>)
 
