@@ -4,7 +4,10 @@
 * [Downloads and links](downloads-and-links.md)
 * [Support Material](support-material.md)
 * [Contact](welcome-to-nxp-cup.md)
-* [2025](2025.md)
+
+## &#x20;2024-Fall/2025 NXP-CUP Bare Metal Drivers
+
+* [NXP Cup Real-Time Drivers Software (bare-metal)](2024-fall-2025-nxp-cup-bare-metal-drivers/nxp-cup-real-time-drivers-software-bare-metal.md)
 
 ## 2024 NXP-CUP using MR-B3RB&#x20;
 
