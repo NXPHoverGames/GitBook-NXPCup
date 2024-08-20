@@ -4,6 +4,7 @@
 * [Downloads and links](downloads-and-links.md)
 * [Support Material](support-material.md)
 * [Contact](welcome-to-nxp-cup.md)
+* [2025](2025.md)
 
 ## 2024 NXP-CUP using MR-B3RB&#x20;
 
