@@ -1,6 +1,6 @@
 # Getting started with MR-B3RB
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 \
 \

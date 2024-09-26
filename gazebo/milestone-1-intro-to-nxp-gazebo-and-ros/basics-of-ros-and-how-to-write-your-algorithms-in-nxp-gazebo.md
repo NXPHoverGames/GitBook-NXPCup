@@ -16,13 +16,13 @@ In NXP Gazebo, the two main topics are `/cupcar0/PixyVector` and `/cupcar0/cmd_v
 
 ## Where do I start?
 
-For NXP Cup participants, ROS might be a new platform that they haven't used before. In NXP Gazebo, ROS enables the Gazebo simulator and the communication between your self-driving algorithms and the simulated NXP Cup car. 
+For NXP Cup participants, ROS might be a new platform that they haven't used before. In NXP Gazebo, ROS enables the Gazebo simulator and the communication between your self-driving algorithms and the simulated NXP Cup car.&#x20;
 
 Thankfully, the team at NXP has set up the simulation environment in a way that keeps the learning curve low. All you need to do is write your algorithm in either C++ or Python and populate two variables to get the car to drive.
 
 To begin writing your code, navigate to `~/ros2ws/src/aim_line_follow_c/src/aim_line_follow_c.cpp` for C++, or `~/ros2ws/src/aim_line_follow/src/aim_line_folow.py` for Python.
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (45) (1).png>)
 
 These two files are the source files for your self driving code whether you prefer C++ or Python. Both of them are heavily commented, and you only need to edit the code within the `listener_callback()` function of each.
 
@@ -61,7 +61,7 @@ There is a function named `get_num_vectors()` that returns an integer with the n
 
 ### Sending control values to the simulated NXP Cup car
 
-In both the C++ and Python examples, a simple function is included that will publish speed and steer values to the simulated car. 
+In both the C++ and Python examples, a simple function is included that will publish speed and steer values to the simulated car.&#x20;
 
 ```
 // C++

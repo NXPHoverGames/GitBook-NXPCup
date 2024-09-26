@@ -6,13 +6,13 @@ Hello NXP Summer Camp participants! We are excited for you all to participate th
 
 ## The NXP Gazebo environment
 
-NXP Gazebo is built on top of the Robot Operating System, commonly referred to as ROS. ROS allows us to create a true-to-life model of the entire NXP Cup environemnt - including the car, tracks, and obstacles. 
+NXP Gazebo is built on top of the Robot Operating System, commonly referred to as ROS. ROS allows us to create a true-to-life model of the entire NXP Cup environemnt - including the car, tracks, and obstacles.&#x20;
 
-![Image of the simulated NXP Cup Car](<../../.gitbook/assets/image (43).png>)
+![Image of the simulated NXP Cup Car](<../../.gitbook/assets/image (43) (1).png>)
 
-We also have been able to create a simulated Pixy Camera for use in simulation so your existing algorithms will work similarly to how they work on your real NXP Cup Car. 
+We also have been able to create a simulated Pixy Camera for use in simulation so your existing algorithms will work similarly to how they work on your real NXP Cup Car.&#x20;
 
-![Simulated Pixy Camera](<../../.gitbook/assets/image (44).png>)
+![Simulated Pixy Camera](<../../.gitbook/assets/image (44) (1).png>)
 
 The underlying platform for self-driving code is a ROS node. This node can be programmed in either C++ or Python. C++ will be more familiar to NXP Cup participants, but Python can be faster to prototype and test with due to the vast number of libraries available. Two ROS packages will be provided - one in Python and one in C++.
 

@@ -7,7 +7,23 @@
 
 ## &#x20;2024-Fall/2025 NXP-CUP Bare Metal Drivers
 
-* [NXP Cup Real-Time Drivers Software (bare-metal)](2024-fall-2025-nxp-cup-bare-metal-drivers/nxp-cup-real-time-drivers-software-bare-metal.md)
+* [Getting started with RTD and 3D printing](2024-fall-2025-nxp-cup-bare-metal-drivers/getting-started-with-rtd-and-3d-printing.md)
+* [Kit components](2024-fall-2025-nxp-cup-bare-metal-drivers/kit-components.md)
+* [3D printed kit build guide](2024-fall-2025-nxp-cup-bare-metal-drivers/3d-printed-kit-build-guide.md)
+* [Electrical connections](2024-fall-2025-nxp-cup-bare-metal-drivers/electrical-connections.md)
+* [S32K144 RTD software setup](2024-fall-2025-nxp-cup-bare-metal-drivers/s32k144-rtd-software-setup/README.md)
+  * [S32 Design Studio installation](2024-fall-2025-nxp-cup-bare-metal-drivers/s32k144-rtd-software-setup/s32-design-studio-installation.md)
+  * [RTD Software packet installation](2024-fall-2025-nxp-cup-bare-metal-drivers/s32k144-rtd-software-setup/rtd-software-packet-installation.md)
+  * [Importing the NXP Cup sample app](2024-fall-2025-nxp-cup-bare-metal-drivers/s32k144-rtd-software-setup/importing-the-nxp-cup-sample-app.md)
+* [Drivers description and usage](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/README.md)
+  * [Servo](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/servo.md)
+  * [ESC](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/esc.md)
+  * [H Bridge](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/h-bridge.md)
+  * [Display](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/display.md)
+  * [PPM Receiver](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/ppm-receiver.md)
+  * [Linear camera](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/linear-camera.md)
+  * [Pixy camera](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/pixy-camera.md)
+* [S32 Design Studio usage tips](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips.md)
 
 ## 2024 NXP-CUP using MR-B3RB&#x20;
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the NXP Gazebo Summer Camp! This event is designed to familiarize NXP Cup participants with the NXP Gazebo simulation environment for NXP Cup. The simulation environment will allow NXP Cup contestants to design, prototype, and test their NXP Cup software in a rapid fashion without the risk of damaging their NXP Cup cars. 
+Welcome to the NXP Gazebo Summer Camp! This event is designed to familiarize NXP Cup participants with the NXP Gazebo simulation environment for NXP Cup. The simulation environment will allow NXP Cup contestants to design, prototype, and test their NXP Cup software in a rapid fashion without the risk of damaging their NXP Cup cars.&#x20;
 
 This Gitbook contains all of the necessary documentation for installing, running, and building your NXP Cup car in NXP Gazebo. Use the context menus on the left to go through each section of the guide.
 
@@ -10,7 +10,7 @@ For information on System Requirements, Milestones, and more, read below!
 
 ## What's Gazebo?
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (1).png>)
 
 Gazebo is a full-fledged simulation environment built on top of ROS. In 2021, NXP Cup contestants may use the Gazebo simulation for an extra challenge at home. The benefit to using the Gazebo simulation environment is that you can test your code without crashing or damaging your actual NXP Cup car. The code modules that you run on your actual NXP Cup car can be ported to the Gazebo simulation environment (and vice versa) with ease.
 
@@ -71,5 +71,5 @@ Continue to the next section to start installing the required software for the G
 [milestone-1-intro-to-nxp-gazebo-and-ros](milestone-1-intro-to-nxp-gazebo-and-ros/)
 {% endcontent-ref %}
 
-![NXP Cup Car in Gazebo Simulation](<../.gitbook/assets/image (11).png>)
+![NXP Cup Car in Gazebo Simulation](<../.gitbook/assets/image (11) (1).png>)
 

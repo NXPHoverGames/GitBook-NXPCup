@@ -32,7 +32,7 @@ First delete the main-file, "NXPCUP\_c++.cpp", from the "source" folder. You wil
 
 The `nxpcup_ARC_c++` is your main-file. Here you can call your implemented functions.&#x20;
 
-![Structure of the code](<../../../.gitbook/assets/image (1).png>)
+![Structure of the code](<../../../.gitbook/assets/image (1) (2).png>)
 
 The software is based on a 3-layers model:
 

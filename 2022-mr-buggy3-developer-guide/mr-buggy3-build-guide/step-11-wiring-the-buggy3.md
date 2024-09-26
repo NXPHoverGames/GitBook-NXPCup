@@ -28,7 +28,7 @@ The battery should have an XT60 plug end and not the T or DEANS style end.\
 An XT60 may be soldered in place (carefully - you must be extra careful to never short the battery pins for risk of fire/explosion!) or an adapter from T/Deans to XT60 may be used.\
 
 
-![DEANS T  Male connector to XT60 Female](<../../.gitbook/assets/image (49).png>)
+![DEANS T  Male connector to XT60 Female](<../../.gitbook/assets/image (49) (2).png>)
 
 ![Battery needs to fit in this space on the Buggy](<../../.gitbook/assets/image (50) (1) (1) (2).png>)
 
