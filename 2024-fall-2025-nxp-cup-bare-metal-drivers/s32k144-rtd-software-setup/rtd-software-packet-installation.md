@@ -8,9 +8,9 @@ Download the .zip file on your computer and extract the files.
 
 _2._     Search for _**S32K1xx development package**_ and _**S32M2xx development package** _ and select them for installation. _Note: this step can take a very long time (1h+)_
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 3\.      Restart the tool after the installation is completed
 

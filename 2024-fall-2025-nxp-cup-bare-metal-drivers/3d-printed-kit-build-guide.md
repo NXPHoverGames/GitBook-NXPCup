@@ -4,7 +4,7 @@ To assemble your 3D printed kit, you will need some additional components. This 
 
 
 
-{% file src="../.gitbook/assets/Buggy Component List (2).xlsx" %}
+{% file src="../.gitbook/assets/Buggy Component List.xlsx" %}
 
 To print the car parts, you will need to use a G-code generator. The STL files for all 3D models are provided below. The STEP file is provided too if you want to improve the model. Insert STL files in your G-code generator of choice and print the required number of parts (see components list for required number of each part).
 
@@ -18,21 +18,21 @@ Note: You can see 4 screws on the top and bottom plate. That's because they are 
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/image (22).png" alt="" width="375"><figcaption><p>Motors, clamps and the bottom plate</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt="" width="375"><figcaption><p>Motors, clamps and the bottom plate</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (23).png" alt="" width="375"><figcaption><p>Motor fixed on the plate</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23) (1).png" alt="" width="375"><figcaption><p>Motor fixed on the plate</p></figcaption></figure>
 
 </div>
 
 Do the same for the other side.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="" width="375"><figcaption><p>Both motors fixed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption><p>Both motors fixed</p></figcaption></figure>
 
 Next, we will add the spacers. You can see in the photos below where every screw (the hexagonal ones) and spacer goes.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now we can focus on the front of the car and its steering system.
 
@@ -56,11 +56,11 @@ Next let’s insert the bearings in the bearing holders. Take your time here, tr
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Bearing holder and cover</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>Bearing holder and cover</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p> </p></figcaption></figure>
 
 </div>
 
@@ -68,11 +68,11 @@ Finally add the PLA cover and the axle.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (28).png" alt="" width="375"><figcaption><p>Adding the cover</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt="" width="375"><figcaption><p>Adding the cover</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (29).png" alt="" width="375"><figcaption><p>Adding the axle</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1).png" alt="" width="375"><figcaption><p>Adding the axle</p></figcaption></figure>
 
 </div>
 
@@ -224,7 +224,7 @@ Screw the nylon spacers in the top board then lock them with nuts.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (33).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
  
 
@@ -234,13 +234,13 @@ Screw the nylon spacers in the top board then lock them with nuts.
 
 After that lock the board on the nylon spacers.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The hbridge is positioned on the back of the top plate with screws.
 
 
 
-<figure><img src="../.gitbook/assets/image (35).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 
 

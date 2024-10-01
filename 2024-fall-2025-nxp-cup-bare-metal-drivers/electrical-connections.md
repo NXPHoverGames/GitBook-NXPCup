@@ -36,7 +36,51 @@ The OLED display and the Pixy2 camera share the same I2c channel. You must conne
 
 ### Servo
 
+<div>
+
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_150139855.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### ESC
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155119473.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155219631.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155327069.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155337397.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### H Bridge
 
@@ -44,21 +88,117 @@ The OLED display and the Pixy2 camera share the same I2c channel. You must conne
 H Bridge circuit datasheet
 {% endfile %}
 
+<div>
+
+<figure><img src="../.gitbook/assets/image (17).png" alt="" width="563"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_145244727.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (18).png" alt="" width="188"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_145358715.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_145521449.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Pixy
 
 [https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start](https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start)
 
-### Linear camera
+<div>
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_132918992.png" alt="" width="563"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_133047906.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>Pixy connections</p></figcaption></figure>
+
+**Connecting both pixy camera and the display**
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_135031668.png" alt="" width="375"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_135052321.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_135143963.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Linear camera
 
 {% file src="../.gitbook/assets/TSL1401.PDF" %}
 Linear camera datasheet
 {% endfile %}
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_150251607.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_150302605.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Display
 
 {% file src="../.gitbook/assets/ssd1306_datasheet.pdf" %}
 Display driver chip datasheet
 {% endfile %}
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_132733662.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Display connections</p></figcaption></figure>
 
 ### Receiver
 

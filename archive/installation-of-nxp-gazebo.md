@@ -38,7 +38,7 @@ $ ls
 
 Now you should see that the `nxp_desktop.sh` file is highlighted green. This means that it has executable permissions.
 
-![Expected output for \`chmod\`](<../.gitbook/assets/image (3) (1).png>)
+![Expected output for \`chmod\`](<../.gitbook/assets/image (3) (1) (1).png>)
 
 Now, we want to run this file to set up our desktop environment. It will ask you for your Ubuntu user password; just type that in when it asks for it. To run the file, run the following command and you should get the expected output:
 
@@ -46,7 +46,7 @@ Now, we want to run this file to set up our desktop environment. It will ask you
 $ ./nxp_desktop.sh
 ```
 
-![Expected output for \`./nxp\_desktop.sh\`](<../.gitbook/assets/image (18) (1).png>)
+![Expected output for \`./nxp\_desktop.sh\`](<../.gitbook/assets/image (18) (1) (1).png>)
 
 You should now see that your background has changed and the command has given you the `All done!` signal. Great! Now let's run the workspace setup to get Gazebo, PX4, and ROS installed.
 
@@ -61,7 +61,7 @@ $ cd ~/git/nxp_gazebo/scripts
 $ ls
 ```
 
-![Expected output of \`cd \~/git/nxp\_gazebo/scripts/\`](<../.gitbook/assets/image (20) (1).png>)
+![Expected output of \`cd \~/git/nxp\_gazebo/scripts/\`](<../.gitbook/assets/image (20) (1) (1).png>)
 
 Now, we will need to run the `foxy_install.sh` file to set up our software. To start, run the following command and make sure you get the expected output:
 
@@ -73,7 +73,7 @@ Note: This command will take a long time to finish since it is installing ROS2.&
 $ ./foxy_install.sh
 ```
 
-![Expected output from \`./foxy\_install.sh\`](<../.gitbook/assets/image (21) (1).png>)
+![Expected output from \`./foxy\_install.sh\`](<../.gitbook/assets/image (21) (1) (1).png>)
 
 Once you get the expected output from `./foxy_install.sh`, you'll want to add a line to your `~/.bashrc`. Follow the instructions below:
 
@@ -94,7 +94,7 @@ $ cat ~/.bashrc
 $ source ~/.bashrc
 ```
 
-![Expected output for \`cat \~/.bashrc\` and \`source \~/.bashrc\`](<../.gitbook/assets/image (22) (1).png>)
+![Expected output for \`cat \~/.bashrc\` and \`source \~/.bashrc\`](<../.gitbook/assets/image (22) (1) (1).png>)
 
 ### Installing RTPS
 
@@ -114,7 +114,7 @@ $ mkdir build && cd build
 
 You should get the expected output from these commands shown below:
 
-![](<../.gitbook/assets/image (23) (1).png>)
+![](<../.gitbook/assets/image (23) (1) (1).png>)
 
 Next, we will run some commands to build and install Fast-DDS. Run the following commands:
 
@@ -126,7 +126,7 @@ $ sudo make install
 
 You should get a message stating `[100%] Built target fastrtps` once `make -j$(nproc --all)` is finished, and you should get the expected output shown below after you run `sudo make install`:
 
-![](<../.gitbook/assets/image (24) (1).png>)
+![](<../.gitbook/assets/image (24) (1) (1).png>)
 
 #### Installing Fast-RTPS-Gen
 
@@ -139,7 +139,7 @@ $ git clone --recursive https://github.com/eProsima/Fast-DDS-Gen.git -b v1.0.4 ~
     && sudo ./gradlew install
 ```
 
-![](<../.gitbook/assets/image (25) (1).png>)
+![](<../.gitbook/assets/image (25) (1) (1).png>)
 
 If you got the expected output, great! We will move on to building our ROS2 workspace.
 
@@ -154,11 +154,11 @@ $ colcon build --packages-select nxp_cup_vision --symlink-install
 $ colcon build --packages-select nxp_cup_bringup --symlink-install
 ```
 
-![Expected output for building px4\_msgs](<../.gitbook/assets/image (26) (1).png>)
+![Expected output for building px4\_msgs](<../.gitbook/assets/image (26) (1) (1).png>)
 
-![Expected output for building px4\_ros\_com (stderr is okay!)](<../.gitbook/assets/image (27) (1).png>)
+![Expected output for building px4\_ros\_com (stderr is okay!)](<../.gitbook/assets/image (27) (1) (1).png>)
 
-![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](<../.gitbook/assets/image (28) (1).png>)
+![Expected output for building nxp\_cup\_vision and nxp\_cup\_bringup](<../.gitbook/assets/image (28) (1) (1).png>)
 
 Once we have built all of our ROS2 workspace, we will want to source the setup.bash for the workspace. We also want to make sure that all of our library paths are properly sourced. To do so, we will add some lines to the end of our `~/.bashrc`. Add the following lines to the end of your `~/.bashrc`:
 
@@ -177,7 +177,7 @@ You can do so with `nano` or `vim`. You can follow the `nano` instructions from 
 $ cat ~/.bashrc
 ```
 
-![Expected \~/.bashrc after adding lines](<../.gitbook/assets/image (29) (1).png>)
+![Expected \~/.bashrc after adding lines](<../.gitbook/assets/image (29) (1) (1).png>)
 
 Now, you'll want to source that `~/.bashrc` by running the following command:
 
@@ -196,7 +196,7 @@ $ cd ~/git/PX4-Autopilot
 $ DONT_RUN=1 make px4_sitl_rtps gazebo
 ```
 
-![Expected output for building PX4 binary](<../.gitbook/assets/image (30) (1).png>)
+![Expected output for building PX4 binary](<../.gitbook/assets/image (30) (1) (1).png>)
 
 If you get the expected output, stay vigilant! We only have one more command to run. We need to install `xterm` for the PX4 shell that runs when we boot up the simulation. To do so, run the following command:
 
@@ -220,6 +220,6 @@ To run the Gazebo simulation, we suggest you first restart your VM or PC and/or 
 $ ros2 launch nxp_cup_bringup nxp_cup_race.launch.py
 ```
 
-![NXP Cup Simulation](<../.gitbook/assets/image (31) (1).png>)
+![NXP Cup Simulation](<../.gitbook/assets/image (31) (1) (1).png>)
 
 Hooray! You have successfully setup your NXP Cup Gazebo Simulation. For more documentation on how to use the Gazebo simulation, move on to the next section using the buttons below or navigate by using the sidebar on the left.

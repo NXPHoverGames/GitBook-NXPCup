@@ -23,7 +23,12 @@
   * [PPM Receiver](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/ppm-receiver.md)
   * [Linear camera](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/linear-camera.md)
   * [Pixy camera](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/pixy-camera.md)
-* [S32 Design Studio usage tips](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips.md)
+* [S32 Design Studio usage tips](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/README.md)
+  * [Setting up pins](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/setting-up-pins.md)
+  * [Peripherals tool](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/peripherals-tool.md)
+  * [Using interrupts](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/using-interrupts.md)
+  * [Adding RTD drivers](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/adding-rtd-drivers.md)
+  * [Setting clocks](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/setting-clocks.md)
 
 ## 2024 NXP-CUP using MR-B3RB&#x20;
 

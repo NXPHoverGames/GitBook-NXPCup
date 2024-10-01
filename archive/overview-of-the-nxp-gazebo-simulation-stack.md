@@ -44,11 +44,11 @@ To write self-driving code for the simulated NXP Cup car, you must be familiar w
 
 To develop your self-driving code, you'll want to navigate to the NXP-Autopilot directory. This directory contains the PX4 firmware. A look inside the NXP-Autopilot directory is below:
 
-![\~/git/PX4-Autopilot](<../.gitbook/assets/image (13) (1).png>)
+![\~/git/PX4-Autopilot](<../.gitbook/assets/image (13) (1) (1).png>)
 
 While there is a large amount of files and folders inside the PX4-Autopilot directory, there is only a single location that you need to use. The location is in the `~/ros2ws/NXP-Autopilot/src/examples` directory. This directory contains user-written and example modules for PX4. By placing your self-driving source code in this directory, you can easily add it to the PX4 SITL (Software In The Loop) build target. Thankfully, we have already included a simple example module that drives the simulated cup car around an oval track. The module is located at `~/ros2ws/NXP-Autopilot/src/examples/nxpcup/`. An overview of the directory is located below:
 
-![\~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](<../.gitbook/assets/image (34) (1).png>)
+![\~/git/nxp\_ws/src/Firmware/src/examples/nxpcup/](<../.gitbook/assets/image (34) (1) (1).png>)
 
 Inside of the `nxpcup` directory, you will see a few files that may look familiar if you have previously used a brushless NXP Cup car kit. The files here are provided for contestants to get a quick start with simulation. A description of each file is in the table below:
 
