@@ -2,85 +2,27 @@
 
 Note: For some of these steps soldering tools may be required.
 
-<figure><img src="../.gitbook/assets/Connections.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Connections.png" alt=""><figcaption><p>Electrical connections</p></figcaption></figure>
 
 Refer to [Getting Started with the S32K144EVB | NXP Semiconductors](https://www.nxp.com/document/guide/getting-started-with-the-s32k144evb:NGS-S32K144EVB) for more information about the board. Here you will find a picture with all the board pins and pin names. You can also see all pin names on the back of the board. **The board's jumpers are also detailed here, used for selecting power input source (battery or USB).**
 
-## Powering the board
+### Powering the board
 
-For powering the board you will need the following xt60 connector. You can either buy one or make one yourself from two XT60 connectors. The red (vcc) and black(gnd) dupont wires will be connected to the LIN header pins, VBAT and GND as you can see in the picture below.
+For powering the board you will need the following XT60 connector. You can either buy one or make one yourself from two XT60 connectors and two wires/jumpers.&#x20;
 
-<div>
+<figure><img src="../.gitbook/assets/image (48).png" alt="" width="263"><figcaption><p>XT60 passthrough with dupont adapter </p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>XT60 passthrough with dupont adapter </p></figcaption></figure>
+You can use double sided tape to secure the battery on the bottom board. **Make sure you can still take it out for charging.**
 
- 
+<figure><img src="../.gitbook/assets/Fotografii selectate (1).jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>powering the S32K144</p></figcaption></figure>
+The red (vcc) and black(gnd) dupont wires will be connected to the LIN header pins, VBAT and GND as you can see in the picture below. **To power the board, make sure the jumper for selecting input power source is in the right position.**
 
-</div>
+<figure><img src="../.gitbook/assets/Fotografii selectate.jpg" alt=""><figcaption></figcaption></figure>
 
 The LiPo battery goes in the female port of the connector, and the ESC/Hbridge goes in the male port of the connector. Most ESC already have a connector soldered, but for the Hbridge you will need to provide one yourself. Again, you will need an adapter which you can buy or make yourself.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p>Hbridge power adapter</p></figcaption></figure>
-
-### I2c connections
-
-The OLED display and the Pixy2 camera share the same I2c channel. You must connect all SCL pins together, then do the same for SDA. The picture below shows one way of doing it. This must be done twice, once for the SCL pins and once for the SDA pins.
-
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>I2c connection. Purple wire goes to K144, green to display and blue to camera.</p></figcaption></figure>
-
-## Board connections
-
-<figure><img src="../.gitbook/assets/K144 Connections.png" alt=""><figcaption><p>Placeholder for photos of connections</p></figcaption></figure>
-
-### Servo
-
-<div>
-
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_150139855.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### ESC
-
-<div>
-
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_155119473.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../.gitbook/assets/image (25).png" alt="" width="563"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_155219631.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_155327069.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_155337397.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/image (50).png" alt="" width="213"><figcaption><p>Hbridge power adapter</p></figcaption></figure>
 
 ### H Bridge
 
@@ -88,27 +30,29 @@ The OLED display and the Pixy2 camera share the same I2c channel. You must conne
 H Bridge circuit datasheet
 {% endfile %}
 
-<div>
+Firstly, we will connect the battery adapter and motors.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Hbridge ports </p></figcaption></figure>
 
- 
+Loosen the screws on the Hbridge ports. Insert the cables from the power adapter in the GND and VMS ports, and screw them in. Insert the cables from the first motor in MOTORA, and the second motor in MOTORB.
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_145244727.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
+Note: the 5V port will be used for powering the servo.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (18).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt="" width="188"><figcaption><p>Motor cables</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_145358715.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image_2024-09-30_145358715.png" alt="" width="563"><figcaption><p>Motor cables connected</p></figcaption></figure>
 
 </div>
 
-<figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
+This is how it should look commpleted:
+
+<figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Final result</p></figcaption></figure>
+
+Next are the connections for controlling the H bridge. Connect them like in the picture. You can also use the picture at the beginning of this page for reference.
 
 <div>
 
@@ -120,23 +64,117 @@ H Bridge circuit datasheet
 
 </div>
 
-### Pixy
+### Servo
 
-[https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start](https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start)
+Servos have a 3-pin connector for power, pwm and ground. This servo has a brown ground, red power and orange pwm wires. Connect the pwm and ground wires to the board, and the power wire to the H bridge or ESC, depenting on what you are using.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_132918992.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Pwm and ground wires connected to the board</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_133047906.png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image_2024-09-30_150139855.png" alt=""><figcaption><p>Power wire connected to the H bridge</p></figcaption></figure>
 
 </div>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="375"><figcaption><p>Pixy connections</p></figcaption></figure>
+### ESC
 
-**Connecting both pixy camera and the display**
+Electronic speed controllers have the same 3-pin connector for power, PWM and ground.
+
+Note: These controllers come in many shapes and sizes, and many do not have any mounting hardware. You can use double-sided tape to mount it to your upper plate in the place of the H bridge.
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155337397.png" alt="" width="375"><figcaption><p>ESC with connectors for two motors</p></figcaption></figure>
+
+Connect the red power pin of the ESC to the power pin of the servo. The ground wire of the ESC must be connected to both the servo and the development board. You can either solder the ends of three wires together or use a 3-pin male header to connect three jumpers and solder a wire across the exposed ends.
+
+<div>
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155327069.png" alt=""><figcaption><p>Connecting the three grounds together in the male header with a wire soldered across it</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155219631.png" alt=""><figcaption><p>Two grounds connect the ESC and Servo, the last one will go in the microcontroller.</p></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>ESC connections</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_155119473.png" alt=""><figcaption><p>Servo connections</p></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/image (25).png" alt="" width="563"><figcaption><p>All connections</p></figcaption></figure>
+
+### Pixy
+
+Official Pixy2 documentation:  [https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start](https://docs.pixycam.com/wiki/doku.php?id=wiki:v2:start)
+
+The Pixy2 with the I2C interface needs four pins: power, ground, SCL and SDA.  Connect them like in the pictures below.&#x20;
+
+Note: You might need to use longer jumpers, or daisy chain multiple jumpers to reach the desired height with the camera.
+
+<div>
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_132918992.png" alt="" width="563"><figcaption><p>Board connections</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_133047906.png" alt="" width="188"><figcaption><p>Daisy chained jumpers</p></figcaption></figure>
+
+</div>
+
+Here you can see the pins used on the camera. Make sure you use the **5V pin** and not the **Vin pin** for powering the camera.
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (12).png" alt="" width="563"><figcaption><p>Pixy connections</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_248_2.jpg" alt=""><figcaption><p>Pixy pins documentation</p></figcaption></figure>
+
+</div>
+
+### Display
+
+{% file src="../.gitbook/assets/ssd1306_datasheet.pdf" %}
+Display driver chip datasheet
+{% endfile %}
+
+The display has power, ground, SCL and SDA pins. Connect them like in the pictures below. You can see each pin designation written on the display PCB.
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_132733662.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Display pin designations</p></figcaption></figure>
+
+### **Pixy and display**
+
+Since both components use I2C, they must connect to the same SCL and SDA pins of the microcontroller. You can either solder the ends of three wires together, or use a 3-pin header with a soldered wire across it, like you can see below.&#x20;
+
+<div>
+
+<figure><img src="../.gitbook/assets/shared image.jpg" alt="" width="375"><figcaption><p>The 3-pin header with a soldered wire across it</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_135143963.png" alt="" width="375"><figcaption><p>Jumpers connected to the header</p></figcaption></figure>
+
+</div>
+
+One end goes to the camera, one to the display and one to the microcontroller. The pictures below do not show the power and ground wires so you can see the SCL and SDA wires easier. The power and ground connections are the same ones as seen before.
 
 <div>
 
@@ -152,53 +190,27 @@ H Bridge circuit datasheet
 
 </div>
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_135143963.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Linear camera
+### Linear camera
 
 {% file src="../.gitbook/assets/TSL1401.PDF" %}
 Linear camera datasheet
 {% endfile %}
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_150251607.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_150302605.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### Display
-
-{% file src="../.gitbook/assets/ssd1306_datasheet.pdf" %}
-Display driver chip datasheet
-{% endfile %}
+Linear camera modules come in many shapes and sizes. For our particular model, the camera is connected through a ribbon to the pin header. You can see the name of each pin in the picture below.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>All connections</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_132733662.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image_2024-09-30_150251607.png" alt=""><figcaption><p>Ribbon cable breakout board connections</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/image_2024-09-30_150302605.png" alt=""><figcaption><p>Board connections</p></figcaption></figure>
 
 </div>
-
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Display connections</p></figcaption></figure>
 
 ### Receiver
 
@@ -210,3 +222,4 @@ Receiver manual
 Transmitter/RC Remote manual
 {% endfile %}
 
+The receiver needs 3 pins: power, ground and PPM. The PPM signal must also be enabled in the remote's settings. The PPM signal is available on the leftmost column of the receiver.

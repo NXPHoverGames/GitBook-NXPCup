@@ -1,5 +1,23 @@
 # Kit components
 
+## Choosing your components
+
+Below is a list of the main components. We provide software support for two types of motor controllers, an I2c display, a receiver, servomotors and two types of cameras, allowing you to choose whichever one you want.
+
+The main components of the car are:
+
+* Camera
+* Motor driver
+* Servo
+* K144 Development board
+* Two brushed DC motors
+* Battery
+
+The optional components of the car are:
+
+* Display
+* Receiver
+
 ### Camera
 
 #### Pixy 2
@@ -34,7 +52,7 @@ For **smaller motors** and **motors with reductors**, this is a **good, low-cost
 
 <figure><img src="../.gitbook/assets/image (81).png" alt="" width="231"><figcaption><p>GA12-N20 motor with reductor</p></figcaption></figure>
 
-We recommend starting with the **GA12-N20** motor-reductor combo. They **draw little current, extending battery life** and their slower speed is **well suited for safely testing your car**. Once you feel confident enough in your car, you can upgrade to some larger motors for improved speed and design your own reductor for improved torque.
+We recommend starting with the **GA12-N20** brushed motor-reductor combo. They **draw little current, extending battery life** and their slower speed is **well suited for safely testing your car**. Once you feel confident enough in your car, you can upgrade to some larger motors for improved speed and design your own reductor for improved torque.
 
 Note: These motor-reductor combos come in a variety of reduction ratios, however we **do not recommend ratios larger than 30:1**, as they will negatively impact top speed.
 
