@@ -2,9 +2,9 @@
 
 Note: For some of these steps soldering tools may be required.
 
-<figure><img src="../.gitbook/assets/Connections.png" alt=""><figcaption><p>Electrical connections</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Connections (1).png" alt=""><figcaption></figcaption></figure>
 
-Refer to [Getting Started with the S32K144EVB | NXP Semiconductors](https://www.nxp.com/document/guide/getting-started-with-the-s32k144evb:NGS-S32K144EVB) for more information about the board. Here you will find a picture with all the board pins and pin names. You can also see all pin names on the back of the board. **The board's jumpers are also detailed here, used for selecting power input source (battery or USB).**
+Refer to [S32K144EVB](https://www.nxp.com/design/design-center/development-boards-and-designs/automotive-development-platforms/s32k-mcu-platforms/s32k144-q100-evaluation-board-for-automotive-general-purpose:S32K144EVB) for more information about the board. Here you will find a picture with all the board pins and pin names. You can also see all pin names on the back of the board. **The board's jumpers are also detailed here, used for selecting power input source (battery or USB).**
 
 ### Powering the board
 

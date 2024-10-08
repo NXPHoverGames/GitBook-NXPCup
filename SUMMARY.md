@@ -20,7 +20,7 @@
   * [ESC](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/esc.md)
   * [H Bridge](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/h-bridge.md)
   * [Display](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/display.md)
-  * [PPM Receiver](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/ppm-receiver.md)
+  * [Receiver](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/receiver.md)
   * [Linear camera](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/linear-camera.md)
   * [Pixy camera](2024-fall-2025-nxp-cup-bare-metal-drivers/drivers-description-and-usage/pixy-camera.md)
 * [S32 Design Studio usage tips](2024-fall-2025-nxp-cup-bare-metal-drivers/s32-design-studio-usage-tips/README.md)

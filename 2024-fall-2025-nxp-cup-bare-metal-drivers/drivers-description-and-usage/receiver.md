@@ -1,4 +1,4 @@
-# PPM Receiver
+# Receiver
 
 This driver is meant to be used with a **FS-IA6B Receiver set in PPM mode**, or any other 8-channel receiver with PPM support. _This is the receiver supplied in past competitions_. The driver decodes 8 channels and makes their values available for various uses. Each of the eight channels are mapped to different switches and actuators on the RC remote. The driver automatically decodes the channels after initialization.
 
@@ -22,7 +22,7 @@ Parameters:
 int GetReceiverChannel(uint8 Channel);
 ```
 
-This function is used to get the value of a channel. The values are typically between -100 and 100, with two exceptions: when the receiver does not output any signal, it returns -200; small timing issues due to software decoding can add or subtract small amounts, going past the -100 to 100 range.
+This function is used to get the value of a channel. The values are between -100 and 100. When the receiver does not output any signal or the driver is not synced with the receiver, it returns 0;
 
 #### Getting receiver states
 
