@@ -6,7 +6,7 @@ To configure pins on the S32K144 development board using the S32 Design Studio, 
 
 In S32 Design Studio, navigate to the Pins Tool. This tool allows you to select and configure the pins you want to use on the microcontroller. Locate the desired pin in the tool, check the box next to it to choose its signal and enable it for your project.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Pins tool interface. The button for accessing it is highlighted in the top right</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Pins tool interface. The button for accessing it is highlighted in the top right</p></figcaption></figure>
 
 After you check the box the pin will appear in the Routing Details tab where you can set the pin direction, initial value, enable pull up or pull down resistors etc.
 
@@ -22,7 +22,7 @@ After you check the box the pin will appear in the Routing Details tab where you
 
 After selecting the pin in the Pins Tool, switch to the Peripheral Tool. Inside the Peripheral Tool, go to the **Port Driver** section. Here, you will configure the ports for the selected pin. In the Port Driver, find the **PortConfigSet** section.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Add a new channel to this section. This channel will be associated with the pin you enabled earlier.&#x20;
 
