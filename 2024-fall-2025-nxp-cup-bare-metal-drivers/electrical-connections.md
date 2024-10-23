@@ -2,11 +2,19 @@
 
 Note: For some of these steps soldering tools may be required.
 
-<figure><img src="../.gitbook/assets/Connections (1).png" alt=""><figcaption></figcaption></figure>
+### Board pins
+
+<figure><img src="../.gitbook/assets/Connections (2).png" alt=""><figcaption></figcaption></figure>
 
 Refer to [S32K144EVB](https://www.nxp.com/design/design-center/development-boards-and-designs/automotive-development-platforms/s32k-mcu-platforms/s32k144-q100-evaluation-board-for-automotive-general-purpose:S32K144EVB) for more information about the board. Here you will find a picture with all the board pins and pin names. You can also see all pin names on the back of the board. **The board's jumpers are also detailed here, used for selecting power input source (battery or USB).**
 
 ### Powering the board
+
+The board can be powered in two ways: through the micro usb connector on the top left, or through the onboard voltage regulator. The voltage regulator is connected to both the LIN pins and the barrel jack connector.
+
+To select between micro usb and onboard regulator, you must move the highlighted jumper accordingly. To power it via usb, put it in the left position. To power it via the onboard regulator, put it in the rightmost position.
+
+<figure><img src="../.gitbook/assets/Jumper.png" alt=""><figcaption><p>Power selection jumper highlighted. Micro usb power is selected</p></figcaption></figure>
 
 For powering the board you will need the following XT60 connector. You can either buy one or make one yourself from two XT60 connectors and two wires/jumpers.&#x20;
 
@@ -48,7 +56,7 @@ Note: the 5V port will be used for powering the servo.
 
 </div>
 
-This is how it should look commpleted:
+This is how it should look completed:
 
 <figure><img src="../.gitbook/assets/image (19).png" alt="" width="375"><figcaption><p>Final result</p></figcaption></figure>
 
@@ -120,25 +128,19 @@ Note: You might need to use longer jumpers, or daisy chain multiple jumpers to r
 
 <div>
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_132918992.png" alt="" width="563"><figcaption><p>Board connections</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (6).jpg" alt="" width="375"><figcaption><p>Daisy chained jumpers</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_133047906.png" alt="" width="188"><figcaption><p>Daisy chained jumpers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (1) (4).jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
 Here you can see the pins used on the camera. Make sure you use the **5V pin** and not the **Vin pin** for powering the camera.
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="563"><figcaption><p>Pixy connections</p></figcaption></figure>
-
- 
-
 <figure><img src="../.gitbook/assets/image_248_2.jpg" alt=""><figcaption><p>Pixy pins documentation</p></figcaption></figure>
 
-</div>
+<figure><img src="../.gitbook/assets/Fotografii selectate (2) (3).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Display
 
@@ -150,15 +152,15 @@ The display has power, ground, SCL and SDA pins. Connect them like in the pictur
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (2).jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_132733662.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (2) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Display pin designations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Pixy and display**
 
@@ -178,15 +180,11 @@ One end goes to the camera, one to the display and one to the microcontroller. T
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (1) (5).jpg" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-30_135031668.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/image_2024-09-30_135052321.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fotografii selectate (7).jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -222,4 +220,50 @@ Receiver manual
 Transmitter/RC Remote manual
 {% endfile %}
 
-The receiver needs 3 pins: power, ground and PPM. The PPM signal must also be enabled in the remote's settings. The PPM signal is available on the leftmost column of the receiver.
+The receiver needs 3 pins: power, ground and PPM. The PPM signal is available on the leftmost column of the receiver.
+
+<div>
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (3).jpg" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (1) (2).jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The PPM signal must also be enabled in the remote's settings. On the touchscreen, hold the lock button for a few seconds to **unlock the settings button, and press it**.&#x20;
+
+<div>
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (2) (2).jpg" alt=""><figcaption><p>Initial remote screen</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (4).jpg" alt=""><figcaption><p>Screen after holding the 'Lock' button</p></figcaption></figure>
+
+</div>
+
+In the new menu, press on SYS to enter system settings.
+
+<div>
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (1) (3).jpg" alt=""><figcaption><p>New 'Function' menu</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (4) (1).jpg" alt=""><figcaption><p>'System' or SYS menu</p></figcaption></figure>
+
+</div>
+
+Scroll down to find the 'Output' tab and select it. In the new tab, under Output select PPM insead of PWM. This will change the leftmost data pin of the receiver to output eight channels on one pin with a PPM signal, instead of just one PWM signal assigned to the first channel. The Serial parameter on the right does not matter.
+
+<div>
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (5).jpg" alt=""><figcaption><p>Scrolled down in the 'System' tab to find 'Output'</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Fotografii selectate (3) (2).jpg" alt=""><figcaption><p>Output mode configured to use PPM</p></figcaption></figure>
+
+</div>

@@ -7,7 +7,7 @@ The driver divides the pixels into 4 lines of 16 characters each using an 8x8 ch
 #### &#x20;Initialization
 
 ```c
-void DisplayInit(uint8 FontmapRotations);
+void DisplayInit(uint8 I2cChannel, uint8 FontmapRotation);
 ```
 
 Parameters:
@@ -60,7 +60,7 @@ Parameters:
 
 ·       ValuesCount: How many values to print. This also determines how many pixels the waveform will occupy horizontally on the display.
 
-·       LinesSpan: How many lines should the waveform occupy vertically, starting from the DisplayLine parameter and going down. The image will be scaled automatically to fit.
+·       LinesSpan: How many lines should the waveform occupy vertically, starting from the DisplayLine parameter and going down. The waveform will be scaled automatically to fit.
 
 #### Printing vectors
 

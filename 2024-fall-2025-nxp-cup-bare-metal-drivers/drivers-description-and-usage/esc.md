@@ -25,7 +25,7 @@ Parameters:
 #### Setting speed
 
 ```c
-void SetSpeed(int Speed);
+void EscSetSpeed(int Speed);
 ```
 
 This function is used for setting specific speeds. It takes integer values between -100 and 100, with -100 being full speed backward and 100 being full speed forward.
@@ -37,7 +37,7 @@ Parameters:
 #### Braking
 
 ```c
-void SetBrake(uint8 Brake);
+void EscSetBrake(uint8 Brake);
 ```
 
 This function allows you to override the set speed and brake the car. If your ESC supports braking, this function will make the car actively brake. If your ESC doesn't support braking, this function will keep the speed command on 0 instead. **After braking, any calls to set the speed will not work. You must set the brake to 0 again to resume control of the motors.**

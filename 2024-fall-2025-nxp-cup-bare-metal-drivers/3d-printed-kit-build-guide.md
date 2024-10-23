@@ -2,241 +2,330 @@
 
 To assemble your 3D printed kit, you will need some additional components. This is a list of everything needed to assemble your car.
 
+{% file src="../.gitbook/assets/Buggy component list (1).xlsx" %}
 
+To print the car parts, you will need to use a G-code generator. The STL files for all 3D models are provided below. The STEP file is provided too if you want to improve the model. Insert the STL files in your G-code generator of choice and print the required number of parts (see components list for required number of each part).
 
-{% file src="../.gitbook/assets/Buggy Component List (1).xlsx" %}
-
-To print the car parts, you will need to use a G-code generator. The STL files for all 3D models are provided below. The STEP file is provided too if you want to improve the model. Insert STL files in your G-code generator of choice and print the required number of parts (see components list for required number of each part).
-
-{% file src="../.gitbook/assets/buggy (2).rar" %}
+{% file src="../.gitbook/assets/Buggy (3).rar" %}
 
 ## Mechanical assembly
 
-Note: You can see 4 M3-12 mm screws and nuts on the top and bottom plate. That's because the plate is made of 2 printed parts screwed together. My print bed size is 18cm x 18cm x 18cm, too small for the plates.
+### Upper and lower plates
 
-&#x20;Position the motors on the bottom plate then fix them in place using the printed clamps  with 8 M5-35 mm bolts and 8  M5 nuts. The order should be like this: thin clamp, motor, thick clamp.
+The main strcture of the car is made of two large plates. For some 3D printers, these may be too large to fit on the bed. In that case, you can print the plates from two pieces and bind them together with screws.
 
-<div data-full-width="false">
+To bind the two pieces, use four M3x12 bolts and four M3 nuts. Do the same for the upper and lower plate.
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt="" width="375"><figcaption><p>Motors, clamps and the bottom plate</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/2.png" alt="" width="375"><figcaption><p>Lower plate assembled</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/32.png" alt="" width="375"><figcaption><p>Upper plate assembled</p></figcaption></figure>
+
+### Motors
+
+{% hint style="warning" %}
+Before mounting the motors, you must solder 16 AWG wires to their terminals.&#x20;
+{% endhint %}
+
+To mount the motors, you need eight M5x30 bolts and eight M5 nuts. Mount them like in the images below. Take care to not have anything pushing on the gearbox/reductor, as this will block the motors.
+
+<div>
+
+<figure><img src="../.gitbook/assets/3 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (23) (1).png" alt="" width="375"><figcaption><p>Motor fixed on the plate</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
-Do the same for the other side.
+<div>
 
-<figure><img src="../.gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption><p>Both motors fixed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
 
-Next, we will add the spacers. You can see in the photos below where every screw (the hexagonal ones) and spacer goes. The 25 mm spacers are the ones in the front (3 spacers) and the 45mm spacers are the ones in the back (4 spacers). Every spacers is locked in with an M3-12mm bolt.
+ 
 
-<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
 
-Now we can focus on the front of the car and its steering system.
+</div>
 
-<mark style="color:red;">**Attention!**</mark> <mark style="color:red;"></mark><mark style="color:red;">The servo motor should be in its starting position before starting the assembly. If you manually moved the servo arm prior to installing it, or just want to be safe, do not screw the horn in the servo until after centering your servo in your code.</mark>
+<figure><img src="../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
+
+Next, mount the hexagonal adapters on the motor shafts. Fix them using the headless bolts that come packaged with it.
+
+<div>
+
+<figure><img src="../.gitbook/assets/8.png" alt="" width="375"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/9.png" alt="" width="375"><figcaption><p>Adapters mounted</p></figcaption></figure>
+
+</div>
+
+### Spacers
+
+The M3x25mm female-female spacers are the ones in the front (3 spacers) and the M3x45mm female-female spacers are the ones in the back (4 spacers). Every spacer is secured with an M3x12mm bolt.
+
+<div>
+
+<figure><img src="../.gitbook/assets/10.png" alt=""><figcaption><p>Four 45mm spacers</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../.gitbook/assets/12.png" alt=""><figcaption><p>Three 25mm spacers</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Servo
+
+{% hint style="danger" %}
+<mark style="color:red;">**Attention!**</mark> <mark style="color:red;"></mark><mark style="color:red;">The servo motor should be in its starting position before starting the assembly. If you manually moved the servo arm prior to installing it, or just want to be safe, do not screw the horn in the servo until after centering your servo in your code.</mark> \ <mark style="color:red;">There is a code example provided for centering your servo, you just need to connect the servo, power it and run the example.</mark>
+{% endhint %}
 
 Screw the arm and the servo horn together with an M2-12mm bolt. Then attach them to the servo motor with the M2 bolt that comes with the motor.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>The servo, horn and arms</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>Servo horn and arms</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/15.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption><p>Servo horn attached</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/17.png" alt="" width="375"><figcaption><p>Servo and arms mounted</p></figcaption></figure>
 
-Next let’s insert the bearings in the bearing holders. Take your time here, try to lightly hammer them in.
+### Wheel plate
+
+Attach the servo to the wheel plate using four M3x12 bolts and the rubber spacers that come packaged with it.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p>Bearing holder and cover</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/20.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption><p> </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/21.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-Finally screw the PLA cover with 4 M3-5mm bolts and add the axle.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (28) (1).png" alt="" width="375"><figcaption><p>Adding the cover</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/22.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (29) (1).png" alt="" width="375"><figcaption><p>Adding the axle</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-We can continue and attach the servo to the wheel plate. I used 2 M3-12 bolt because it was enough but you can use up to 4.
+Then add the whole assembly to the bottom plate with one M3x12mm bolt and the two M3x15mm male-female spacers.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Servo and the wheel plate</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/24.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>Servo attached</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Then add the whole assembly to the bottom plate with 1 M3-12mm bolt and the 2 15mm spacers.
+### Bearing holders
 
-<figure><img src="../.gitbook/assets/image (84).png" alt="" width="375"><figcaption></figcaption></figure>
-
-Now let’s add the bearing holders.
+Next insert the bearings in the bearing holders and the axles in the bearings. Take your time here, try to lightly hammer them in.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (87).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/18.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (86).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/19.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-You need to position the spring and the bearing holder as shown in the picture, then insert the M3-40 mm screw through them. The spring is not on the shopping list, but you can obtain one from a pen and cut it to a suitable length. Do the same for the other side. Align the hole on the servo arm with the hole on the bearing holder then screw them together.
+<figure><img src="../.gitbook/assets/26.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (88).png" alt="" width="375"><figcaption><p>Screw the arm and the bearing holder </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/27.png" alt=""><figcaption></figcaption></figure>
 
-Now add the wheels. Back wheels adapters come with 2 M3.6 bolts. For the front wheels 2 M3-12mm bolts are used.
+<figure><img src="../.gitbook/assets/28.png" alt=""><figcaption></figcaption></figure>
+
+### Wheels
+
+Now add the wheels. Back wheel hexagonal adapters come with their own bolts. For the front wheels two M3x12mm bolts are used.
+
+<figure><img src="../.gitbook/assets/29.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/30.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/31.png" alt=""><figcaption></figcaption></figure>
+
+### Top plate
+
+Next, add the top plate and secure it with six M3x12mm bolts that screw into the spacers below.
+
+<figure><img src="../.gitbook/assets/33.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/34.png" alt=""><figcaption></figcaption></figure>
+
+Add the camera pole and secure it with two M5x20mm bolts and two M5 nuts.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (89).png" alt="" width="375"><figcaption><p>Wheel and M3.6 bolt</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/35.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (90).png" alt="" width="375"><figcaption><p>Wheels attached</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/36.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Next we will add the top plate and secure it with 6 M3-12mm bolts that screw into the spacer holes.
+### Display
 
-<figure><img src="../.gitbook/assets/image (91).png" alt="" width="563"><figcaption><p>Adding the top plate</p></figcaption></figure>
-
-Let's add the camera holder and secure it with  2 M5-20mm Bolt and 2 M5 nut.
+You can chose any hole on the camera pole to mount the display on. Press the display in its box and mount it with a M3x20 bolt. Be careful not to pierce the box with the bolt.&#x20;
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (93).png" alt="" width="375"><figcaption><p>Camera holder</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/37 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (94).png" alt="" width="375"><figcaption><p>Camera holder attached</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/38 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
-After that we can position our display. You can chose any hole on the camera holder. Press the display in its box. Be careful not to pierce the box with the screw.&#x20;
+<figure><img src="../.gitbook/assets/39 (1).png" alt=""><figcaption></figcaption></figure>
+
+### Camera mount
+
+Mount the vertical slider to the camera pole using one M3x25mm bolt at any height you want.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (96).png" alt="" width="563"><figcaption><p>Display in it's box</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/41.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (97).png" alt="" width="375"><figcaption><p>Display attached on the camera holder</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/42.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Next we will add the part that slides on the camera holder. This way we can choose multiple positions on the y axis.  Lock it with the M3-25mm bolt.
+Attach the angled camera mount with two M4x12 bolts. Insert them in the **holes closest to the front of the vertical slider**. The two larger holes below them are for optional screws to stabilize the slider.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (98).png" alt="" width="375"><figcaption><p>Sliding component</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/43.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (100).png" alt="" width="375"><figcaption><p>First screw</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/44.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-The next part will hold the camera. First we will screw it in the sliding component using 2 M4-12mm bolts.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (102).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/45.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (103).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/46.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-After that, the part moves freely. We can lock it in place using any screw and nut.
+### Pixy camera
+
+Assemble the Pixy box using two M3x20mm bolts in the bottom holes. Next, attach it using a M3x40mm bolt to the camera mount. Do this **before** inserting the last bolt, a M3x12mm bolt in the top hole of the box.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (104).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/47.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image (105).png" alt="" width="375"><figcaption><p>Screw for locking it in place</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/48.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-Next we will position the cameras. The first one is pixy. Let's assemble the box and lock it using 2 M3-12mm bolts.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (106).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/49.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-24_200939075.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/50.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-<figure><img src="../.gitbook/assets/image_2024-09-24_200950893.png" alt="" width="375"><figcaption></figcaption></figure>
-
-Now we can screw the box and the rotating printed part with 1 M3-40mm bolt.
-
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
-
-For the linear camera we will simply screw it in the rotating component using M3-12mm bolts.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (108).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/51.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-24_201310556.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/52.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Next we will position the board. We will use nylon spacers, screws and nuts to avoid short circuits.
+### Linear camera
 
-Screw 4 nylon spacers in the top board then lock them with 4 nuts.
+For the linear camera, simply mount it in the rotating component using four M3x12mm bolts.
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (33) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/59.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/image_2024-09-26_124606016.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/60.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-After that lock the board on the nylon spacers.
+### Development board
 
-<figure><img src="../.gitbook/assets/image (34) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+For mounting the board, use nylon spacers, screws and nuts. Screw three nylon spacers in the top board and secure them with four nylon nuts.
 
-The hbridge is positioned on the back of the top plate with 4 nylon screws.a
+<div>
 
+<figure><img src="../.gitbook/assets/53.png" alt=""><figcaption><p>Three nylon spacers</p></figcaption></figure>
 
+ 
 
-<figure><img src="../.gitbook/assets/image (35) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/54.png" alt=""><figcaption><p>Board positioning</p></figcaption></figure>
 
+</div>
 
+<figure><img src="../.gitbook/assets/55.png" alt=""><figcaption><p>Mounted board</p></figcaption></figure>
 
+### Hbridge
+
+The hbridge is positioned on the back of the top plate with four nylon spacers, two nylon screws and four nylon nuts.
+
+<div>
+
+<figure><img src="../.gitbook/assets/56.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/57.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<figure><img src="../.gitbook/assets/58.png" alt=""><figcaption></figcaption></figure>
+
+### ESC, Receiver and LiPo battery
+
+Since batteries and ESCs come in many shapes and sizes, and the receiver does not have any mounting options, a good way of securing them to the car chassis is double sided tape.

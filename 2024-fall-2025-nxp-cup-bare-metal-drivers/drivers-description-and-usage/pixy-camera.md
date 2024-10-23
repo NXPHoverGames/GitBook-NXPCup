@@ -17,7 +17,7 @@ Parameters:
 #### Setting the RGB LED color
 
 ```c
-void PixySetLed(uint8 Red, uint8 Green, uint8 Blue);
+void Pixy2SetLed(uint8 Red, uint8 Green, uint8 Blue);
 ```
 
 Useful for debugging purposes
@@ -29,10 +29,12 @@ Parameters:
 #### Getting the detected vectors
 
 ```c
-DetectedVectors PixyGetVectors(void);
+void Pixy2GetVectors(DetectedVectors *DetectedVectors);
 ```
 
-The returned structure contains the number of vectors, the actual vectors and their indexes.
+Parameter:
+
+·       DetectedVectors: The address of the variable where to store the vectors. The buffer must be declared by the user.
 
 #### Relevant structures
 
@@ -40,8 +42,6 @@ The returned structure contains the number of vectors, the actual vectors and th
 typedef struct{
     I2c_AddressType I2cAddress;
     uint8 I2cChannel;
-    Gpt_ChannelType GptChannel;
-    Pixy2State State;
 }Pixy2;
 ```
 
