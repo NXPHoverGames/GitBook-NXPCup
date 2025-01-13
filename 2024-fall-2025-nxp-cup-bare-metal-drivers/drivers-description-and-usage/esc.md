@@ -46,39 +46,17 @@ Parameters:
 
 ·       Brake: The car will brake if set to anything other than 0 (Ex. 1). Setting it to 0 disengages the brake and allows the car to speed up.
 
-#### Getting speed
-
-```c
-int GetSpeed(void);
-```
-
-This function is used to get the last speed value set.
-
-#### Getting brake
-
-```c
-uint8 GetBrake(void);
-```
-
-This function is used to get the last brake value set.
-
-#### Getting current state
-
-```c
-enum EscStates GetEscState(void);
-```
-
-This function is used to get the state machine's current state, for debugging purposes (Ex. print current state on screen).
-
 #### Relevant structures
 
 ```c
 typedef struct{
+    enum EscStates State;
     Pwm_ChannelType Channel;
     uint16 MinDutyCycle;
     uint16 MaxDutyCycle;
     uint16 MedDutyCycle;
-
+    int Speed;    /*values between -100 and 100: val >= 0 means Forward, val < 0 means Reverse*/
+    uint8 Brake; /*value is zero or non zero: val == 0 means brake, val != 0 means no brake*/
 }Esc;
 ```
 

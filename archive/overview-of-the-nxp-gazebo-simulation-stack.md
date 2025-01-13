@@ -31,12 +31,12 @@ The src folder within the ROS2 workspace contains some PX4 specific ROS packages
 
 ![](<../.gitbook/assets/image (39) (1).png>)
 
-| Folder                 | Purpose                                                                                           |
-| ---------------------- | ------------------------------------------------------------------------------------------------- |
-| nxp\_cup_\__vision     | Contains the OpenCV vision code for simulating Pixy camera to detect lines                        |
-| px4\_msgs              | Contains PX4 uORB message definitions for RTPS                                                    |
-| px4\_ros_\__com        | Contains the code necessary for transporting PX4 messages over RTPS                               |
-| sim\_gazebo_\__bringup | Contains scripts for booting up the Gazebo simulation as well as setting up the simulation stack. |
+| Folder                           | Purpose                                                                                           |
+| -------------------------------- | ------------------------------------------------------------------------------------------------- |
+| nxp\_cu&#x70;_\__&#x76;ision     | Contains the OpenCV vision code for simulating Pixy camera to detect lines                        |
+| px4\_msgs                        | Contains PX4 uORB message definitions for RTPS                                                    |
+| px4\_ro&#x73;_\__&#x63;om        | Contains the code necessary for transporting PX4 messages over RTPS                               |
+| sim\_gazeb&#x6F;_\__&#x62;ringup | Contains scripts for booting up the Gazebo simulation as well as setting up the simulation stack. |
 
 ### Writing self-driving code
 

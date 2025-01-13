@@ -58,3 +58,5 @@ typedef struct{
     uint8 VectorIndex;
 }Vector;
 ```
+
+Note: The last two structures are not defined in pixy2.h, but in main\_types.h, as they are used by other car drivers too.

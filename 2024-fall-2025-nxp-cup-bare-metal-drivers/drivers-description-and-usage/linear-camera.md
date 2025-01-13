@@ -2,8 +2,6 @@
 
 The Linear camera driver is suitable for 128x1 cameras. It sends the clock and shutter signals to the camera and stores the analog values in an array.
 
-Note: The driver does not provide a function to get the values. Instead, you should declare the buffer as an extern variable like in the example to get the values directly from the driver.
-
 #### Initialization
 
 ```c

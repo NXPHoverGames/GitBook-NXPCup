@@ -46,18 +46,17 @@ Parameters:
 
 ·       Brake: The car will brake if set to anything other than 0 (Ex. 1). Setting it to 0 disengages the brake and allows the car to speed up.
 
-#### Getting speed
+#### Relevant structures:
 
 ```c
-int HbridgeGetSpeed(void);
+typedef struct{
+    Pwm_ChannelType Motor1_Speed;
+    Pwm_ChannelType Motor2_Speed;
+    Dio_ChannelType Motor1_Forward;
+    Dio_ChannelType Motor1_Backward;
+    Dio_ChannelType Motor2_Forward;
+    Dio_ChannelType Motor2_Backward;
+    uint8 Brake; /*value is zero or non zero: val == 0 means brake, val != 0 means no brake*/
+    int Speed;    /*values between -100 and 100: val >= 0 means Forward, val < 0 means Reverse*/
+}Hbridge;
 ```
-
-This function is used to get the last speed value set.
-
-#### Getting brake
-
-```c
-uint8 HbridgeGetBrake(void);
-```
-
-This function is used to get the last brake value set.

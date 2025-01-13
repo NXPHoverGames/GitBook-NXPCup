@@ -19,6 +19,6 @@ After the account has been created or if you already have an account on the NXP 
 
 <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Note: The updates are not necessary</p></figcaption></figure>
 
-6\.     Download the _**Windows Installer S32 Design Studio  v3.5**_  _**Windows**_** installer** and _**S32 Design Studio  v3.5 Installation Guide**_
+6\.     Download the _**Windows Installer S32 Design Studio  v3.5**_  _**Windows**_**&#x20;installer** and _**S32 Design Studio  v3.5 Installation Guide**_
 
 7\.     Follow the steps of the _**S32 Design Studio  v3.5 Installation Guide**_ for installing the tool

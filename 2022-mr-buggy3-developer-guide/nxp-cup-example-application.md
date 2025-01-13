@@ -2,7 +2,7 @@
 
 ## Reading the example code
 
-The example code in the PX4 repository you cloned on the last page is located at `PX4-Autopilot/src/examples/nxpcup/`. The only file you should have to edit is `nxpcup_race.cpp`. This file contains the raceTrack() function, which is where your self-driving algorithm code should live. You can use the pixy\__vector\__s structure to write your algorithms. The structure is as follows:
+The example code in the PX4 repository you cloned on the last page is located at `PX4-Autopilot/src/examples/nxpcup/`. The only file you should have to edit is `nxpcup_race.cpp`. This file contains the raceTrack() function, which is where your self-driving algorithm code should live. You can use the pixy\__vector\__&#x73; structure to write your algorithms. The structure is as follows:
 
 ```
 uint64 timestamp
@@ -19,7 +19,7 @@ uint8 m1_x1    # Head of vector @ x
 uint8 m1_y1    # Head of vector @ y
 ```
 
-You will use this data to populate the roverControl control{} structure which contains steer and speed values. The steer value is rad/s, and the speed value is m/s. This structure is returned in the raceTrack function and is used in the nxpcup\_work.cpp file to control the rover. The nxpcup_\__work file should not be edited.
+You will use this data to populate the roverControl control{} structure which contains steer and speed values. The steer value is rad/s, and the speed value is m/s. This structure is returned in the raceTrack function and is used in the nxpcup\_work.cpp file to control the rover. The nxpcu&#x70;_\__&#x77;ork file should not be edited.
 
 ## Running the example code
 

@@ -12,7 +12,7 @@ void DisplayInit(uint8 I2cChannel, uint8 FontmapRotation);
 
 Parameters:
 
-·       FontmapRotations: How many times should the fontmap be rotated. This parameter should be kept as 1 in most circumstances.
+·       FontmapRotations: If this parameter is set to anything other than zero, the fontmap will be rotated. This parameter should be kept as 1 in most circumstances.
 
 #### Printing text
 
@@ -83,3 +83,14 @@ void DisplayRefresh(void);
 ```
 
 This function sends to the display the current buffer.
+
+#### Relevant structures:
+
+```c
+typedef struct{
+    I2c_AddressType I2cAddress;
+    uint8 I2cChannel;
+    /*this is a buffer for the displayed characters, on calling DisplayRefresh() its contents are shown on screen*/
+    unsigned char ScreenCharBuffer[CharacterRows][CharacterColumns];
+}Display;
+```

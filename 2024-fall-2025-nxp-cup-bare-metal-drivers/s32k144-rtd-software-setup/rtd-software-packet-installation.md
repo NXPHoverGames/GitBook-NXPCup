@@ -6,7 +6,7 @@ Download the .zip file on your computer. **You do not need to extract the files.
 
 1\.      Start the S32 Design Studio IDE. An S32DS Extensions and Updates Window will open.
 
-_2._     Search for _**S32K1xx development package**_ and _**S32M2xx development package** _ and select them for installation. _Note: this step can take a very long time (1h+)_
+_2._     Search for _**S32K1xx development package**_ and _**S32M2xx development package**&#x20;_&#x20;and select them for installation. _Note: this step can take a very long time (1h+)_
 
 <figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 

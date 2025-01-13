@@ -2,7 +2,7 @@
 
 ## Guide
 
-Most of the folders in NXP Gazebo are stored in git repositories. This makes it easy to update to the latest software. To update, copy the script at the bottom of the page and paste it into a file called "update_nxp_\__gazebo.sh". Then, run the command below:
+Most of the folders in NXP Gazebo are stored in git repositories. This makes it easy to update to the latest software. To update, copy the script at the bottom of the page and paste it into a file called "update\_nx&#x70;_\__&#x67;azebo.sh". Then, run the command below:
 
 ```
 $ chmod a+x update_nxp_gazebo.sh
